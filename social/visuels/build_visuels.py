@@ -21,9 +21,15 @@ random.seed(77)
 # ce qui valide le parti pris du fond nuit.
 NUIT, NUIT2 = "#08080F", "#17172E"
 VERT, VERT_CLAIR = "#8DBB20", "#AEDA4A"
-MAGENTA, MAGENTA_CLAIR = "#D50175", "#F5399B"
+MAGENTA, MAGENTA_CLAIR = "#D50174", "#F5399B"
 BLANC, GRIS = "#FFFFFF", "#C8CBD4"
 PALETTE = (VERT, MAGENTA, VERT_CLAIR, MAGENTA_CLAIR)
+
+
+def logo_uri():
+    """Logo officiel, encode une seule fois dans le CSS et partage par les 17 pages."""
+    p = ROOT / "brand/logo-mon-artifice.png"
+    return "data:image/png;base64," + base64.b64encode(p.read_bytes()).decode()
 
 
 def photo_uri(nom):
@@ -66,24 +72,8 @@ def sparks(n, seed=0):
         f'opacity="{rnd.uniform(.10, .42):.2f}"/>' for _ in range(n))
 
 
-def logo_mark():
-    """Rappel du logo : deux gerbes, une verte une magenta, avec tige et point."""
-    def mini(cx, cy, r, col, rays=13, seed=1):
-        rnd = random.Random(seed)
-        s = "".join(
-            f'<line x1="{cx}" y1="{cy}" x2="{cx + r * math.cos(math.radians(a)):.1f}" '
-            f'y2="{cy + r * math.sin(math.radians(a)):.1f}" stroke="{col}" '
-            f'stroke-width="1.6" stroke-linecap="round"/>'
-            for a in [(360 / rays) * i + rnd.uniform(-6, 6) for i in range(rays)])
-        return s
-    return ('<svg width="76" height="46" viewBox="0 0 76 46">'
-            + mini(24, 15, 13, VERT, seed=3)
-            + f'<path d="M24 15 Q14 32 7 40" stroke="{VERT}" stroke-width="1.6" fill="none"/>'
-            + f'<circle cx="6" cy="41" r="3.4" fill="{VERT}"/>'
-            + mini(56, 24, 10, MAGENTA, rays=11, seed=9)
-            + f'<path d="M56 24 Q49 34 43 40" stroke="{MAGENTA}" stroke-width="1.6" fill="none"/>'
-            + f'<circle cx="42" cy="41" r="3" fill="{MAGENTA}"/></svg>')
-
+LOGO = logo_uri()
+LOGO_H = 192
 
 CSS = f"""
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -98,7 +88,8 @@ body{{background:#1b1b1b;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
 .shot{{position:absolute;inset:0;background-size:cover;background-position:center}}
 .shot.wide{{inset:0 0 auto 0;height:660px;background-position:center 42%}}
 .veil{{position:absolute;inset:0;background:linear-gradient(to bottom,
-  rgba(8,8,15,.30) 0%,rgba(8,8,15,.10) 28%,rgba(8,8,15,.72) 62%,rgba(8,8,15,.97) 88%)}}
+  rgba(8,8,15,.34) 0%,rgba(8,8,15,.14) 22%,rgba(8,8,15,.58) 42%,
+  rgba(8,8,15,.90) 62%,rgba(8,8,15,.98) 78%)}}
 .veil.wide{{background:linear-gradient(to bottom,rgba(8,8,15,.18) 0%,
   rgba(8,8,15,.05) 34%,rgba(8,8,15,.90) 46%,{NUIT} 54%)}}
 .photo{{position:absolute;left:64px;right:64px;top:64px;height:560px;
@@ -130,9 +121,8 @@ h1.xs{{font-size:76px}}
 .cta{{display:flex;justify-content:space-between;align-items:flex-end;
   margin-top:54px;padding-top:28px;border-top:1px solid rgba(141,187,32,.26)}}
 .cta-txt{{font-size:29px;color:{GRIS};letter-spacing:.04em;max-width:560px}}
-.brand{{display:flex;align-items:center;gap:14px}}
-.brand-name{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:32px;
-  letter-spacing:.22em;color:{BLANC};text-transform:uppercase}}
+.brand{{width:296px;height:{LOGO_H}px;background:url({LOGO}) no-repeat right center;
+  background-size:contain;flex:none}}
 .foot{{position:absolute;left:88px;bottom:56px;font-size:22px;letter-spacing:.20em;
   color:rgba(200,203,212,.45);text-transform:uppercase}}
 """
@@ -152,7 +142,7 @@ PAGES = [
     dict(n="04", date="07/09", kind="pedago", badge="À savoir",
          title="Faut-il prévenir la mairie ?",
          sub="Ça dépend de trois choses. On vous explique.", cta=CTA_DM),
-    dict(n="05", date="09/09", kind="coulisses", photo="E1", img="E1-artificier-obus.jpg", eyebrow="Mon Artifice",
+    dict(n="05", date="09/09", kind="coulisses", photo="E1", img="E1-artificier-obus.jpg", eyebrow="Qui sommes-nous",
          title="Artificiers de métier", sub="On se présente, puisque ce compte commence.",
          cta=CTA_DM),
     dict(n="06", date="11/09", kind="emotion", photo="I1",
@@ -246,8 +236,7 @@ def render(p, caption, idx):
         body.append('<div class="rule"></div>')
 
     body.append(f'<div class="cta"><span class="cta-txt">{html.escape(p.get("cta", ""))}</span>'
-                f'<span class="brand">{logo_mark()}'
-                f'<span class="brand-name">Mon Artifice</span></span></div>')
+                f'<span class="brand"></span></div>')
 
     label = f'{p["n"]} · {p["date"]} · {p["title"]}'
     if p.get("photo"):

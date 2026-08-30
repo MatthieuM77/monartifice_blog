@@ -126,13 +126,14 @@ la marque y sont bien plus éclatantes que sur blanc.
 | Fond secondaire | Bleu nuit | `#17172E` |
 | **Accent 1 (logo)** | **Vert anis** | `#8DC63F` |
 | Vert clair | Vert étincelle | `#B4E05C` |
-| **Accent 2 (logo)** | **Magenta** | `#E6007E` |
+| **Accent 2 (logo)** | **Magenta** | `#D50174` |
 | Magenta clair | Rose étincelle | `#FF4DA6` |
 | Texte principal | Blanc | `#FFFFFF` |
 | Texte secondaire | Gris clair | `#C8CBD4` |
 
-> ⚠️ Les deux codes du logo sont **approchés**, relevés visuellement sur le fichier fourni.
-> À remplacer par les valeurs exactes dès réception du logo vectoriel.
+> ✅ Valeurs **confirmées** sur le fichier vectoriel du logo, mesurées par surface de tracé.
+> Le fichier d'origine contient une quarantaine de variantes proches (`#8EBB21`, `#D40175`…) :
+> ce sont des artefacts de vectorisation, pas des couleurs de marque. Voir `brand/README.md`.
 
 **Répartition** : le vert porte les surtitres et les traits ; le magenta porte les badges et les
 points d'accent. Ne jamais les mettre à égalité sur un même visuel — l'un domine, l'autre ponctue.
@@ -233,6 +234,8 @@ social/
 ├── STRATEGIE.md               ← ce document
 ├── PRODUITS.md                ← catalogue généré depuis la base (sans prix)
 ├── COULISSES-PLAN-PHOTO.md    ← plan de prise de vue des photos métier
+├── brand/                     ← logo (SVG transparent, PNG, variante fond clair) + charte
+├── photos/2026-09/            ← photos de chantier, nommées par code de plan
 ├── data/
 │   ├── produits.json          ← export SQL parsé
 │   └── build_produits.py      ← régénère PRODUITS.md
@@ -249,14 +252,13 @@ Côté Canva : `Mon artifice / 2026 / 09 - Septembre`, chaque page du design nom
 
 ---
 
-## 11. Ciels en Fête et Mon Artifice — à trancher
+## 11. Ciels en Fête et Mon Artifice — tranché par le logo
 
-Les photos de chantier montrent les tee-shirts **« Ciels en Fête — Artifices de prestige »**,
-et un kit de marque du même nom existe dans le Canva. Or le compte s'appelle Mon Artifice.
-Un visiteur qui voit deux noms sans explication ne comprend pas, et l'incompréhension coûte
-de l'abonnement.
+**La question est réglée : le logo officiel porte déjà la signature « Mon Artifice — by Ciels
+en Fête ».** Le lien entre les deux marques est donc affiché sur chaque visuel, en permanence.
+Il ne reste qu'à l'expliciter une fois, dans le post épinglé, et à s'y tenir partout ailleurs.
 
-**La recommandation : assumer le lien, et en faire l'argument central.**
+**La formulation de référence :**
 
 > « Mon Artifice, c'est la boutique de Ciels en Fête. Nous tirons des feux pour des villes et
 > des événements. On a sélectionné, dans ce qu'on connaît, les feux qu'un particulier peut
@@ -265,8 +267,10 @@ de l'abonnement.
 C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
 une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
 
-**À trancher avant le 9 septembre**, car le post épinglé (« Artificiers de métier ») porte
-cette explication.
+C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
+une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
+
+Le post épinglé du 9 septembre (« Artificiers de métier ») porte cette explication.
 
 ### Un garde-fou à respecter
 
