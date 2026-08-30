@@ -15,11 +15,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 random.seed(77)
 
 # --- Direction artistique Mon Artifice -------------------------------------
-# Couleurs reprises du logo : vert anis + magenta. Valeurs approchees a
-# confirmer par le fichier logo source.
+# Couleurs relevees dans le SVG du logo fourni le 30/08/2026.
+# Le lettrage du logo est blanc : le logo est concu pour un fond sombre,
+# ce qui valide le parti pris du fond nuit.
 NUIT, NUIT2 = "#08080F", "#17172E"
-VERT, VERT_CLAIR = "#8DC63F", "#B4E05C"
-MAGENTA, MAGENTA_CLAIR = "#E6007E", "#FF4DA6"
+VERT, VERT_CLAIR = "#8DBB20", "#AEDA4A"
+MAGENTA, MAGENTA_CLAIR = "#D50175", "#F5399B"
 BLANC, GRIS = "#FFFFFF", "#C8CBD4"
 PALETTE = (VERT, MAGENTA, VERT_CLAIR, MAGENTA_CLAIR)
 
@@ -85,9 +86,9 @@ body{{background:#1b1b1b;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
   justify-content:flex-end;padding:92px 88px 152px}}
 .inner.mid{{justify-content:center}}
 .photo{{position:absolute;left:64px;right:64px;top:64px;height:560px;
-  border:2px dashed rgba(141,198,63,.42);border-radius:6px;
+  border:2px dashed rgba(141,187,32,.45);border-radius:6px;
   display:flex;align-items:center;justify-content:center}}
-.photo span{{font-size:24px;letter-spacing:.26em;color:rgba(141,198,63,.62);
+.photo span{{font-size:24px;letter-spacing:.26em;color:rgba(141,187,32,.68);
   text-transform:uppercase;font-weight:700}}
 .eyebrow{{font-size:30px;letter-spacing:.30em;text-transform:uppercase;
   color:{VERT};font-weight:700;margin-bottom:26px}}
@@ -111,7 +112,7 @@ h1.xs{{font-size:76px}}
   color:{BLANC};font-size:40px;font-weight:800;letter-spacing:.05em;
   padding:24px 34px;border-radius:14px;text-align:center}}
 .cta{{display:flex;justify-content:space-between;align-items:flex-end;
-  margin-top:54px;padding-top:28px;border-top:1px solid rgba(141,198,63,.26)}}
+  margin-top:54px;padding-top:28px;border-top:1px solid rgba(141,187,32,.26)}}
 .cta-txt{{font-size:29px;color:{GRIS};letter-spacing:.04em;max-width:560px}}
 .brand{{display:flex;align-items:center;gap:14px}}
 .brand-name{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:32px;
@@ -126,47 +127,46 @@ h1.xs{{font-size:76px}}
 CTA_DM = "Une question ? Écrivez-nous en message privé"
 
 PAGES = [
-    dict(n="01", date="02/09", kind="coulisses", photo=True, eyebrow="Coulisses",
-         title="Le méchage", sub="3 heures de travail pour 3 minutes de spectacle."),
-    dict(n="02", date="04/09", kind="emotion", photo=True,
-         title="Le moment où tout le monde lève la tête", size="sm"),
-    dict(n="03", date="06/09", kind="coulisses", photo=True, eyebrow="Mon Artifice",
-         title="Artificiers de métier", sub="On se présente, puisque ce compte commence.",
-         cta=CTA_DM),
+    dict(n="01", date="02/09", kind="coulisses", eyebrow="Expertise",
+         title="Compact ou éventail ?", sub="Même durée. Rendu totalement différent."),
+    dict(n="02", date="04/09", kind="silence", title="Le silence juste avant"),
+    dict(n="03", date="06/09", kind="communaute",
+         title="Votre feu idéal dure combien de temps ?", size="xs",
+         opts=["30 sec", "1 min 30", "3 min", "5 min"]),
     dict(n="04", date="07/09", kind="pedago", badge="À savoir",
          title="Faut-il prévenir la mairie ?",
          sub="Ça dépend de trois choses. On vous explique.", cta=CTA_DM),
-    dict(n="05", date="09/09", kind="coulisses", photo=True, eyebrow="Coulisses",
+    dict(n="05", date="09/09", kind="coulisses", photo="E1", eyebrow="Mon Artifice",
+         title="Artificiers de métier", sub="On se présente, puisque ce compte commence.",
+         cta=CTA_DM),
+    dict(n="06", date="11/09", kind="emotion", photo="I1",
+         title="Le moment où tout le monde lève la tête", size="sm"),
+    dict(n="07", date="13/09", kind="coulisses", photo="A1", eyebrow="Coulisses",
+         title="Le méchage", sub="3 heures de travail pour 3 minutes de spectacle."),
+    dict(n="08", date="14/09", kind="pedago", badge="Sécurité",
+         title="8 mètres ou 25 mètres ?", sub="La différence n'est pas un détail.",
+         pills=["F2 · 8 m", "F3 · 25 m"]),
+    dict(n="09", date="16/09", kind="coulisses", photo="B1", eyebrow="Coulisses",
          title="La mise d'inflammateur", size="sm",
          sub="Chaque départ a son fil. Chaque fil a son numéro."),
-    dict(n="06", date="11/09", kind="emotion", photo=True, eyebrow="Mariage",
-         title="Les mariages de septembre",
-         sub="ont quelque chose que les autres n'ont pas.", cta=CTA_DM),
-    dict(n="07", date="13/09", kind="communaute",
-         title="Votre feu idéal dure combien de temps ?", size="xs",
-         opts=["30 sec", "1 min 30", "3 min", "5 min"]),
-    dict(n="08", date="14/09", kind="pedago", badge="Sécurité",
-         title="8 mètres ou 25 mètres ?",
-         sub="La différence n'est pas un détail.",
-         pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="09", date="16/09", kind="coulisses", photo=True, eyebrow="Coulisses",
+    dict(n="10", date="18/09", kind="emotion", photo="H3",
+         title="Il a dit oui. Le ciel aussi.", cta=CTA_DM),
+    dict(n="11", date="20/09", kind="coulisses", photo="C3", eyebrow="Coulisses",
          title="De la caisse au dispositif", size="sm",
          sub="Un feu d'artifice, ça ne se pose pas. Ça se monte."),
-    dict(n="10", date="18/09", kind="emotion", photo=True,
-         title="Il a dit oui. Le ciel aussi.", cta=CTA_DM),
-    dict(n="11", date="20/09", kind="coulisses", eyebrow="Expertise",
-         title="Compact ou éventail ?", sub="Même durée. Rendu totalement différent."),
     dict(n="12", date="21/09", kind="pedago", badge="Réglementation",
          title="F2 ou F3 ?", sub="C'est ce qui détermine où vous pourrez tirer.",
          pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="13", date="23/09", kind="coulisses", photo=True, eyebrow="Coulisses",
+    dict(n="13", date="23/09", kind="coulisses", photo="D1", eyebrow="Coulisses",
          title="Le tableau de tir", sub="Une ligne = un départ = une seconde précise."),
-    dict(n="14", date="25/09", kind="silence", title="Le silence juste avant"),
-    dict(n="15", date="27/09", kind="communaute", photo=True,
+    dict(n="14", date="25/09", kind="emotion", photo="H2", eyebrow="Mariage",
+         title="Les mariages de septembre",
+         sub="ont quelque chose que les autres n'ont pas.", cta=CTA_DM),
+    dict(n="15", date="27/09", kind="communaute", photo="I3",
          title="Montrez-nous votre été", sub="On republie les plus belles."),
     dict(n="16", date="28/09", kind="pedago", badge="Météo", title="Et s'il pleut ?",
          sub="La pluie n'est pas le pire ennemi. Le vent, si."),
-    dict(n="17", date="30/09", kind="coulisses", photo=True, eyebrow="Coulisses",
+    dict(n="17", date="30/09", kind="coulisses", photo="F2", eyebrow="Coulisses",
          title="Ce qu'il reste après", size="sm",
          sub="On repart quand le terrain est plus propre qu'à l'arrivée."),
 ]
@@ -201,7 +201,8 @@ def render(p, caption, idx):
         svg += burst(770, 330, 290, 26, seed) + burst(300, 235, 150, 16, seed + 1)
     svg += "</svg>"
 
-    photo = '<div class="photo"><span>Photo</span></div>' if p.get("photo") else ""
+    photo = (f'<div class="photo"><span>Photo {html.escape(p["photo"])}</span></div>'
+             if p.get("photo") else "")
 
     body = []
     if p.get("badge"):
@@ -226,6 +227,8 @@ def render(p, caption, idx):
                 f'<span class="brand-name">Mon Artifice</span></span></div>')
 
     label = f'{p["n"]} · {p["date"]} · {p["title"]}'
+    if p.get("photo"):
+        label += f' · photo {p["photo"]}'
     mid = " mid" if p["kind"] == "silence" else ""
     return (f'<div class="page" data-document-role="page" '
             f'data-label="{html.escape(label, quote=True)}" '

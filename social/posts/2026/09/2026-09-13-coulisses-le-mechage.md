@@ -1,4 +1,4 @@
-# 01 · Mercredi 2 septembre 2026 · 12 h 30
+# 07 · Dimanche 13 septembre 2026 · 11 h 00
 
 | | |
 |---|---|

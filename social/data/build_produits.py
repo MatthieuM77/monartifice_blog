@@ -12,9 +12,8 @@ import re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 P = json.loads((ROOT / "data/produits.json").read_text(encoding="utf-8"))
 
-# References presentes dans la boutique mais absentes de l'export SQL
-MANQUANTS = ["22519LPF", "22518LPF", "22431LPF", "22516LPF", "22521LPF",
-             "22517LPF", "22405LPF", "22506LPF", "22308LPF", "22427LPF"]
+# L'export du 30/08 est complet : 30 references, plus aucune manquante.
+MANQUANTS = []
 
 
 def duree(sec):
@@ -85,13 +84,13 @@ for x in dispo:
 out += ["---", "", "## ⚠️ Rapport de qualité des données", "",
         "À corriger dans la base avant la mise en ligne de la boutique.", ""]
 
-out += [f"### 1. {len(MANQUANTS)} références absentes de l'export", "",
-        "Présentes dans la boutique — et **toutes disponibles** — mais absentes du dump SQL. "
-        "Aucune caractéristique exploitable pour l'instant :", ""]
-out += [f"- `{r}`" for r in MANQUANTS]
-out += ["", "> C'est toute la gamme Champs-Élysées Soirée / Découverte / XL. Ce sont les produits "
-        "les plus vendeurs du catalogue : il me faut leurs specs pour construire les carrousels "
-        "d'octobre.", ""]
+if MANQUANTS:
+    out += [f"### 1. {len(MANQUANTS)} références absentes de l'export", ""]
+    out += [f"- `{r}`" for r in MANQUANTS]
+    out += [""]
+else:
+    out += ["### 1. Export complet ✅", "",
+            f"Les {len(P)} références de la boutique sont présentes. Plus aucune donnée manquante.", ""]
 
 incoherents = [x for x in P if x.get("dispo_stock") and not x.get("stock")]
 out += ["### 2. Le champ `stock` n'est pas fiable", "",

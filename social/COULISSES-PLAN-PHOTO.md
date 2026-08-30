@@ -1,104 +1,176 @@
-# Plan de prise de vue — Coulisses métier
+# Plan de prise de vue — Feu du samedi 5 septembre 2026
 
-> Votre plus gros avantage concurrentiel : **vous êtes artificiers, pas revendeurs.**
-> Aucun concurrent qui revend des boîtes ne peut publier ces images. C'est ce qui va faire
-> la différence sur le compte, et c'est pour ça que ce pilier passe en tête du calendrier.
+> **Objectif de la sortie : une seule session pour tenir plusieurs mois.**
+> Vous êtes deux : pendant que l'un travaille, l'autre shoote. Alternez selon les séquences.
+>
+> Votre plus gros avantage concurrentiel : **vous êtes artificiers, pas revendeurs.** Aucun
+> concurrent qui expédie des boîtes ne peut publier ces images. C'est ce qui va faire la
+> différence sur le compte.
 
-**Objectif : une session de shooting sur un chantier réel = 6 séquences = 6 publications + 20 stories.**
-Tout ce qui est listé ici alimente septembre. On refait une session en novembre pour l'hiver.
+**48 plans listés.** Les 22 de la **priorité 1** couvrent tout septembre. Les autres constituent
+une banque d'images pour octobre à décembre, qu'on ne pourra pas refaire avant longtemps.
 
 ---
 
-## Règles générales
+## Règles générales — à lire avant de partir
 
 | Point | Consigne |
 |---|---|
-| **Format** | Tourner et photographier en **vertical (9:16)**. C'est le format d'Instagram et de Facebook aujourd'hui. Faites quelques plans en 4:5 pour les carrousels. |
-| **Lumière** | La fin de journée (l'heure dorée) est la meilleure. À défaut, une frontale ou une lampe de chantier crée une lumière de travail très photogénique. |
-| **Le brut gagne** | Ne cherchez pas la photo « propre ». Les mains sales, la boue, la frontale, la buée : c'est ça qui prouve que c'est réel. Une photo trop léchée ressemble à du stock. |
-| **Les mains** | Filmez et photographiez **les mains en train de faire**. C'est le plan qui retient le plus. |
-| **Le son** | Gardez le son d'ambiance. Pas de musique épique par-dessus : le bruit du scotch, du gravier, des clips, c'est ce qui donne la sensation du vrai. |
-| **Sécurité d'abord** | **Aucune photo ne justifie un écart.** Si un plan demande d'être au mauvais endroit au mauvais moment, on ne le fait pas. Pas de téléphone en zone de tir une fois la clé tournée. |
-| **Visages** | Demandez l'accord de toute personne reconnaissable avant publication. Un plan de dos ou de mains évite le problème. |
+| **Format** | **Vertical 9:16** par défaut, c'est le format d'Instagram et Facebook. Faites en plus quelques plans en **4:5** pour les carrousels. Filmez toujours plus large que nécessaire : on recadre après, on ne dézoome jamais. |
+| **Photo ET vidéo** | Pour chaque plan-clé, prenez **la photo puis 10 secondes de vidéo**. La vidéo alimente les Reels, qui portent toute la croissance du compte. |
+| **Lumière** | L'heure dorée avant le coucher du soleil est la meilleure. À la nuit tombée, la **frontale** ou une lampe de chantier crée une lumière de travail très photogénique — n'éclairez pas à plat. |
+| **Le brut gagne** | Ne cherchez pas la photo propre. Mains sales, boue, buée, frontale : c'est ça qui prouve que c'est réel. Une photo trop léchée ressemble à du stock et ne convainc personne. |
+| **Les mains** | Filmez et photographiez **les mains en train de faire**. C'est le plan qui retient le plus, de loin. |
+| **Le son** | Gardez le son d'ambiance : le scotch, le gravier, les clips, les voix. Pas de musique par-dessus au tournage. C'est ce qui donne la sensation du vrai. |
+| **Sécurité d'abord** | **Aucune photo ne justifie un écart.** Un plan qui demande d'être au mauvais endroit au mauvais moment ne se fait pas. Pas de téléphone en zone de tir une fois la clé tournée. |
+| **Droit à l'image** | Accord de toute personne reconnaissable avant publication — client, invités, équipe. Un plan de dos ou de mains évite la question. Pour les invités du client : demandez l'autorisation **au client** en amont. |
+| **Volume** | Prenez 3 à 5 versions de chaque plan. Le tri se fait après. Le regret, c'est toujours de ne pas avoir assez shooté. |
 
 ---
 
-## A. Méchage → post du 2 septembre
+# PRIORITÉ 1 — Les 22 plans de septembre
 
-| Plan | Cadrage | Note |
+Ces plans sont directement rattachés à des publications déjà écrites. Sans eux, le mois ne tient pas.
+
+## Séquence A — Méchage → post du 13 septembre
+
+| # | Plan | Cadrage | Note |
+|---|---|---|---|
+| A1 | **Mains + mèche, gros plan** | Très serré, net sur les doigts | **LE plan-clé du mois.** Prenez-en dix. |
+| A2 | Détail d'un raccord | Macro | Personne n'a jamais vu ça de près |
+| A3 | Dispositif méché, plan large | Large, de trois-quarts | Montre l'ampleur du travail |
+| A4 | Vue de dessus de l'ensemble | Plongée | Idéal en slide finale de carrousel |
+| A5 | Time-lapse du méchage | Fixe sur trépied ou posé | Stories + futur Reel |
+
+## Séquence B — Inflammateurs → post du 16 septembre
+
+| # | Plan | Cadrage | Note |
+|---|---|---|---|
+| B1 | **Pose d'un inflammateur** | Gros plan mains | Plan-clé |
+| B2 | Détail du câblage | Serré sur les fils et couleurs | |
+| B3 | Lignes de tir, plan large | Large | Montre la complexité |
+| B4 | Main qui numérote / étiquette | Serré | Prouve la rigueur |
+
+## Séquence C — Montage → Reel du 20 septembre
+
+Plans **courts de 2-3 secondes**, à enchaîner au montage. Filmez dans l'ordre chronologique.
+
+| # | Plan | Note |
 |---|---|---|
-| A1 | **Gros plan mains + mèche** | Le plan-clé. Doit être net sur les doigts. |
-| A2 | Détail d'un raccord | Ce que personne n'a jamais vu de près. |
-| A3 | Plan large du dispositif méché | Montre l'ampleur du travail. |
-| A4 | Vue de dessus de l'ensemble | Idéal en slide finale de carrousel. |
-| A5 | Time-lapse du méchage complet | Pour les stories et un futur Reel. |
+| C1 | Déchargement des caisses | |
+| C2 | Positionnement au sol | |
+| C3 | **Calage / lestage** | C'est le message du post : insistez |
+| C4 | Mesure de la distance de sécurité | Mètre déroulé ou pas comptés — très parlant |
+| C5 | Vérification finale, recul, dispositif prêt | Plan large de fin |
 
-## B. Inflammateurs → post du 9 septembre
+## Séquence D — Tableau de tir → post du 23 septembre
 
-| Plan | Cadrage | Note |
+| # | Plan | Cadrage | Note |
+|---|---|---|---|
+| D1 | **Le pupitre, gros plan** | Serré | Plan-clé |
+| D2 | Lignes numérotées | Macro | |
+| D3 | **La clé de sécurité** | Très serré + **vidéo du geste** | C'est le détail qui surprend tout le monde |
+| D4 | Main au-dessus du bouton, de nuit | Serré, contre-jour | Très fort visuellement |
+
+## Séquence E — Portrait métier → post ÉPINGLÉ du 9 septembre
+
+| # | Plan | Note |
 |---|---|---|
-| B1 | **Gros plan pose d'un inflammateur** | Le plan-clé. |
-| B2 | Détail du câblage | Les fils, les couleurs, l'ordre. |
-| B3 | Plan large des lignes de tir | Montre la complexité. |
-| B4 | Main qui numérote / étiquette | Prouve la rigueur. |
+| E1 | **Vous deux en situation, sur site, fin de montage** | Pas une photo posée : une photo de travail |
+| E2 | Plan large : vous petits, le dispositif grand | Donne l'échelle |
+| E3 | Portrait serré, frontale allumée | Pour la story à la une « Qui sommes-nous » |
 
-## C. Montage → Reel du 16 septembre
+> Ce post sera **épinglé en haut des deux profils** pendant toute la phase de pré-lancement.
+> C'est la première image que verra chaque nouveau visiteur : elle mérite le meilleur plan de la session.
 
-Tourner en **plans courts de 2-3 secondes**, à enchaîner au montage.
+## Séquence F — Après le tir → post du 30 septembre
 
-| Plan | Cadrage |
-|---|---|
-| C1 | Déchargement des caisses |
-| C2 | Positionnement au sol |
-| C3 | **Calage / lestage** — insister, c'est le message du post |
-| C4 | Mesure de la distance de sécurité (mètre ou pas comptés) |
-| C5 | Vérification finale, recul, plan large du dispositif prêt |
-
-## D. Tableau de tir → post du 23 septembre
-
-| Plan | Cadrage | Note |
+| # | Plan | Note |
 |---|---|---|
-| D1 | **Gros plan du pupitre** | Le plan-clé. |
-| D2 | Détail des lignes numérotées | |
-| D3 | **La clé de sécurité** | C'est le détail qui surprend tout le monde. Filmez-la aussi. |
-| D4 | Main au-dessus du bouton, de nuit | Très fort visuellement. |
-
-## E. Portrait métier → post du 6 septembre (post épinglé)
-
-| Plan | Cadrage | Note |
-|---|---|---|
-| E1 | **Vous en situation, sur site, en fin de montage** | Pas une photo posée. Une photo de travail. |
-| E2 | Plan large : vous petit, le dispositif grand | Donne l'échelle. |
-| E3 | Portrait serré, frontale allumée | Pour la story à la une « Qui sommes-nous ». |
-
-> Ce post sera **épinglé en haut du profil** pendant toute la phase de pré-lancement.
-> C'est la photo que verront tous les nouveaux visiteurs : elle mérite le meilleur plan de la session.
-
-## F. Après le tir → post du 30 septembre
-
-| Plan | Cadrage | Note |
-|---|---|---|
-| F1 | Site au petit matin, dispositif éteint | Lumière froide, ambiance « lendemain ». |
-| F2 | **Ramassage des reliquats à la lampe** | Le plan-clé. |
-| F3 | Sacs de ramassage | |
-| F4 | Terrain vide et propre, plan large | Slide de fin : « on repart plus propre qu'à l'arrivée ». |
+| F1 | Site au petit matin ou en fin d'intervention, dispositif éteint | Lumière froide, ambiance « lendemain » |
+| F2 | **Ramassage des reliquats à la lampe** | Plan-clé |
+| F3 | Terrain vide et propre, plan large | Slide de fin : « on repart plus propre qu'à l'arrivée » |
 
 ---
 
-## Séquences bonus à capter si l'occasion se présente
+# PRIORITÉ 2 — Banque produit pour octobre à décembre
 
-Elles ne sont pas au calendrier de septembre mais serviront d'octobre à décembre :
+Le pilier Produit démarre en octobre, et la campagne Nouvel An en novembre. Ces plans-là
+vous éviteront de devoir tout réorganiser dans deux mois.
 
-- **Le briefing d'équipe** avant montage — montre le professionnalisme.
-- **La météo consultée sur le téléphone**, sur site — illustre parfaitement le post « Et s'il pleut ? ».
-- **Le tir vu de derrière le dispositif** — angle que le public ne voit jamais. Très fort.
-- **Le transport / stockage** — illustre la pédagogie sur la conservation.
-- **Un raté ou un imprévu géré** — si vous osez le montrer, c'est le contenu le plus crédible qui existe.
+| # | Plan | Sert à |
+|---|---|---|
+| G1 | **Une boîte produit fermée, posée au sol sur site** | Tous les carrousels produit : montre le produit en contexte réel, pas sur fond blanc |
+| G2 | Plusieurs boîtes alignées, vue de dessus | Post « comment choisir » |
+| G3 | Étiquette produit en gros plan (catégorie, distance) | Posts pédagogiques F2/F3 et distances — **image de preuve** |
+| G4 | Une boîte tenue à bout de bras, pour l'échelle | Répond à « c'est grand comment ? » |
+| G5 | Comparaison de deux formats côte à côte | Post comparatif de durées |
+| G6 | Le coffre / véhicule chargé | Post logistique et transport |
+| G7 | Stockage : produits à plat, au sec, à l'abri | Illustre le post « Et s'il pleut ? » |
+| G8 | **Consultation de la météo sur le téléphone, sur site** | Illustre parfaitement le post météo du 28/09 |
+
+## Le tir lui-même
+
+| # | Plan | Note |
+|---|---|---|
+| H1 | **Le feu vu de derrière le dispositif** | Angle que le public ne voit jamais. Très fort. Seulement si la position est sûre. |
+| H2 | Le feu en plan large, avec le lieu dans le cadre | Contexte : jardin, château, salle |
+| H3 | Départ vertical serré | Beauté pure |
+| H4 | **Effet éventail, plan large** | Sert le post « compact ou éventail » |
+| H5 | Le bouquet final, en entier, sans coupure | Le plan le plus partagé qui existe |
+| H6 | La fumée qui retombe après le final | Fin de Reel parfaite |
+
+## Le public
+
+| # | Plan | Note |
+|---|---|---|
+| I1 | **Le public de dos, têtes levées, éclairé par le feu** | Le plan-signature du compte. Pas de visage = pas de problème de droit à l'image. |
+| I2 | Enfants sur les épaules, silhouettes | Émotion immédiate |
+| I3 | Téléphones levés qui filment | Preuve sociale visuelle |
+| I4 | Les 10 secondes de silence AVANT le premier départ | Illustre le post « Le silence juste avant » |
+| I5 | Applaudissements / réactions à la fin | Son inclus, indispensable |
+
+---
+
+# PRIORITÉ 3 — Banque evergreen
+
+Si le temps le permet. Ces images resserviront toute l'année.
+
+| # | Plan | Sert à |
+|---|---|---|
+| J1 | Le briefing d'équipe avant montage | Professionnalisme |
+| J2 | Les mains sales en fin de chantier | Authenticité |
+| J3 | Le carnet / la fiche de tir annotée | La « partition » du feu |
+| J4 | Détail du matériel : casque, gants, extincteur, seau | Posts sécurité |
+| J5 | Le lieu vide, avant tout montage | Plan « avant/après » |
+| J6 | Coucher de soleil sur le site monté | Visuel d'ambiance, très réutilisable |
+| J7 | **Un imprévu géré** (météo, retard, ajustement) | Si vous osez le montrer : le contenu le plus crédible qui existe |
+| J8 | Le client qui découvre le dispositif monté | Émotion + preuve sociale |
+
+---
+
+## Récapitulatif à cocher sur place
+
+**Priorité 1 — indispensable (22 plans)**
+`A1` `A2` `A3` `A4` `A5` · `B1` `B2` `B3` `B4` · `C1` `C2` `C3` `C4` `C5` · `D1` `D2` `D3` `D4` · `E1` `E2` `E3` · `F1` `F2` `F3`
+
+**Priorité 2 — très utile (19 plans)**
+`G1` → `G8` · `H1` → `H6` · `I1` → `I5`
+
+**Priorité 3 — bonus (8 plans)**
+`J1` → `J8`
+
+> Si vous ne deviez en retenir que cinq : **A1** (mains + mèche), **D3** (la clé de sécurité),
+> **E1** (vous deux au travail), **I1** (le public tête levée), **H5** (le bouquet final).
 
 ---
 
 ## Après le shooting
 
-1. Trier et renommer par séquence : `A1-mechage-mains.jpg`, `D3-cle-securite.mp4`, etc.
-2. Déposer dans `social/photos/2026-09/`.
-3. Me le dire : j'intègre les vraies images dans les visuels Canva à la place des gabarits.
+1. **Trier et renommer** par code de plan : `A1-mechage-mains-01.jpg`, `D3-cle-securite.mp4`, etc.
+   Le code suffit, je fais le rapprochement avec les publications.
+2. **Déposer** dans `social/photos/2026-09/`.
+3. **Me prévenir** : j'intègre les vraies images dans les 17 visuels Canva à la place des
+   cadres « PHOTO », et j'ajuste les cadrages au besoin.
+4. **Ne jetez rien** avant qu'on ait trié ensemble. Un plan qui vous semble raté fait souvent
+   une excellente story.
