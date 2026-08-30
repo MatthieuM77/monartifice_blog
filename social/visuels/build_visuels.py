@@ -250,8 +250,9 @@ POSTS = [
         sub="On se présente, puisque ce compte commence.",
         img="E1-artificier-obus.jpg", cta=CTA_DM)]),
 
- dict(n="06", date="11/09", fmt="Reel", titre="Le moment où tout le monde lève la tête", slides=[
-   dict(k="cover", t="Le moment où tout le monde lève la tête", size="sm", shot="I1")]),
+ dict(n="06", date="11/09", fmt="Reel", titre="L'autre côté du feu", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="L'autre côté du feu",
+        sub="Tout le monde filme le ciel. Nous, on est derrière la rampe.", shot="T3")]),
 
  dict(n="07", date="13/09", fmt="Carrousel", titre="Le méchage", slides=[
    dict(k="cover", eyebrow="Coulisses", t="Le méchage",
@@ -282,7 +283,7 @@ POSTS = [
         sub="C'est ce qui permet de synchroniser un feu sur une musique.")]),
 
  dict(n="10", date="18/09", fmt="Reel", titre="Il a dit oui. Le ciel aussi.", slides=[
-   dict(k="cover", t="Il a dit oui. Le ciel aussi.", shot="H3", cta=CTA_DM)]),
+   dict(k="cover", t="Il a dit oui. Le ciel aussi.", shot="T4", cta=CTA_DM)]),
 
  dict(n="11", date="20/09", fmt="Reel", titre="De la caisse au dispositif", slides=[
    dict(k="cover", eyebrow="Coulisses", t="De la caisse au dispositif", size="sm",

@@ -50,22 +50,25 @@ des maquettes Canva : vous voyez directement où chaque photo doit venir.
 
 | Plan | Publication | Slide | Ce qu'il faut photographier | Cadrage |
 |---|---|---|---|---|
-| **I1** | 11/09 — Le moment où tout le monde lève la tête | 1/1 | Le public de dos, têtes levées, éclairé par le feu | Depuis le côté public, au moment du tir |
+| **T3** | 11/09 — L'autre côté du feu | 1/1 | Le premier départ vu de derrière la rampe | Trépied posé et lancé avant le tir |
 | **A2** | 13/09 — Le méchage | 3/5 | Le détail d'un raccord de mèche | Macro, sur le dispositif méché |
 | **A3** | 13/09 — Le méchage | 4/5 | Le dispositif méché en plan large, prêt à tirer | Trois-quarts, avant le tir |
 | **B2** | 16/09 — La mise d'inflammateur | 2/4 | Le câblage des inflammateurs | Serré sur les fils et leurs couleurs |
-| **H3** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Un départ vertical serré, plein cadre | Depuis le poste de tir |
+| **T4** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Les tubes qui partent en enfilade, plan serré | Trépied posé et lancé avant le tir |
 | **D2** | 23/09 — Le tableau de tir | 2/4 | Les lignes numérotées du tableau de tir | Macro sur le pupitre |
 | **H2** | 25/09 — Les mariages de septembre | 1/1 | Le feu en plan large avec le lieu dans le cadre | Cadrer large, ne pas serrer sur le ciel |
 | **F1** | 30/09 — Ce qu'il reste après | 1/4 | Le site vide après le tir, dispositif éteint | Lumière froide, fin d'intervention |
 | **F2** | 30/09 — Ce qu'il reste après | 2/4 | Le ramassage des reliquats à la lampe | Gros plan mains + lampe |
 
-### Priorité si le temps manque
+### Tout se filme depuis le poste de tir
 
-1. **I1** — irrattrapable. Ne s'obtient qu'au moment du tir, depuis le côté public.
-   Si vous êtes tous les deux au poste, confiez un téléphone à quelqu'un.
-2. **H3** et **H2** — le feu lui-même. Deux cadrages différents, ne prenez pas que du serré.
-3. **A2, A3, B2, D2** — les macros de chantier. Faciles, à faire pendant le montage.
+Aucun plan ne demande d'être côté public. C'est un correctif important : vous êtes artificiers,
+votre place est derrière la rampe, et c'est exactement ce que personne d'autre ne peut montrer.
+
+1. **T3 et T4** — le départ vu de derrière la rampe. **Trépied posé et lancé avant le tir**,
+   jamais de téléphone en main une fois la clé tournée.
+2. **A2, A3, B2, D2** — les macros de chantier. Faciles, à faire pendant le montage.
+3. **H2** — le feu en plan large avec le lieu dans le cadre. Ne prenez pas que du serré.
 4. **F1, F2** — après le tir. C'est celles qu'on oublie parce qu'on est fatigué.
 
 ---

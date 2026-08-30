@@ -10,7 +10,7 @@ Regénérer avec `python3 social/visuels/build_visuels.py`.
 | 03 | 06/09 | Votre feu idéal dure combien de temps ? | Sondage | 1 | `2026-09-06-communaute-sondage-duree.html` |
 | 04 | 07/09 | Faut-il prévenir la mairie ? | Carrousel | 5 | `2026-09-07-pedagogie-prevenir-la-mairie.html` |
 | 05 | 09/09 | Artificiers de métier | Post épinglé | 1 | `2026-09-09-communaute-qui-on-est.html` |
-| 06 | 11/09 | Le moment où tout le monde lève la tête | Reel | 1 | `2026-09-11-emotion-tout-le-monde-leve-la-tete.html` |
+| 06 | 11/09 | L'autre côté du feu | Reel | 1 | `2026-09-11-emotion-l-autre-cote-du-feu.html` |
 | 07 | 13/09 | Le méchage | Carrousel | 5 | `2026-09-13-coulisses-le-mechage.html` |
 | 08 | 14/09 | 8 mètres ou 25 mètres ? | Carrousel | 5 | `2026-09-14-pedagogie-distances-securite.html` |
 | 09 | 16/09 | La mise d'inflammateur | Carrousel | 4 | `2026-09-16-coulisses-inflammateurs.html` |

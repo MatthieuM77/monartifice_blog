@@ -43,82 +43,90 @@ filmée sous plusieurs angles, en plusieurs prises courtes, au lieu d'un long pl
 | **Vertical 9:16, toujours** | On ne rattrape pas un plan horizontal. |
 | **Chaque prise : 5 à 8 secondes** | On coupera dedans. Une prise de 3 s ne laisse aucune marge. |
 | **Le même moment sous 2 ou 3 angles** | C'est ce qui permet de couper sans que ça saute. Sans angles multiples, pas de montage. |
+| **Un deuxième téléphone sur trépied** | Posé avant le tir, laissé tourner. C'est lui qui capte les plans rapprochés du départ, que vous ne pouvez pas filmer à la main. Le plus rentable des accessoires. |
 | **Verrouillez l'exposition et la mise au point, la nuit** | Sinon le téléphone « pompe » à chaque départ : l'image s'assombrit puis se rattrape, et c'est inutilisable. Appui long sur l'écran avant de filmer. |
 | **Essuyez l'objectif** | Buée et poussière de chantier. Une trace, et toute la prise est perdue. |
 | **Filmez trois fois trop** | Le seul regret possible. |
 
 ---
 
-# Reel du 11/09 — « Le moment où tout le monde lève la tête »
+# Reel du 11/09 — « L'autre côté du feu »
 
-**L'idée : on ne montre pas le feu, on montre les gens qui le regardent.** Le ciel n'arrive qu'à
-la fin, et c'est ce retournement qui fait la vidéo.
+**Cet angle a été refait.** La version précédente montrait le public qui lève la tête. C'était
+doublement mauvais : vous êtes artificiers, donc **jamais du côté du public**, et c'est le plan
+le plus banal qui existe — n'importe qui l'a filmé un 14 juillet.
 
-**Cible : 22-25 s, 13 plans.**
+**Ce que personne n'a, c'est votre place.** Derrière la rampe. C'est le contenu le plus
+différenciant de tout le compte, et il ne demande à personne d'autre que vous.
+
+**Cible : 25 s, 10 plans.**
 
 ### Le montage visé
 
 | Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 2 s | **Accroche** : gros plan d'un visage de trois-quarts qui se lève, éclairé | « LE MOMENT OÙ TOUT LE MONDE LÈVE LA TÊTE » |
-| 2 - 4 s | Plan large du public de dos | — |
-| 4 - 6 s | Détail : une main qui pointe le ciel | — |
-| 6 - 8 s | Enfant sur les épaules, silhouette | — |
-| 8 - 10 s | Deuxième visage, éclairé par intermittence | — |
-| 10 - 12 s | Rangée de téléphones levés | — |
-| 12 - 14 s | Travelling lent derrière le public | — |
-| 14 - 16 s | Troisième visage, réaction forte | — |
-| 16 - 18 s | Plan large, tout le public | — |
-| 18 - 25 s | **On bascule sur le ciel.** Le feu, plein cadre, sans coupure | — |
+| 0 - 2 s | **Accroche** : `T3` le premier départ vu de derrière la rampe, plein cadre | « L'AUTRE CÔTÉ DU FEU » |
+| 2 - 4 s | `T2` la main sur le tableau de tir | — |
+| 4 - 6 s | `T4` les tubes qui partent en enfilade, plan serré | — |
+| 6 - 8 s | `T12` le regard porté sur le dispositif, pas sur le ciel | « ON NE REGARDE PRESQUE JAMAIS EN L'AIR » |
+| 8 - 10 s | `T5` la fumée qui traverse la lumière | — |
+| 10 - 12 s | `T6` silhouette du collègue contre le feu | — |
+| 12 - 14 s | `T11` mains gantées, frontale allumée | — |
+| 14 - 16 s | `T7` contre-plongée depuis le sol vers le ciel | — |
+| 16 - 19 s | `T8` plan large : le dispositif qui tire, le lieu au fond | — |
+| 19 - 25 s | `T9` le final, toute la batterie | « ON EST LES SEULS À VOIR ÇA » |
 
-### Ce qu'il faut rapporter (filmer 5 à 8 s chacun)
+### Ce qu'il faut rapporter — séquence T
 
-`R1a` `R1b` `R1c` — trois visages différents en gros plan, de trois-quarts ou de profil
-`R2` — plan large du public de dos, statique
-`R3` — le même plan large depuis un autre angle
-`R4` — mains qui pointent
-`R5` — enfant sur les épaules
-`R6` — téléphones levés
-`R7` — travelling latéral lent derrière le public
-`R8` — contre-plongée depuis derrière le public vers le ciel
-`R9a` `R9b` — le feu plein cadre, deux moments différents
-`R10` — le final en entier
+Tout se filme **depuis le poste de tir**. Rien ne demande d'être ailleurs.
 
-**Le son du public est indispensable.** Ne coupez pas le micro, ne mettez pas de musique
-par-dessus les réactions. Les « oh », c'est ce qui porte la vidéo.
+`T1` le dispositif de dos avant le tir, ciel encore vide
+`T2` la main sur le tableau, la clé qu'on tourne
+`T3` **le premier départ vu de derrière la rampe** — le plan-clé
+`T4` les tubes qui partent en enfilade, serré
+`T5` la fumée qui traverse le faisceau lumineux
+`T6` le collègue de dos, silhouette contre le feu
+`T7` contre-plongée depuis le sol derrière la rampe vers le ciel
+`T8` plan large : dispositif en action + le lieu au fond
+`T9` le final, toute la batterie
+`T10` la fumée qui retombe sur le site, après
+`T11` détail : mains gantées, frontale
+`T12` votre regard sur le dispositif — pas sur le ciel
+`T13` recul lent, on s'éloigne du dispositif qui tire
 
-> **Il faut quelqu'un côté public.** Si vous êtes tous les deux au poste de tir, confiez un
-> téléphone à une personne de confiance avec cette liste. Sans elle, ce Reel n'existe pas.
-
----
+> ### ⚠️ Sécurité — la seule façon de tourner ces plans
+>
+> `T3`, `T4` et `T7` se font avec un **téléphone posé sur un petit trépied, placé et lancé
+> AVANT le tir, et laissé tourner**. On récupère la carte après.
+>
+> **Jamais un téléphone tenu en main en zone de tir une fois la clé tournée.** Aucune image ne
+> justifie un écart, et un plan raté se refait au feu suivant.
+>
+> Prévoyez un trépied de table et une batterie chargée : le téléphone tourne pendant tout le tir.
 
 # Reel du 18/09 — « Il a dit oui. Le ciel aussi. »
 
-**Cible : 20-22 s, 11 plans.**
+Ici c'est la légende qui raconte la demande en mariage. **Le visuel n'a pas besoin de couple** —
+et c'est tant mieux, parce que le couple appartient au client, il est occupé, et vous n'avez ni
+le temps ni le droit de le filmer sans son accord.
+
+**Cible : 20-22 s, 9 plans.** Tout depuis le poste de tir.
 
 | Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 2 s | **Accroche** : silhouette de dos, plan large, ciel encore vide | « IL AVAIT PRÉPARÉ UNE PHRASE. » |
-| 2 - 4 s | Détail : deux mains qui se rejoignent | — |
-| 4 - 5 s | Le premier départ | — |
-| 5 - 7 s | La silhouette qui se retourne | « IL NE S'EN SOUVIENT PLUS. » |
-| 7 - 12 s | Le feu, deux ou trois plans enchaînés | — |
-| 12 - 15 s | Silhouettes de dos **et** feu dans le même cadre | — |
-| 15 - 22 s | Le feu, plan final | « IL A DIT OUI. LE CIEL AUSSI. » |
+| 0 - 2 s | **Accroche** : `T1` le ciel encore vide au-dessus de la rampe, calme | « IL AVAIT PRÉPARÉ UNE PHRASE. » |
+| 2 - 4 s | `T2` la main sur le bouton | — |
+| 4 - 5 s | `T4` le départ, gros plan | — |
+| 5 - 8 s | Le feu qui s'ouvre, plan serré | « IL NE S'EN SOUVIENT PLUS. » |
+| 8 - 13 s | Deux plans du feu enchaînés | — |
+| 13 - 16 s | `T5` la fumée dans la lumière | — |
+| 16 - 22 s | `T8` plan large : le feu et le lieu | « IL A DIT OUI. LE CIEL AUSSI. » |
 
-### Ce qu'il faut rapporter
+Les plans viennent de la **même séquence T** que le Reel du 11/09 : une seule sortie couvre
+les deux, il suffit de monter différemment.
 
-`S1` — silhouette de dos, plan large, avant le tir (ciel vide)
-`S2` — détail de deux mains
-`S3a` `S3b` — un départ vertical serré, deux prises
-`S4` — la silhouette qui se retourne
-`S5a` `S5b` `S5c` — le feu, trois moments
-`S6` — silhouettes + feu dans le même cadre, plan large
-
-> De dos, personne n'est identifiable : deux personnes de l'équipe suffisent. Aucun problème
-> de droit à l'image.
-
----
+> Si le client vous autorise à filmer ses invités de loin et de dos, un plan de silhouettes
+> ajoute beaucoup. Mais **ne comptez pas dessus** : le Reel tient sans.
 
 # Reel du 20/09 — « De la caisse au dispositif »
 

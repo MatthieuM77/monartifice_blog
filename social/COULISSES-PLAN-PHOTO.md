@@ -33,19 +33,19 @@ plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail s
 
 | Plan | Ce qu'il faut | Publication · slide |
 |---|---|---|
-| **I1** | **Le public de dos, têtes levées, éclairé par le feu** | 11/09 · 1/1 |
+| **T3** | **Le premier départ vu de derrière la rampe** | 11/09 · 1/1 |
 | **A2** | Le détail d'un raccord de mèche, en macro | 13/09 · 3/5 |
 | **A3** | Le dispositif méché en plan large, prêt à tirer | 13/09 · 4/5 |
 | **B2** | Le câblage des inflammateurs, fils et couleurs | 16/09 · 2/4 |
-| **H3** | Un départ vertical serré, plein cadre | 18/09 · 1/1 |
+| **T4** | Les tubes qui partent en enfilade, plan serré | 18/09 · 1/1 |
 | **D2** | Les lignes numérotées du tableau de tir, en macro | 23/09 · 2/4 |
 | **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 · 1/1 |
 | **F1** | Le site vide après le tir, dispositif éteint | 30/09 · 1/4 |
 | **F2** | **Le ramassage des reliquats à la lampe** | 30/09 · 2/4 |
 
-> **I1 demande que quelqu'un soit côté public.** Si vous êtes tous les deux au poste de
-> tir, demandez à une personne de confiance de filmer le public de dos avec son téléphone —
-> même en qualité moyenne, ce plan vaut de l'or et ne se rattrape pas.
+> **Tout se filme depuis le poste de tir.** Aucun plan ne demande d'être côté public : vous
+> êtes artificiers, votre place est derrière la rampe, et c'est précisément ce que personne
+> d'autre ne peut montrer.
 
 ---
 
@@ -152,22 +152,40 @@ vous éviteront de devoir tout réorganiser dans deux mois.
 
 | # | Plan | Note |
 |---|---|---|
-| H1 | **Le feu vu de derrière le dispositif** | Angle que le public ne voit jamais. Très fort. Seulement si la position est sûre. |
 | H2 | Le feu en plan large, avec le lieu dans le cadre | Contexte : jardin, château, salle |
 | H3 | Départ vertical serré | Beauté pure |
 | H4 | **Effet éventail, plan large** | Sert le post « compact ou éventail » |
 | H5 | Le bouquet final, en entier, sans coupure | Le plan le plus partagé qui existe |
 | H6 | La fumée qui retombe après le final | Fin de Reel parfaite |
 
-## Le public
+## Depuis le poste de tir — séquence T
+
+**C'est le cœur du contenu.** Ces plans alimentent deux Reels et une publication, et aucun
+concurrent ne peut les produire. Ils se filment tous depuis votre place.
 
 | # | Plan | Note |
 |---|---|---|
-| I1 | **Le public de dos, têtes levées, éclairé par le feu** | Le plan-signature du compte. Pas de visage = pas de problème de droit à l'image. |
-| I2 | Enfants sur les épaules, silhouettes | Émotion immédiate |
-| I3 | Téléphones levés qui filment | Preuve sociale visuelle |
-| I4 | Les 10 secondes de silence AVANT le premier départ | Illustre le post « Le silence juste avant » |
-| I5 | Applaudissements / réactions à la fin | Son inclus, indispensable |
+| T1 | Le dispositif de dos avant le tir, ciel vide | Ouverture parfaite |
+| T2 | La main sur le tableau, la clé qu'on tourne | |
+| **T3** | **Le premier départ vu de derrière la rampe** | **Le plan-clé du compte.** Trépied, lancé avant. |
+| **T4** | Les tubes qui partent en enfilade, serré | Trépied, lancé avant |
+| T5 | La fumée qui traverse le faisceau lumineux | Très beau, très peu vu |
+| T6 | Le collègue de dos, silhouette contre le feu | |
+| T7 | Contre-plongée depuis le sol vers le ciel | Trépied, lancé avant |
+| T8 | Plan large : dispositif en action + le lieu au fond | Donne le contexte |
+| T9 | Le final, toute la batterie | |
+| T10 | La fumée qui retombe sur le site, après | |
+| T11 | Détail : mains gantées, frontale | |
+| T12 | Votre regard sur le dispositif, pas sur le ciel | Raconte le métier en un plan |
+| T13 | Recul lent, on s'éloigne du dispositif qui tire | Fin de Reel |
+
+> ### ⚠️ Sécurité
+>
+> `T3`, `T4` et `T7` se font avec un **téléphone sur trépied, placé et lancé AVANT le tir,
+> laissé tourner**. On récupère la carte après.
+>
+> **Jamais de téléphone tenu en main en zone de tir une fois la clé tournée.** Un plan raté se
+> refait au feu suivant ; un accident, non.
 
 ---
 
@@ -191,20 +209,20 @@ Si le temps le permet. Ces images resserviront toute l'année.
 ## Récapitulatif à cocher sur place
 
 **⚠️ Les 9 qui bloquent une slide chacun — à faire absolument**
-`I1` `A2` `A3` `B2` `H3` `D2` `H2` `F1` `F2`
+`T3` `A2` `A3` `B2` `T4` `D2` `H2` `F1` `F2`
 
 **Priorité 1 — le reste des séquences (les ✅ sont déjà couverts)**
 ~~`A1`~~ `A2` `A3` `A4` `A5` · ~~`B1`~~ `B2` `B3` `B4` · `C1` `C2` `C3` `C4` ~~`C5`~~ · ~~`D1`~~ `D2` `D3` `D4` · ~~`E1`~~ `E2` `E3` · `F1` ~~`F2`~~ `F3`
 
-**Priorité 2 — très utile (19 plans)**
-`G1` → `G8` · `H1` → `H6` · `I1` → `I5`
+**Priorité 2 — la séquence T et la banque produit (24 plans)**
+`T1` → `T13` · `G1` → `G8` · `H2` `H4` `H5`
 
 **Priorité 3 — bonus (8 plans)**
 `J1` → `J8`
 
-> Si vous ne deviez en retenir que cinq, ce sont désormais : **I1** (le public tête levée),
-> **H5** (le bouquet final), **F2** (le ramassage à la lampe), **D3** (la clé de sécurité),
-> **G3** (l'étiquette produit en gros plan).
+> Si vous ne deviez en retenir que cinq : **T3** (le départ vu de derrière la rampe),
+> **T12** (votre regard sur le dispositif), **H5** (le bouquet final), **F2** (le ramassage à
+> la lampe), **G3** (l'étiquette produit en gros plan).
 
 ---
 
@@ -215,8 +233,8 @@ listés ci-dessus. Ils ont leur propre liste de tournage, nettement plus fournie
 
 | Reel | Publication | Plans à filmer |
 |---|---|---|
-| Le public qui lève la tête | 11/09 | `R1a` → `R10` — **13 plans**, dont trois visages différents |
-| Il a dit oui | 18/09 | `S1` → `S6` — **9 plans** |
+| L'autre côté du feu | 11/09 | `T1` → `T13` — **13 plans**, tous depuis le poste de tir |
+| Il a dit oui | 18/09 | même séquence `T` — **9 plans**, monté différemment |
 | De la caisse au dispositif | 20/09 | `M1` → `M13` — **14 plans**, de jour, tranquillement |
 
 Le détail seconde par seconde est dans **`REELS.md`**. Celui du 20/09 se tourne de jour, sans
