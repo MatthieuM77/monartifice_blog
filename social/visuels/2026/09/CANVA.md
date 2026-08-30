@@ -7,7 +7,7 @@ il s'ouvre, se retouche et se publie sans avoir à chercher quoi que ce soit.
 
 | # | Date | Publication | Slides | Design | Photo à venir |
 |---|---|---|---|---|---|
-| 01 | 02/09 | Compact ou éventail ? | 1 | [ouvrir](https://www.canva.com/d/PHB017VZUeXlvNk) | — |
+| 01 | 02/09 | Compact ou éventail ? | 4 | [ouvrir](https://www.canva.com/d/aBIs83LEDoBiE-6) | — |
 | 02 | 04/09 | Le silence juste avant | 1 | [ouvrir](https://www.canva.com/d/LJ8hF3yHd5fwxWo) | — |
 | 03 | 06/09 | Votre feu idéal dure combien de temps ? | 1 | [ouvrir](https://www.canva.com/d/nFcdoc9uEgIuMWJ) | — |
 | 04 | 07/09 | Faut-il prévenir la mairie ? | 5 | [ouvrir](https://www.canva.com/d/pgLpz6sZmk9KPwQ) | — |
@@ -25,7 +25,7 @@ il s'ouvre, se retouche et se publie sans avoir à chercher quoi que ce soit.
 | 16 | 28/09 | Et s'il pleut ? | 4 | [ouvrir](https://www.canva.com/d/6okqjzRceVRIxLV) | — |
 | 17 | 30/09 | Ce qu'il reste après | 4 | [ouvrir](https://www.canva.com/d/63Qacpc_5HIXq5y) | **F1** · **F2** |
 
-**17 designs · 44 slides · 8 carrousels.**
+**17 designs · 47 slides · 9 carrousels · 3 Reels.**
 Sept publications attendent une photo — les codes renvoient à `COULISSES-PLAN-PHOTO.md`.
 
 ## À supprimer
@@ -35,6 +35,13 @@ de votre Canva, à supprimer quand vous voulez :
 
 - *Mon Artifice — Septembre 2026* (17 pages, couvertures seules)
 - *Mon Artifice — Septembre 2026 — carrousels complets* (44 pages)
+- *01 · 02/09 — Compact ou éventail ? (Reel)* — remplacé par la version carrousel
+
+## Les trois Reels
+
+Les publications du **11/09**, **18/09** et **20/09** sont des Reels : le design Canva ne
+contient que la **couverture**. La vidéo est à tourner et à monter — voir `social/REELS.md`
+pour le partage des rôles et le plan de tournage seconde par seconde.
 
 ## Réimporter une publication modifiée
 
