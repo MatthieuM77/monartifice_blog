@@ -5,7 +5,7 @@ Regénérer avec `python3 social/visuels/build_visuels.py`.
 
 | # | Date | Publication | Format | Slides | Fichier |
 |---|---|---|---|---|---|
-| 01 | 02/09 | Compact ou éventail ? | Reel | 1 | `2026-09-02-coulisses-compact-ou-eventail.html` |
+| 01 | 02/09 | Compact ou éventail ? | Carrousel | 4 | `2026-09-02-coulisses-compact-ou-eventail.html` |
 | 02 | 04/09 | Le silence juste avant | Post | 1 | `2026-09-04-emotion-le-silence-juste-avant.html` |
 | 03 | 06/09 | Votre feu idéal dure combien de temps ? | Sondage | 1 | `2026-09-06-communaute-sondage-duree.html` |
 | 04 | 07/09 | Faut-il prévenir la mairie ? | Carrousel | 5 | `2026-09-07-pedagogie-prevenir-la-mairie.html` |

@@ -177,6 +177,34 @@ def schema_distance(actif, couleur, rayon):
 
 
 
+def trajectoires(mode):
+    """Trajectoires vues de face. Compact : tout part d'un point et monte droit.
+    Eventail : les departs s'ouvrent en largeur. Dessine, donc aucune video requise."""
+    sol, traits = 520, []
+    if mode == "compact":
+        depart = [(540, sol)] * 7
+        angles = [-104, -98, -93, -90, -87, -82, -76]
+        longueur = 372
+    else:
+        depart = [(180 + i * 116, sol) for i in range(7)]
+        angles = [-146, -130, -112, -90, -68, -50, -34]
+        longueur = 300
+    for (x0, y0), a in zip(depart, angles):
+        r = math.radians(a)
+        x1, y1 = x0 + longueur * math.cos(r), y0 + longueur * math.sin(r)
+        col = VERT if a % 2 else MAGENTA
+        traits.append(f'<path d="M{x0} {y0} Q{(x0 + x1) / 2 + 14} {(y0 + y1) / 2} {x1:.0f} {y1:.0f}" '
+                      f'stroke="{col}" stroke-width="2.5" fill="none" opacity=".55"/>')
+        for k in range(9):
+            b = math.radians(k * 40)
+            traits.append(f'<line x1="{x1:.0f}" y1="{y1:.0f}" '
+                          f'x2="{x1 + 34 * math.cos(b):.0f}" y2="{y1 + 34 * math.sin(b):.0f}" '
+                          f'stroke="{col}" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>')
+    return (f'<svg class="diag" viewBox="0 0 1080 600">{"".join(traits)}'
+            f'<line x1="90" y1="{sol}" x2="990" y2="{sol}" stroke="{GRIS}" '
+            f'stroke-width="2" opacity=".3"/></svg>')
+
+
 # --- Septembre 2026 : phase de PRE-LANCEMENT --------------------------------
 # La boutique n'est pas en ligne : aucun post produit, aucun CTA vers le site.
 # Chaque publication porte ses slides. `img` = photo disponible,
@@ -185,9 +213,18 @@ CTA_DM = "Une question ? Écrivez-nous en message privé"
 SAVE = "Enregistrez ce post"
 
 POSTS = [
- dict(n="01", date="02/09", fmt="Reel", titre="Compact ou éventail ?", slides=[
+ dict(n="01", date="02/09", fmt="Carrousel", titre="Compact ou éventail ?", slides=[
    dict(k="cover", eyebrow="Expertise", t="Compact ou éventail ?",
-        sub="Même durée. Rendu totalement différent.")]),
+        sub="Même durée. Rendu totalement différent."),
+   dict(k="point", tag="Compact", traj="compact", t="Tout part du même point",
+        sub="Et monte droit. Effet puissant, concentré. Idéal quand le public est proche "
+            "et regarde dans une seule direction."),
+   dict(k="point", tag="Éventail", traj="eventail", t="Les départs s'ouvrent en largeur",
+        sub="Effet panoramique, et nettement meilleur en vidéo. Idéal quand vos invités "
+            "sont étalés sur une grande zone."),
+   dict(k="end", t="Ce n'est pas une question de qualité.",
+        sub="C'est une question de terrain et de placement de vos invités. "
+            "Décrivez-nous votre lieu, on vous oriente.", cta=CTA_DM)]),
 
  dict(n="02", date="04/09", fmt="Post", titre="Le silence juste avant", slides=[
    dict(k="cover", style="silence", t="Le silence juste avant")]),
@@ -315,7 +352,8 @@ def fond(sl, seed):
                 f'<div class="veil{w}"></div>'), ""
     svg = f'<svg class="bg" viewBox="0 0 1080 1350">{sparks(110, seed)}'
     k = sl["k"]
-    if sl.get("style") == "silence" or sl.get("shot"):
+    if sl.get("style") == "silence" or sl.get("shot") or sl.get("traj") or sl.get("schema"):
+        # Un schema porte deja la lecture : une gerbe decorative le brouillerait.
         pass                                    # ciel vide, ou photo a venir
     elif k in ("point", "end"):
         svg += burst(880, 235, 200, 20, seed)
@@ -336,10 +374,11 @@ def corps(sl):
     if sl.get("eyebrow"):
         out.append(f'<div class="eyebrow">{html.escape(sl["eyebrow"])}</div>')
     if sl.get("tag"):
-        cls = "tag v" if sl["tag"].startswith(("F2", "Catégorie F2")) else "tag"
+        cls = "tag v" if sl["tag"].startswith(("F2", "Catégorie F2", "Compact")) else "tag"
         out.append(f'<div class="{cls}">{html.escape(sl["tag"])}</div>')
     if k == "point":
-        out.append(f'<div class="num">{html.escape(sl["i"])}</div>')
+        if sl.get("i"):
+            out.append(f'<div class="num">{html.escape(sl["i"])}</div>')
         out.append(f'<h2 class="{sl.get("size", "")}">{html.escape(sl["t"])}</h2>')
     elif k == "stat":
         out.append(f'<div class="fig">{sl["fig"]} <small>{html.escape(sl["unit"])}</small></div>')
@@ -372,8 +411,12 @@ def corps(sl):
 
 def render(post, sl, idx, total, note, seed):
     bg, _ = fond(sl, seed)
-    schema = schema_distance(sl["schema"][2], sl["schema"][0], sl["schema"][1]) \
-        if sl.get("schema") else ""
+    if sl.get("schema"):
+        schema = schema_distance(sl["schema"][2], sl["schema"][0], sl["schema"][1])
+    elif sl.get("traj"):
+        schema = trajectoires(sl["traj"])
+    else:
+        schema = ""
     cta = (f'<div class="cta"><span class="cta-txt">{html.escape(sl.get("cta", ""))}</span>'
            f'<span class="brand"></span></div>')
     mid = " mid" if sl.get("style") == "silence" else ""

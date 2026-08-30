@@ -3,16 +3,20 @@
 | | |
 |---|---|
 | **Pilier** | 4 — Coulisses & expertise |
-| **Format** | Reel comparatif 9:16, 20 s (écran partagé) |
+| **Format** | **Carrousel 4 slides** — schémas dessinés, aucune vidéo requise |
 | **Objectif** | Expertise + aide à la décision |
 
-## Vidéo à tourner
-Deux extraits de tirs réels côte à côte. Utiliser les vidéos catalogue si besoin
-(17 références ont une vidéo — voir `PRODUITS.md`).
-
 ## Visuel
-Écran partagé : compact (vertical, resserré) / éventail (large).
-Texte incrusté : **« COMPACT OU ÉVENTAIL ? »**
+> **Publication du 2 septembre — soit avant le feu du 5.** Aucune image de chantier n'est
+> disponible à cette date : le carrousel est donc entièrement dessiné.
+
+**S1** — **« COMPACT OU ÉVENTAIL ? »** / surtitre « Expertise »
+**S2** — Schéma des trajectoires **compact** : tout part d'un point, monte droit
+**S3** — Schéma des trajectoires **éventail** : les départs s'ouvrent en largeur
+**S4** — « Ce n'est pas une question de qualité. » + CTA message privé
+
+Une version Reel pourra être tournée plus tard, quand vous aurez deux extraits de tirs réels
+à comparer en écran partagé.
 
 ## Texte Instagram
 Deux feux. Même durée. Rendu totalement différent.

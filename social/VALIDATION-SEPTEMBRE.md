@@ -1,7 +1,10 @@
 # Valider septembre 2026 — état et checklist
 
-**17 publications · 44 slides · 8 carrousels.**
-Tout est écrit et maquetté. Il reste **9 photos** et **4 relectures**.
+**17 publications · 47 slides · 9 carrousels · 3 Reels.**
+Tout est écrit et maquetté. Il reste **9 photos**, **3 vidéos** et **4 relectures**.
+
+> **Les Reels : vous filmez, je ne produis pas de vidéo.** Le partage des rôles et le plan
+> de tournage des trois Reels sont dans `REELS.md`.
 
 ---
 
@@ -23,6 +26,7 @@ Tout est écrit et maquetté. Il reste **9 photos** et **4 relectures**.
 
 | # | Date | Publication | Slides |
 |---|---|---|---|
+| 01 | 02/09 | Compact ou éventail ? | 4 |
 | 04 | 07/09 | Faut-il prévenir la mairie ? | 5 |
 | 07 | 13/09 | Le méchage | 5 |
 | 08 | 14/09 | 8 mètres ou 25 mètres ? | 5 |
@@ -32,7 +36,10 @@ Tout est écrit et maquetté. Il reste **9 photos** et **4 relectures**.
 | 16 | 28/09 | Et s'il pleut ? | 4 |
 | 17 | 30/09 | Ce qu'il reste après | 4 |
 
-Les 9 autres publications sont des visuels uniques : Reels, posts simples, sondage, appel UGC.
+Les 8 autres publications sont des visuels uniques : 3 Reels, posts simples, sondage, appel UGC.
+
+> La publication du 2 septembre était un Reel. Elle tombait **trois jours avant le feu du 5**,
+> donc sans images disponibles. Elle est devenue un carrousel entièrement dessiné.
 
 ---
 
