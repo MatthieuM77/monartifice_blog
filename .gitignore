@@ -1,0 +1,14 @@
+# Local clone of the claude-blog installer source (github.com/AgriciDaniel/claude-blog).
+# The installer copies its payload into ~/.claude/; the clone itself is a
+# throwaway and should not be vendored into this repository.
+claude-blog/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
