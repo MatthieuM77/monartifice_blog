@@ -12,6 +12,38 @@ une banque d'images pour octobre à décembre, qu'on ne pourra pas refaire avant
 
 ---
 
+## ✅ Déjà couvert par vos photos existantes — 5 plans
+
+Ces images sont **déjà intégrées** aux visuels de septembre. Inutile de les refaire.
+
+| Plan | Image | Publication |
+|---|---|---|
+| **A1** | Rack de mortiers méché, fils orange dans l'herbe | 13/09 — Le méchage |
+| **B1** | Mains sur un inflammateur, ceinture à outils | 16/09 — La mise d'inflammateur |
+| **C5** | Site monté complet, racks bâchés, câblage au sol | 20/09 — De la caisse au dispositif |
+| **D1** | Tableau de tir en flight case, séquence à l'écran | 23/09 — Le tableau de tir |
+| **E1** | Artificier de dos tenant des obus, public au fond | 09/09 — Artificiers de métier *(post épinglé)* |
+
+Fichiers dans `social/photos/2026-09/`.
+
+## 🎯 Les 5 plans qui manquent encore pour boucler septembre
+
+**C'est la vraie priorité de samedi.** Sans eux, cinq publications restent sans visuel.
+
+| Plan | Ce qu'il faut | Publication | Difficulté |
+|---|---|---|---|
+| **I1** | **Le public de dos, têtes levées, éclairé par le feu** | 11/09 | Demande d'être côté public au moment du tir |
+| **H3** | Départ vertical serré, plein cadre | 18/09 | Facile depuis le poste de tir |
+| **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 | Cadrer large, ne pas serrer sur le ciel |
+| **I3** | Téléphones levés qui filment | 27/09 | Côté public, avant le final |
+| **F2** | **Ramassage des reliquats à la lampe** | 30/09 | Après le tir, ne pas oublier |
+
+> **I1 et I3 demandent que quelqu'un soit côté public.** Si vous êtes tous les deux au poste de
+> tir, demandez à une personne de confiance de filmer le public de dos avec son téléphone —
+> même en qualité moyenne, ce plan vaut de l'or et ne se rattrape pas.
+
+---
+
 ## Règles générales — à lire avant de partir
 
 | Point | Consigne |
@@ -151,8 +183,11 @@ Si le temps le permet. Ces images resserviront toute l'année.
 
 ## Récapitulatif à cocher sur place
 
-**Priorité 1 — indispensable (22 plans)**
-`A1` `A2` `A3` `A4` `A5` · `B1` `B2` `B3` `B4` · `C1` `C2` `C3` `C4` `C5` · `D1` `D2` `D3` `D4` · `E1` `E2` `E3` · `F1` `F2` `F3`
+**⚠️ Les 5 qui bloquent des publications — à faire absolument**
+`I1` `H3` `H2` `I3` `F2`
+
+**Priorité 1 — le reste des séquences (les ✅ sont déjà couverts)**
+~~`A1`~~ `A2` `A3` `A4` `A5` · ~~`B1`~~ `B2` `B3` `B4` · `C1` `C2` `C3` `C4` ~~`C5`~~ · ~~`D1`~~ `D2` `D3` `D4` · ~~`E1`~~ `E2` `E3` · `F1` ~~`F2`~~ `F3`
 
 **Priorité 2 — très utile (19 plans)**
 `G1` → `G8` · `H1` → `H6` · `I1` → `I5`
@@ -160,8 +195,9 @@ Si le temps le permet. Ces images resserviront toute l'année.
 **Priorité 3 — bonus (8 plans)**
 `J1` → `J8`
 
-> Si vous ne deviez en retenir que cinq : **A1** (mains + mèche), **D3** (la clé de sécurité),
-> **E1** (vous deux au travail), **I1** (le public tête levée), **H5** (le bouquet final).
+> Si vous ne deviez en retenir que cinq, ce sont désormais : **I1** (le public tête levée),
+> **H5** (le bouquet final), **F2** (le ramassage à la lampe), **D3** (la clé de sécurité),
+> **G3** (l'étiquette produit en gros plan).
 
 ---
 

@@ -5,6 +5,7 @@ Chaque page porte data-document-role="page" (une page Canva), un data-label date
 pour le classement, et la legende Instagram en speaker notes.
 Source unique de verite pour les textes : social/posts/AAAA/MM/*.md
 """
+import base64
 import html
 import math
 import pathlib
@@ -23,6 +24,15 @@ VERT, VERT_CLAIR = "#8DBB20", "#AEDA4A"
 MAGENTA, MAGENTA_CLAIR = "#D50175", "#F5399B"
 BLANC, GRIS = "#FFFFFF", "#C8CBD4"
 PALETTE = (VERT, MAGENTA, VERT_CLAIR, MAGENTA_CLAIR)
+
+
+def photo_uri(nom):
+    """Encode la photo en data URI. Le fichier HTML doit rester autonome :
+    l'import Canva ne recupere qu'une seule URL, pas les images liees."""
+    p = ROOT / "photos/2026-09" / nom
+    if not p.exists():
+        return None
+    return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
 
 
 def burst(cx, cy, r, rays=26, seed=0):
@@ -85,6 +95,12 @@ body{{background:#1b1b1b;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
 .inner{{position:relative;height:100%;display:flex;flex-direction:column;
   justify-content:flex-end;padding:92px 88px 152px}}
 .inner.mid{{justify-content:center}}
+.shot{{position:absolute;inset:0;background-size:cover;background-position:center}}
+.shot.wide{{inset:0 0 auto 0;height:660px;background-position:center 42%}}
+.veil{{position:absolute;inset:0;background:linear-gradient(to bottom,
+  rgba(8,8,15,.30) 0%,rgba(8,8,15,.10) 28%,rgba(8,8,15,.72) 62%,rgba(8,8,15,.97) 88%)}}
+.veil.wide{{background:linear-gradient(to bottom,rgba(8,8,15,.18) 0%,
+  rgba(8,8,15,.05) 34%,rgba(8,8,15,.90) 46%,{NUIT} 54%)}}
 .photo{{position:absolute;left:64px;right:64px;top:64px;height:560px;
   border:2px dashed rgba(141,187,32,.45);border-radius:6px;
   display:flex;align-items:center;justify-content:center}}
@@ -136,28 +152,28 @@ PAGES = [
     dict(n="04", date="07/09", kind="pedago", badge="À savoir",
          title="Faut-il prévenir la mairie ?",
          sub="Ça dépend de trois choses. On vous explique.", cta=CTA_DM),
-    dict(n="05", date="09/09", kind="coulisses", photo="E1", eyebrow="Mon Artifice",
+    dict(n="05", date="09/09", kind="coulisses", photo="E1", img="E1-artificier-obus.jpg", eyebrow="Mon Artifice",
          title="Artificiers de métier", sub="On se présente, puisque ce compte commence.",
          cta=CTA_DM),
     dict(n="06", date="11/09", kind="emotion", photo="I1",
          title="Le moment où tout le monde lève la tête", size="sm"),
-    dict(n="07", date="13/09", kind="coulisses", photo="A1", eyebrow="Coulisses",
+    dict(n="07", date="13/09", kind="coulisses", photo="A1", img="A1-mechage-rack-meches.jpg", eyebrow="Coulisses",
          title="Le méchage", sub="3 heures de travail pour 3 minutes de spectacle."),
     dict(n="08", date="14/09", kind="pedago", badge="Sécurité",
          title="8 mètres ou 25 mètres ?", sub="La différence n'est pas un détail.",
          pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="09", date="16/09", kind="coulisses", photo="B1", eyebrow="Coulisses",
+    dict(n="09", date="16/09", kind="coulisses", photo="B1", img="B1-mise-inflammateur-mains.jpg", eyebrow="Coulisses",
          title="La mise d'inflammateur", size="sm",
          sub="Chaque départ a son fil. Chaque fil a son numéro."),
     dict(n="10", date="18/09", kind="emotion", photo="H3",
          title="Il a dit oui. Le ciel aussi.", cta=CTA_DM),
-    dict(n="11", date="20/09", kind="coulisses", photo="C3", eyebrow="Coulisses",
-         title="De la caisse au dispositif", size="sm",
+    dict(n="11", date="20/09", kind="coulisses", photo="C5", img="C5-dispositif-monte-complet.jpg", wide=True,
+         eyebrow="Coulisses", title="De la caisse au dispositif", size="sm",
          sub="Un feu d'artifice, ça ne se pose pas. Ça se monte."),
     dict(n="12", date="21/09", kind="pedago", badge="Réglementation",
          title="F2 ou F3 ?", sub="C'est ce qui détermine où vous pourrez tirer.",
          pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="13", date="23/09", kind="coulisses", photo="D1", eyebrow="Coulisses",
+    dict(n="13", date="23/09", kind="coulisses", photo="D1", img="D1-tableau-de-tir.jpg", eyebrow="Coulisses",
          title="Le tableau de tir", sub="Une ligne = un départ = une seconde précise."),
     dict(n="14", date="25/09", kind="emotion", photo="H2", eyebrow="Mariage",
          title="Les mariages de septembre",
@@ -190,8 +206,8 @@ def render(p, caption, idx):
     svg = f'<svg class="bg" viewBox="0 0 1080 1350">{sparks(n_sparks, seed)}'
     if kind == "silence":
         pass
-    elif p.get("photo"):
-        # La vraie photo porte le visuel : pas de gerbe, elle chevaucherait le titre.
+    elif p.get("photo") or p.get("img"):
+        # La photo porte le visuel : pas de gerbe, elle chevaucherait le titre.
         pass
     elif kind == "emotion":
         svg += burst(700, 400, 330, 30, seed)
@@ -201,8 +217,15 @@ def render(p, caption, idx):
         svg += burst(770, 330, 290, 26, seed) + burst(300, 235, 150, 16, seed + 1)
     svg += "</svg>"
 
-    photo = (f'<div class="photo"><span>Photo {html.escape(p["photo"])}</span></div>'
-             if p.get("photo") else "")
+    uri = photo_uri(p["img"]) if p.get("img") else None
+    if uri:
+        w = " wide" if p.get("wide") else ""
+        photo = (f'<div class="shot{w}" style="background-image:url({uri})"></div>'
+                 f'<div class="veil{w}"></div>')
+    elif p.get("photo"):
+        photo = f'<div class="photo"><span>Photo {html.escape(p["photo"])}</span></div>'
+    else:
+        photo = ""
 
     body = []
     if p.get("badge"):

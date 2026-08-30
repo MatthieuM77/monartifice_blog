@@ -246,3 +246,36 @@ social/
 ```
 
 Côté Canva : `Mon artifice / 2026 / 09 - Septembre`, chaque page du design nommée à la date de publication.
+
+---
+
+## 11. Ciels en Fête et Mon Artifice — à trancher
+
+Les photos de chantier montrent les tee-shirts **« Ciels en Fête — Artifices de prestige »**,
+et un kit de marque du même nom existe dans le Canva. Or le compte s'appelle Mon Artifice.
+Un visiteur qui voit deux noms sans explication ne comprend pas, et l'incompréhension coûte
+de l'abonnement.
+
+**La recommandation : assumer le lien, et en faire l'argument central.**
+
+> « Mon Artifice, c'est la boutique de Ciels en Fête. Nous tirons des feux pour des villes et
+> des événements. On a sélectionné, dans ce qu'on connaît, les feux qu'un particulier peut
+> tirer lui-même en sécurité. »
+
+C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
+une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
+
+**À trancher avant le 9 septembre**, car le post épinglé (« Artificiers de métier ») porte
+cette explication.
+
+### Un garde-fou à respecter
+
+Les photos professionnelles (mortiers, obus, tableau de tir, console) montrent un métier, **pas
+le catalogue**. Ne jamais laisser croire qu'un particulier peut acheter ou tirer ce matériel.
+La formulation à tenir partout :
+
+> « Ça, c'est notre métier. Ce qu'on vous vend, ce sont des feux prêts à l'emploi, conçus pour
+> être tirés sans formation. »
+
+Toute légende accompagnant une photo de chantier doit contenir cette distinction, explicitement
+ou en substance.
