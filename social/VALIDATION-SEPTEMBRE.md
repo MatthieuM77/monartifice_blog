@@ -3,8 +3,8 @@
 **17 publications · 47 slides · 9 carrousels · 3 Reels.**
 Tout est écrit et maquetté. Il reste **9 photos**, **3 vidéos** et **4 relectures**.
 
-> **Les Reels : vous filmez, je ne produis pas de vidéo.** Le partage des rôles et le plan
-> de tournage des trois Reels sont dans `REELS.md`.
+> **Les Reels : vous filmez, je ne produis pas de vidéo.** Un Reel se monte avec 12 à 15 plans,
+> donc il faut en filmer 25 à 30. Les trois listes de tournage détaillées sont dans `REELS.md`.
 
 ---
 

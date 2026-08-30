@@ -1,121 +1,175 @@
-# Les Reels — qui fait quoi
+# Les Reels — qui fait quoi, et comment les tourner
 
 ## La règle, en une ligne
 
 **Vous filmez et vous montez. Je ne produis pas de vidéo.**
 
-Je n'ai aucune capacité de génération ou de montage vidéo. Pour un Reel, je livre tout sauf
-les images animées.
-
 | Ce que je livre | Ce que vous faites |
 |---|---|
-| L'image de couverture, à la charte | **Filmer** les plans |
-| Le texte de la publication + hashtags | **Monter** (Canva, CapCut, ou Instagram) |
-| Le plan de tournage : quels plans, dans quel ordre, quelle durée | Choisir la musique |
-| Le texte à incruster et à quel moment | Publier |
-
-C'est le même partage que pour les photos : je fais la maquette et l'écrit, la matière vient
-du terrain.
+| L'image de couverture, à la charte | **Filmer** — beaucoup plus de plans que vous ne croyez |
+| Le texte de la publication + hashtags | **Monter** (CapCut, Canva, ou Instagram) |
+| Le découpage : quels plans, quel ordre, quelle durée | Choisir la musique |
+| Les textes à incruster et à quelle seconde | Publier |
 
 ---
 
-## Combien de Reels en septembre
+## ⚠️ Correction d'un brief précédent
 
-**Trois**, après correction. Il y en avait quatre, mais le premier tombait le 2 septembre —
-soit **trois jours avant votre feu**. Vous n'auriez eu aucune image à monter.
+La première version de ce document proposait, pour le Reel du 11 septembre,
+« un plan continu de 20 secondes ». **C'était faux.** Un plan continu avec du texte par-dessus,
+ce n'est pas un Reel : c'est une vidéo postée. Elle ne retiendra personne.
 
-Il est devenu un **carrousel entièrement dessiné** (schémas de trajectoires compact / éventail),
-publiable sans la moindre vidéo. Une version Reel pourra se tourner plus tard, quand vous aurez
-deux extraits de tirs à comparer.
+Ce que disent les données 2026 :
 
-| Date | Reel | Plans nécessaires | Durée visée |
-|---|---|---|---|
-| 11/09 | Le moment où tout le monde lève la tête | **I1** | 15-20 s |
-| 18/09 | Il a dit oui. Le ciel aussi. | **H3** | ~20 s |
-| 20/09 | De la caisse au dispositif | **C1 → C5** | 25-30 s |
-
-Les trois se tournent **le 5 septembre**. C'est une seule sortie.
-
----
-
-## Règles communes
-
-| Point | Consigne |
+| Règle | Valeur |
 |---|---|
-| **Format** | Vertical **9:16**, 1080 × 1920. Filmez toujours en vertical, on ne rattrape pas un plan horizontal. |
-| **Les 3 premières secondes** | Elles décident de tout. Le texte d'accroche doit être lisible **dès la première image**. |
-| **Le son** | Gardez le son réel. Les « oh » du public, le gravier, le scotch : c'est ça qui rend vrai. Musique en fond léger seulement, jamais par-dessus les coulisses. |
-| **Longueur** | Court gagne. 15-20 s tenues valent mieux que 45 s qui traînent. |
-| **Le montage** | Canva sait le faire, CapCut aussi, Instagram également. Prenez le plus simple pour vous. |
-| **La couverture** | Instagram permet de choisir une image de couverture. Utilisez celle que j'ai maquettée : votre grille reste cohérente. |
+| **Accroche** | Les 1,5 à 2 premières secondes décident. Elle doit être immédiate, pas construite. |
+| **Rythme** | **Une coupe ou un changement visuel toutes les 1,5 à 3 secondes.** |
+| **Durée utile** | 21 à 34 s pour un compte pro : la place d'une accroche, d'une idée, d'une chute. |
+| **Ce qui compte** | La rétention, pas la durée. 20 s vues en entier battent 90 s abandonnées à la 12e. |
+
+**Conséquence concrète : un Reel de 25 secondes demande 12 à 15 plans.** Pas un. Et comme on
+jette la moitié au montage, il faut en **filmer 25 à 30**.
+
+C'est le vrai changement pour samedi. Ce n'est pas plus de temps sur place — c'est la même scène
+filmée sous plusieurs angles, en plusieurs prises courtes, au lieu d'un long plan unique.
 
 ---
 
-## Reel du 11/09 — « Le moment où tout le monde lève la tête »
+## Six réflexes de tournage
 
-**L'idée : on ne montre pas le feu. On montre les gens qui le regardent.** Le feu n'apparaît
-qu'à la toute fin, et c'est ce retournement qui fait la vidéo.
+| Réflexe | Pourquoi |
+|---|---|
+| **Vertical 9:16, toujours** | On ne rattrape pas un plan horizontal. |
+| **Chaque prise : 5 à 8 secondes** | On coupera dedans. Une prise de 3 s ne laisse aucune marge. |
+| **Le même moment sous 2 ou 3 angles** | C'est ce qui permet de couper sans que ça saute. Sans angles multiples, pas de montage. |
+| **Verrouillez l'exposition et la mise au point, la nuit** | Sinon le téléphone « pompe » à chaque départ : l'image s'assombrit puis se rattrape, et c'est inutilisable. Appui long sur l'écran avant de filmer. |
+| **Essuyez l'objectif** | Buée et poussière de chantier. Une trace, et toute la prise est perdue. |
+| **Filmez trois fois trop** | Le seul regret possible. |
 
-| Temps | Ce qu'on voit | Texte incrusté |
+---
+
+# Reel du 11/09 — « Le moment où tout le monde lève la tête »
+
+**L'idée : on ne montre pas le feu, on montre les gens qui le regardent.** Le ciel n'arrive qu'à
+la fin, et c'est ce retournement qui fait la vidéo.
+
+**Cible : 22-25 s, 13 plans.**
+
+### Le montage visé
+
+| Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 3 s | Nuques et visages de dos, éclairés par intermittence. **Aucun feu dans le cadre.** | « LE MOMENT OÙ TOUT LE MONDE LÈVE LA TÊTE » |
-| 3 - 12 s | Le public réagit. Les têtes se lèvent. Quelqu'un pointe du doigt. | — |
-| 12 - 18 s | On bascule enfin sur le ciel. Le feu. | — |
+| 0 - 2 s | **Accroche** : gros plan d'un visage de trois-quarts qui se lève, éclairé | « LE MOMENT OÙ TOUT LE MONDE LÈVE LA TÊTE » |
+| 2 - 4 s | Plan large du public de dos | — |
+| 4 - 6 s | Détail : une main qui pointe le ciel | — |
+| 6 - 8 s | Enfant sur les épaules, silhouette | — |
+| 8 - 10 s | Deuxième visage, éclairé par intermittence | — |
+| 10 - 12 s | Rangée de téléphones levés | — |
+| 12 - 14 s | Travelling lent derrière le public | — |
+| 14 - 16 s | Troisième visage, réaction forte | — |
+| 16 - 18 s | Plan large, tout le public | — |
+| 18 - 25 s | **On bascule sur le ciel.** Le feu, plein cadre, sans coupure | — |
 
-**À filmer : I1.** Un plan continu de 20 secondes suffit, on coupe au montage.
-**Son :** le son réel du public, indispensable. C'est lui qui porte la vidéo.
+### Ce qu'il faut rapporter (filmer 5 à 8 s chacun)
+
+`R1a` `R1b` `R1c` — trois visages différents en gros plan, de trois-quarts ou de profil
+`R2` — plan large du public de dos, statique
+`R3` — le même plan large depuis un autre angle
+`R4` — mains qui pointent
+`R5` — enfant sur les épaules
+`R6` — téléphones levés
+`R7` — travelling latéral lent derrière le public
+`R8` — contre-plongée depuis derrière le public vers le ciel
+`R9a` `R9b` — le feu plein cadre, deux moments différents
+`R10` — le final en entier
+
+**Le son du public est indispensable.** Ne coupez pas le micro, ne mettez pas de musique
+par-dessus les réactions. Les « oh », c'est ce qui porte la vidéo.
+
+> **Il faut quelqu'un côté public.** Si vous êtes tous les deux au poste de tir, confiez un
+> téléphone à une personne de confiance avec cette liste. Sans elle, ce Reel n'existe pas.
 
 ---
 
-## Reel du 18/09 — « Il a dit oui. Le ciel aussi. »
+# Reel du 18/09 — « Il a dit oui. Le ciel aussi. »
 
-| Temps | Ce qu'on voit | Texte incrusté |
+**Cible : 20-22 s, 11 plans.**
+
+| Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 4 s | Une silhouette de dos, plan large, ciel encore vide | « IL A DIT OUI. » |
-| 4 - 6 s | Le départ | — |
-| 6 - 20 s | Le feu se déploie | « LE CIEL AUSSI. » |
+| 0 - 2 s | **Accroche** : silhouette de dos, plan large, ciel encore vide | « IL AVAIT PRÉPARÉ UNE PHRASE. » |
+| 2 - 4 s | Détail : deux mains qui se rejoignent | — |
+| 4 - 5 s | Le premier départ | — |
+| 5 - 7 s | La silhouette qui se retourne | « IL NE S'EN SOUVIENT PLUS. » |
+| 7 - 12 s | Le feu, deux ou trois plans enchaînés | — |
+| 12 - 15 s | Silhouettes de dos **et** feu dans le même cadre | — |
+| 15 - 22 s | Le feu, plan final | « IL A DIT OUI. LE CIEL AUSSI. » |
 
-**À filmer : H3**, un départ vertical serré. Pour la silhouette, deux personnes de dos suffisent —
-de dos, personne n'est identifiable, donc aucun problème de droit à l'image.
-**Son :** montée douce, coupure nette au premier départ.
+### Ce qu'il faut rapporter
+
+`S1` — silhouette de dos, plan large, avant le tir (ciel vide)
+`S2` — détail de deux mains
+`S3a` `S3b` — un départ vertical serré, deux prises
+`S4` — la silhouette qui se retourne
+`S5a` `S5b` `S5c` — le feu, trois moments
+`S6` — silhouettes + feu dans le même cadre, plan large
+
+> De dos, personne n'est identifiable : deux personnes de l'équipe suffisent. Aucun problème
+> de droit à l'image.
 
 ---
 
-## Reel du 20/09 — « De la caisse au dispositif »
+# Reel du 20/09 — « De la caisse au dispositif »
 
-Le format « process » : des plans courts qui s'enchaînent. C'est celui qui retient le mieux.
+Format « process ». C'est celui qui retient le mieux, et le plus facile à tourner : tout se passe
+de jour, sans public, sans urgence.
 
-| Plan | Durée | Ce qu'on voit |
+**Cible : 25-28 s, 14 plans.**
+
+| Temps | Plan | Texte incrusté |
 |---|---|---|
-| C1 | 2-3 s | Déchargement des caisses |
-| C2 | 2-3 s | Positionnement au sol |
-| **C3** | 4-5 s | **Calage et lestage** — c'est le message, insistez |
-| C4 | 3 s | Mesure de la distance de sécurité |
-| C5 | 4 s | Recul, dispositif prêt, plan large |
+| 0 - 2 s | **Accroche** : la caisse fermée, une main qui l'ouvre | « DE LA CAISSE AU DISPOSITIF » |
+| 2 - 4 s | Déchargement, plan large | — |
+| 4 - 6 s | Portage, plan serré | — |
+| 6 - 8 s | Positionnement au sol | — |
+| 8 - 10 s | Le même, vu du dessus | — |
+| 10 - 14 s | **Calage et lestage** — deux plans, c'est le message | « LE CALAGE, C'EST CE QUE TOUT LE MONDE NÉGLIGE » |
+| 14 - 17 s | Le mètre qu'on déroule | — |
+| 17 - 19 s | Vérification, mains sur le dispositif | — |
+| 19 - 22 s | Recul, on s'éloigne | — |
+| 22 - 28 s | Dispositif prêt, plan large, lumière de fin de journée | « 3 HEURES POUR 3 MINUTES » |
 
-**Texte incrusté au début :** « DE LA CAISSE AU DISPOSITIF »
-**Son :** ambiance de chantier, aucune musique épique. Le bruit du travail suffit.
-**Couverture :** la photo du dispositif monté est déjà en place dans le design Canva.
+### Ce qu'il faut rapporter
 
----
+`M1` caisse fermée + main · `M2` ouverture · `M3` déchargement large · `M4` déchargement serré
+`M5` portage · `M6` positionnement · `M7` positionnement vu de dessus · `M8a` `M8b` calage
+`M9` lestage · `M10` mètre déroulé · `M11` vérification · `M12` recul · `M13` dispositif prêt
 
-## Si vous ne rapportez aucune vidéo
-
-Rien n'est bloqué définitivement :
-
-1. **Une photo à la place.** Les trois publications fonctionnent en post simple avec la
-   couverture déjà maquettée. On perd la portée du Reel, pas la publication.
-2. **Un décalage d'une semaine**, le temps du feu suivant.
-3. **Un carrousel de remplacement**, comme pour celle du 2 septembre.
-
-Dites-le moi et je bascule le format en quelques minutes.
+**Son d'ambiance uniquement.** Le scotch, le gravier, les clips. Pas de musique épique.
 
 ---
 
-## Une option si vous la voulez
+## Le montage, concrètement
 
-Les couvertures sont maquettées en **4:5** (1080 × 1350), le format des posts. Instagram accepte
-ce format en couverture de Reel, mais recadre.
+**CapCut** est le plus simple et gratuit. Canva sait le faire aussi, mais est moins à l'aise
+sur le rythme rapide.
 
-Je peux produire des **couvertures 9:16 dédiées** pour les trois Reels, cadrées au pixel près.
-Ça n'a d'intérêt que si vous tenez à une grille parfaitement homogène — dites-le moi.
+1. Importez tout, jetez ce qui est flou ou mal exposé.
+2. Posez d'abord l'accroche : votre meilleur plan, en premier, sans hésiter.
+3. Coupez chaque plan à 1,5-3 s. **Si un plan dépasse 3 s, demandez-vous pourquoi.**
+4. Ajoutez le texte dès la première image, pas à la troisième seconde.
+5. Musique en fond, volume bas, sous le son réel.
+6. **Regardez le résultat sans le son.** Si ça tient, c'est bon : la moitié des gens regardent muet.
+
+---
+
+## Si vous ne rapportez pas de quoi monter
+
+Rien n'est bloqué :
+
+1. **Post simple** avec la couverture déjà maquettée. On perd la portée du Reel, pas la publication.
+2. **Décalage d'une semaine**, au feu suivant.
+3. **Carrousel de remplacement**, comme celui du 2 septembre.
+
+Dites-le moi, je bascule le format en quelques minutes.

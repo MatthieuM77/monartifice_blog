@@ -54,7 +54,9 @@ plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail s
 | Point | Consigne |
 |---|---|
 | **Format** | **Vertical 9:16** par défaut, c'est le format d'Instagram et Facebook. Faites en plus quelques plans en **4:5** pour les carrousels. Filmez toujours plus large que nécessaire : on recadre après, on ne dézoome jamais. |
-| **Photo ET vidéo** | Pour chaque plan-clé, prenez **la photo puis 10 secondes de vidéo**. La vidéo alimente les Reels, qui portent toute la croissance du compte. |
+| **Photo ET vidéo** | Pour chaque plan-clé, prenez **la photo puis 5 à 8 secondes de vidéo**. |
+| **⚠️ Les Reels demandent bien plus** | Un Reel de 25 s se monte avec **12 à 15 plans**, donc il faut en filmer 25 à 30 : la même scène sous plusieurs angles, en prises courtes. Les trois listes de tournage sont dans `REELS.md` — **lisez-les avant de partir**, elles conditionnent trois publications. |
+| **Verrouillez l'exposition la nuit** | Appui long sur l'écran avant de filmer. Sinon le téléphone « pompe » à chaque départ et la prise est inutilisable. |
 | **Lumière** | L'heure dorée avant le coucher du soleil est la meilleure. À la nuit tombée, la **frontale** ou une lampe de chantier crée une lumière de travail très photogénique — n'éclairez pas à plat. |
 | **Le brut gagne** | Ne cherchez pas la photo propre. Mains sales, boue, buée, frontale : c'est ça qui prouve que c'est réel. Une photo trop léchée ressemble à du stock et ne convainc personne. |
 | **Les mains** | Filmez et photographiez **les mains en train de faire**. C'est le plan qui retient le plus, de loin. |
@@ -205,6 +207,20 @@ Si le temps le permet. Ces images resserviront toute l'année.
 > **G3** (l'étiquette produit en gros plan).
 
 ---
+
+## Les trois Reels — ne les oubliez pas
+
+Trois publications de septembre sont des Reels, et ils ne se montent pas avec les plans photo
+listés ci-dessus. Ils ont leur propre liste de tournage, nettement plus fournie :
+
+| Reel | Publication | Plans à filmer |
+|---|---|---|
+| Le public qui lève la tête | 11/09 | `R1a` → `R10` — **13 plans**, dont trois visages différents |
+| Il a dit oui | 18/09 | `S1` → `S6` — **9 plans** |
+| De la caisse au dispositif | 20/09 | `M1` → `M13` — **14 plans**, de jour, tranquillement |
+
+Le détail seconde par seconde est dans **`REELS.md`**. Celui du 20/09 se tourne de jour, sans
+public : c'est le plus simple, faites-le en premier pendant le montage.
 
 ## Après le shooting
 
