@@ -389,21 +389,46 @@ def render(post, sl, idx, total, note, seed):
 
 
 def main():
+    """Un fichier HTML par publication : chaque carrousel devient un design Canva
+    autonome, directement publiable, plutot qu'un bloc de 44 pages a decouper."""
+    posts_md = sorted((ROOT / "posts/2026/09").glob("*.md"))
     caps = captions()
-    assert len(caps) == len(POSTS), f"{len(caps)} légendes pour {len(POSTS)} publications"
-    pages, seed = [], 0
-    for post, cap in zip(POSTS, caps):
+    assert len(caps) == len(POSTS) == len(posts_md), "posts et slides desynchronises"
+    dossier = ROOT / "visuels/2026/09"
+    for vieux in dossier.glob("*.html"):
+        vieux.unlink()
+
+    index, seed = [], 0
+    for post, cap, md in zip(POSTS, caps, posts_md):
         n = len(post["slides"])
+        pages = []
         for i, sl in enumerate(post["slides"], 1):
             seed += 17
             note = cap if i == 1 else f'{post["titre"]} — slide {i}/{n}. Légende sur la slide 1.'
             pages.append(render(post, sl, i, n, note, seed))
-    doc = ('<!doctype html><html lang="fr"><head><meta charset="utf-8">'
-           f'<title>Mon Artifice — Septembre 2026</title><style>{CSS}</style></head>'
-           f'<body>{"".join(pages)}</body></html>')
-    out = ROOT / "visuels/2026/09/septembre-2026.html"
-    out.write_text(doc, encoding="utf-8")
-    print(f'{out.name} — {len(POSTS)} publications, {len(pages)} pages, {len(doc)//1024} Ko')
+        titre = f'{post["date"]} — {post["titre"]}'
+        doc = ('<!doctype html><html lang="fr"><head><meta charset="utf-8">'
+               f'<title>{html.escape(titre)}</title><style>{CSS}</style></head>'
+               f'<body>{"".join(pages)}</body></html>')
+        out = dossier / f"{md.stem}.html"
+        out.write_text(doc, encoding="utf-8")
+        index.append((post, md.stem, n, len(doc) // 1024))
+
+    lignes = ["# Visuels — Septembre 2026", "",
+              "Un fichier par publication : chaque carrousel est un design Canva autonome.",
+              "Regénérer avec `python3 social/visuels/build_visuels.py`.", "",
+              "| # | Date | Publication | Format | Slides | Fichier |",
+              "|---|---|---|---|---|---|"]
+    for post, stem, n, ko in index:
+        lignes.append(f'| {post["n"]} | {post["date"]} | {post["titre"]} | {post["fmt"]} '
+                      f'| {n} | `{stem}.html` |')
+    (dossier / "README.md").write_text("\n".join(lignes) + "\n", encoding="utf-8")
+
+    tot = sum(n for _, _, n, _ in index)
+    print(f"{len(index)} fichiers · {tot} slides · "
+          f"{sum(k for _, _, _, k in index)} Ko au total")
+    for post, stem, n, ko in index:
+        print(f'  {post["n"]}  {post["date"]}  {n} slide(s)  {ko:>4} Ko  {stem}.html')
 
 
 if __name__ == "__main__":

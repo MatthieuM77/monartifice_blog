@@ -12,7 +12,8 @@ Instagram + Facebook · Septembre 2026 → Août 2027 · **208 publications**
 | `calendrier/CALENDRIER-ANNUEL.md` | Vue macro des 12 mois, temps forts et campagnes. |
 | `calendrier/2026-09.md` | Calendrier détaillé du mois : date, heure, pilier, format, sujet, produit. |
 | `posts/2026/09/*.md` | Un fichier par publication : brief visuel, texte Instagram, texte Facebook, hashtags, story associée. |
-| `visuels/2026/09/septembre-2026.html` | Les 17 visuels, en pages séparées, prêts à importer dans Canva. |
+| `visuels/2026/09/*.html` | **Un fichier par publication.** Chaque carrousel est un design Canva autonome, directement publiable. Voir `visuels/2026/09/README.md`. |
+| `VALIDATION-SEPTEMBRE.md` | Ce qui reste pour publier : photos manquantes, relectures, décisions. |
 | `visuels/build_visuels.py` | Générateur des visuels. Les textes sont lus depuis `posts/` — **source unique de vérité**. |
 
 ## Phase actuelle : pré-lancement
@@ -55,22 +56,23 @@ Le dépôt étant passé en public, l'import fonctionne directement depuis l'URL
 
 | | |
 |---|---|
-| **Design** | [Mon Artifice — Septembre 2026](https://www.canva.com/d/lYp5ssifn6winx1) — 17 pages |
 | **Dossier** | [Mon artifice / 2026 / 09 - Septembre](https://www.canva.com/folder/FAHTx4uZdp4) |
-| **Source** | `social/visuels/2026/09/septembre-2026.html` |
+| **Designs** | Un par publication, nommé `JJ/MM — Titre` |
+| **Source** | `social/visuels/2026/09/<date>-<slug>.html` |
 
-Chaque page porte sa date en titre et la légende Instagram en notes de page.
+Chaque design contient exactement les slides de sa publication. La slide 1 porte la légende
+Instagram en notes de page ; les suivantes rappellent leur rang.
 
 ### Réimporter après modification
 
 ```bash
-python3 social/visuels/build_visuels.py      # régénère le HTML
+python3 social/visuels/build_visuels.py      # régénère les 17 fichiers
 git add -A && git commit && git push          # publie la nouvelle version
 ```
 
-Puis relancer l'import depuis l'URL brute. **L'import crée un nouveau design** : il ne met pas à
-jour l'existant. Si vous avez déjà retouché des pages dans Canva, ne réimportez pas — modifiez
-directement dans Canva, ou réimportez et repartez du nouveau design.
+Puis relancer l'import de la publication concernée. **L'import crée un nouveau design** : il ne
+met pas à jour l'existant. Avantage du découpage en un fichier par publication : on ne réimporte
+que celle qui a changé, sans toucher aux autres déjà retouchées dans Canva.
 
 > ⚠️ **Le dépôt est public.** N'y placez ni prix, ni données clients, ni identifiants tant qu'il
 > l'est. Une fois tous les mois importés dans Canva, il peut être repassé en privé : les designs

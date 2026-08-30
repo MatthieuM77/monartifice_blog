@@ -17,7 +17,7 @@ Tout est écrit et maquetté. Il reste **9 photos** et **4 relectures**.
 | Stories associées décrites | ✅ |
 | **44 slides maquettées**, aux couleurs et au logo de la marque | ✅ |
 | 5 photos intégrées | ✅ |
-| Import Canva | ✅ |
+| Import Canva | ✅ — **un design par publication** |
 
 ## 2. Les 8 carrousels
 
