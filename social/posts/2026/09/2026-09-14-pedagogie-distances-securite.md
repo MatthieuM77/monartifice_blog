@@ -2,53 +2,61 @@
 
 | | |
 |---|---|
-| **Pilier** | 3 — Pédagogie, sécurité & réglementation |
+| **Pilier** | 3 — Pédagogie & sécurité |
 | **Format** | Carrousel infographique 5 slides |
-| **Produit** | Aucun |
-| **Objectif** | Enregistrements + autorité |
+| **Objectif** | Enregistrements + autorité. **Chiffres réels du catalogue.** |
 
 ## Visuel
-Vue du dessus schématique : le produit au centre, cercle de sécurité, zone spectateurs, zone interdite.
-**S1** — **« LA DISTANCE DE SÉCURITÉ, SIMPLEMENT »**
-**S2** — La distance est indiquée sur chaque produit — c'est elle qui fait foi
-**S3** — Elle se mesure dans TOUTES les directions, pas seulement devant
-**S4** — Ce qu'on oublie : le vent, les arbres, les fils, les toitures
-**S5** — « En cas de doute, reculez encore. » + CTA enregistrer
+Vue de dessus schématique : produit au centre, cercle de sécurité, zone spectateurs.
+**S1** — **« 8 MÈTRES OU 25 MÈTRES ? »**
+**S2** — Schéma F2 → 8 m
+**S3** — Schéma F3 → 25 m
+**S4** — « Elle se mesure dans toutes les directions. Pas seulement devant. »
+**S5** — « Vent, arbres, fils, toitures : à regarder aussi. » + CTA enregistrer
 
-> ⚠️ **Ne jamais publier de chiffre générique.** La distance dépend du produit : renvoyer
-> systématiquement à la notice de la référence concernée.
+> ✅ Chiffres issus du catalogue : les F2 sont à **8 m**, les F3 à **25 m**.
+> Toujours renvoyer à la notice du produit précis — c'est elle qui fait foi.
 
 ## Texte Instagram
-La distance de sécurité, ce n'est pas une estimation à l'œil.
+8 mètres ou 25 mètres. La différence n'est pas un détail.
 
-3 choses que beaucoup ignorent :
+Sur notre catalogue, c'est très simple :
+→ Un produit **F2** demande **8 mètres** de distance de sécurité
+→ Un produit **F3** en demande **25 mètres**
 
-→ Elle est écrite sur chaque produit. C'est celle-là qui fait foi, pas celle du voisin qui « en fait tous les ans ».
+Trois fois plus. Et beaucoup de gens découvrent ça le jour J, une fois le produit acheté.
 
-→ Elle se mesure dans toutes les directions. Pas seulement devant le public.
+Ce qu'il faut savoir en plus :
 
-→ Elle ne suffit pas à elle seule. Regardez aussi : le vent, les arbres, les fils électriques, les toitures.
+→ Elle se mesure dans **toutes les directions**, pas seulement face au public
+→ Elle ne suffit pas à elle seule : regardez le vent, les arbres, les fils électriques, les toitures
+→ La notice du produit fait foi. Toujours.
 
-En cas de doute, la bonne décision est toujours la même : reculez encore.
+Avant d'acheter, mesurez votre terrain. C'est le vrai critère de choix, avant la durée et avant le nombre de coups.
 
-Enregistrez, ça vous resservira 🔖
+Enregistrez 🔖
 
-#MonArtifice #securite #feudartifice #pyrotechnie #conseilexpert #reglementation #FeuDArtificePortable #bonasavoir #evenementiel #prevention #feuxdartifice #france
+#MonArtifice #securite #feudartifice #pyrotechnie #conseilexpert #reglementation #artificier #bonasavoir #evenementiel #prevention #feuxdartifice #france #distancedesecurite
 
 ## Texte Facebook
-**La distance de sécurité, ce n'est pas une estimation à l'œil nu.**
+**8 mètres ou 25 mètres ? La différence n'est pas un détail.**
 
-Trois choses que beaucoup de gens ignorent :
+Sur notre catalogue, la règle est simple :
 
-📏 **Elle est écrite sur chaque produit.** C'est cette distance-là qui fait foi — pas celle du voisin qui « en fait tous les ans sans problème ».
+📏 Un produit de catégorie **F2** demande **8 mètres** de distance de sécurité.
+📏 Un produit de catégorie **F3** en demande **25 mètres**.
 
-🧭 **Elle se mesure dans toutes les directions**, pas uniquement face au public. Derrière et sur les côtés aussi.
+Trois fois plus. Et beaucoup de gens le découvrent le jour J, une fois le produit acheté et le terrain déjà trop petit.
 
-🌬️ **Elle ne suffit pas à elle seule.** Il faut aussi regarder le vent, les arbres, les fils électriques et les toitures alentour.
+Trois choses à savoir en complément :
 
-En cas de doute, la bonne décision est toujours la même : reculez encore. Personne n'a jamais regretté d'avoir pris trop de marge.
+🧭 La distance se mesure **dans toutes les directions**, pas uniquement face au public.
+🌬️ Elle ne suffit pas à elle seule : le vent, les arbres, les fils électriques et les toitures comptent autant.
+📋 **La notice du produit fait foi.** Toujours, sans exception.
+
+Notre conseil : avant même de regarder la durée ou le nombre de coups, mesurez votre terrain. C'est le premier critère de choix, et de loin.
 
 #securite #feudartifice #MonArtifice
 
 ## Story associée
-Reprise des 3 points en 3 stories + sticker « question » pour les cas particuliers.
+3 stories : le schéma 8 m, le schéma 25 m, puis sticker question « Vous avez combien de mètres ? »

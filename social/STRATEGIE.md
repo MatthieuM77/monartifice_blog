@@ -28,6 +28,26 @@ Un compte qui ne fait que vendre ne grandit pas ; un compte qui ne vend jamais n
 
 ---
 
+## 2 bis. Phase de pré-lancement — la boutique n'est pas encore en ligne
+
+**C'est la contrainte structurante de septembre.** Le site n'a pas reçu son feu vert, donc :
+
+- **Aucun post produit avant octobre.** Pas de référence mise en avant, pas de « lien en bio »,
+  pas de « fiche sur le site ». Un CTA qui ne mène nulle part détruit la confiance et entraîne
+  l'algorithme à ne plus montrer les posts suivants.
+- **Le CTA de septembre est le message privé** : « Une question ? Écrivez-nous. » Ça convertit
+  la curiosité en conversation, et ça constitue un fichier de prospects qui sera exploitable
+  le jour de l'ouverture.
+- **Septembre sert à construire l'audience et l'autorité**, pas à vendre. Quand la boutique
+  ouvrira, elle ouvrira devant un public déjà là et déjà convaincu. C'est très supérieur à une
+  ouverture devant zéro abonné.
+- **Le pilier Coulisses passe en tête en septembre** (6 posts sur 17 au lieu de 2). C'est
+  l'atout que personne ne peut copier : Mon Artifice est artificier, pas revendeur.
+
+**Si l'ouverture glisse au-delà d'octobre** : les posts produit d'octobre sont conçus pour
+fonctionner avec un CTA « message privé » également. Rien ne casse, il suffit de remplacer
+le CTA — l'assortiment et les visuels restent valables.
+
 ## 3. Les 5 piliers de contenu
 
 Chaque publication appartient à un pilier et un seul. Le mix hebdomadaire est calibré pour que l'algorithme ne perçoive pas le compte comme un catalogue.
@@ -96,15 +116,26 @@ Une identité tenue sur 208 visuels vaut mieux que 208 beaux visuels sans lien e
 
 ### Palette
 
+Reprise du logo : **vert anis + magenta**, posés sur un fond nuit. Le fond sombre n'est pas
+un choix esthétique arbitraire — un feu d'artifice se regarde de nuit, et les deux couleurs de
+la marque y sont bien plus éclatantes que sur blanc.
+
 | Rôle | Couleur | Code |
 |---|---|---|
-| Fond principal | Nuit profonde | `#050814` |
-| Fond secondaire | Bleu nuit | `#0D1330` |
-| Accent principal | Or braise | `#F5A623` |
-| Accent clair | Or étincelle | `#FFD166` |
-| Accent chaud | Rouge passion | `#E63946` |
-| Texte principal | Blanc chaud | `#FFF8E7` |
-| Texte secondaire | Argent | `#C9CCD5` |
+| Fond principal | Nuit | `#08080F` |
+| Fond secondaire | Bleu nuit | `#17172E` |
+| **Accent 1 (logo)** | **Vert anis** | `#8DC63F` |
+| Vert clair | Vert étincelle | `#B4E05C` |
+| **Accent 2 (logo)** | **Magenta** | `#E6007E` |
+| Magenta clair | Rose étincelle | `#FF4DA6` |
+| Texte principal | Blanc | `#FFFFFF` |
+| Texte secondaire | Gris clair | `#C8CBD4` |
+
+> ⚠️ Les deux codes du logo sont **approchés**, relevés visuellement sur le fichier fourni.
+> À remplacer par les valeurs exactes dès réception du logo vectoriel.
+
+**Répartition** : le vert porte les surtitres et les traits ; le magenta porte les badges et les
+points d'accent. Ne jamais les mettre à égalité sur un même visuel — l'un domine, l'autre ponctue.
 
 ### Typographie
 - **Titres** : sans-serif condensée très grasse, majuscules, interlettrage serré.
@@ -140,8 +171,17 @@ Une identité tenue sur 208 visuels vaut mieux que 208 beaux visuels sans lien e
 - **3 hashtags maximum** — au-delà, Facebook pénalise plutôt qu'il n'aide.
 - Le lien boutique peut être mis directement dans le texte (contrairement à Instagram).
 
+### Le CTA, selon la phase
+| Phase | CTA à utiliser |
+|---|---|
+| **Pré-lancement (septembre)** | « Écrivez-nous en message privé » · « Dites-nous en commentaire » · « Enregistrez ce post » |
+| **Boutique en ligne** | « Fiche complète sur le site — lien en bio » |
+
+Un seul CTA par publication. Deux appels à l'action dans un même post, c'est zéro action.
+
 ### Interdits d'écriture
 - Pas de prix.
+- **Pas de CTA vers le site tant qu'il n'est pas en ligne.**
 - Pas de promesse de délai de livraison non garantie.
 - Pas de superlatif invérifiable (« le plus beau feu de France »).
 - Pas d'emoji en rafale : 2 à 4 maximum, choisis.
@@ -190,13 +230,19 @@ Une identité tenue sur 208 visuels vaut mieux que 208 beaux visuels sans lien e
 
 ```
 social/
-├── STRATEGIE.md              ← ce document
-├── PRODUITS.md               ← catalogue de référence (sans prix)
+├── STRATEGIE.md               ← ce document
+├── PRODUITS.md                ← catalogue généré depuis la base (sans prix)
+├── COULISSES-PLAN-PHOTO.md    ← plan de prise de vue des photos métier
+├── data/
+│   ├── produits.json          ← export SQL parsé
+│   └── build_produits.py      ← régénère PRODUITS.md
 ├── calendrier/
-│   ├── CALENDRIER-ANNUEL.md  ← vue macro des 12 mois
-│   └── 2026-09.md            ← détail mensuel
-├── posts/2026/09/            ← un fichier par publication (texte + hashtags)
-└── visuels/2026/09/          ← sources HTML des visuels Canva
+│   ├── CALENDRIER-ANNUEL.md   ← vue macro des 12 mois
+│   └── 2026-09.md             ← détail mensuel
+├── posts/2026/09/             ← un fichier par publication (texte + hashtags)
+└── visuels/
+    ├── build_visuels.py       ← génère le HTML depuis posts/
+    └── 2026/09/               ← visuels prêts pour l'import Canva
 ```
 
 Côté Canva : `Mon artifice / 2026 / 09 - Septembre`, chaque page du design nommée à la date de publication.

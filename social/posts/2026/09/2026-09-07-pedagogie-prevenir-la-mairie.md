@@ -8,20 +8,20 @@
 | **Objectif** | **Enregistrements** + autorité |
 
 ## Visuel
-Fond nuit, mise en page très lisible, un point par slide, pictos or.
+Fond nuit, un point par slide, pictos.
 **S1** — **« FAUT-IL PRÉVENIR LA MAIRIE ? »**
 **S2** — Ce qui dépend de la catégorie du produit
 **S3** — Ce qui dépend du lieu (terrain privé, espace public)
 **S4** — Ce qui dépend de la taille de l'événement
-**S5** — « Dans le doute : appelez votre mairie. C'est gratuit et ça prend 5 minutes. » + CTA enregistrer
+**S5** — « Dans le doute : appelez votre mairie. C'est gratuit. » + CTA enregistrer
 
-> ⚠️ **À faire valider avant publication** : les règles varient selon la catégorie du produit, la commune
-> et le lieu. Formuler en « voici les questions à poser », jamais en conseil juridique définitif.
+> ⚠️ **À faire valider avant publication.** Les règles varient selon la catégorie du produit, la
+> commune et le lieu. Formuler en « voici les questions à poser », jamais en conseil juridique.
 
 ## Texte Instagram
 « Est-ce que je dois prévenir la mairie ? »
 
-C'est LA question qu'on nous pose le plus. Et la réponse honnête, c'est : ça dépend de trois choses.
+C'est LA question qu'on nous pose le plus. Réponse honnête : ça dépend de trois choses.
 
 → La catégorie du produit
 → Le lieu (terrain privé ou espace public)
@@ -31,24 +31,26 @@ Un feu dans son jardin et un feu sur la place du village ne relèvent pas des m�
 
 Notre conseil : un appel à votre mairie. C'est gratuit, ça prend cinq minutes, et ça vous évite toute mauvaise surprise le jour J.
 
+Une question sur votre cas précis ? Écrivez-nous en message privé, on vous répond 💬
+
 Enregistrez ce post, vous en aurez besoin 🔖
 
-#MonArtifice #feudartifice #reglementation #securite #conseilexpert #pyrotechnie #mairie #evenementiel #FeuDArtificePortable #organisationevenement #france #feuxdartifice #bonasavoir
+#MonArtifice #feudartifice #reglementation #securite #conseilexpert #pyrotechnie #mairie #evenementiel #artificier #organisationevenement #france #feuxdartifice #bonasavoir
 
 ## Texte Facebook
 **« Est-ce que je dois prévenir la mairie ? »**
 
 C'est de loin la question qu'on nous pose le plus souvent. La réponse honnête : cela dépend de trois choses.
 
-1️⃣ **La catégorie du produit** — toutes les catégories ne sont pas soumises aux mêmes obligations.
+1️⃣ **La catégorie du produit** — toutes ne sont pas soumises aux mêmes obligations.
 2️⃣ **Le lieu** — un terrain privé et un espace public, ce n'est pas la même chose.
 3️⃣ **La taille de l'événement** — un feu entre amis dans un jardin n'est pas un feu de village.
 
 Notre conseil, systématiquement : passez un coup de fil à votre mairie. C'est gratuit, ça prend cinq minutes, et ça vous évite une très mauvaise surprise le jour J.
 
-Enregistrez ce post, il vous resservira. 🔖
+Vous avez un cas précis en tête ? Écrivez-nous, on vous répond gratuitement. 🔖
 
 #feudartifice #reglementation #MonArtifice
 
 ## Story associée
-Sticker question : « Vous avez déjà appelé votre mairie pour un feu ? » → répondre aux cas concrets en story.
+Sticker question : « Vous avez déjà appelé votre mairie pour un feu ? » → répondre aux cas concrets.

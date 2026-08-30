@@ -4,13 +4,11 @@
 |---|---|
 | **Pilier** | 2 — Émotion & moments |
 | **Format** | Reel vertical 9:16, 20 s |
-| **Produit** | `SC22514` — BOUQUET PRESTIGE ROUGE PASSION (25 départs / 45 s) |
-| **Objectif** | Partages — le contenu « demande en mariage » est le plus partagé du secteur |
+| **Objectif** | Partages — c'est le contenu le plus partagé du secteur |
 
 ## Visuel
-Reel : silhouette d'un couple de dos, plan large. Le feu part en rouge. Elle se retourne.
+Silhouette d'un couple de dos, plan large. Le feu part. Elle se retourne.
 Texte incrusté : **« IL A DIT OUI. LE CIEL AUSSI. »**
-Musique douce, montée progressive.
 
 ## Texte Instagram
 Il avait préparé une phrase. Il ne s'en souvient plus.
@@ -19,11 +17,13 @@ C'est toujours pareil avec les demandes en mariage : on répète pendant des sem
 
 Alors autant que le décor parle à votre place.
 
-Le Bouquet Prestige Rouge Passion — 45 secondes, tout en rouge. Assez court pour rester un moment à deux. Assez fort pour qu'elle s'en souvienne toute sa vie.
+Notre conseil de pros, si vous préparez ça : prenez court. 30 à 45 secondes suffisent largement. Un feu de 5 minutes sur une demande en mariage, c'est trop long — le moment doit rester à deux.
 
-Enregistrez ce post. Vous connaissez sûrement quelqu'un qui en a besoin 🔖
+Vous préparez une demande ? Écrivez-nous en message privé, on vous aide à caler ça discrètement 💬
 
-#MonArtifice #demandeenmariage #jemarie #feudartifice #FeuDArtificePortable #surprise #romantique #futuremariee #mariage2027 #momentmagique #inspirationmariage #weddingfrance #souvenirs #amour
+Enregistrez. Vous connaissez sûrement quelqu'un qui en a besoin 🔖
+
+#MonArtifice #demandeenmariage #jemarie #feudartifice #artificier #surprise #romantique #futuremariee #mariage2027 #momentmagique #inspirationmariage #weddingfrance #souvenirs #amour
 
 ## Texte Facebook
 **Il avait préparé une phrase. Le moment venu, il ne s'en souvenait plus.**
@@ -32,9 +32,9 @@ C'est toujours la même histoire avec les demandes en mariage : on répète pend
 
 Alors autant laisser le décor parler à votre place.
 
-Le Bouquet Prestige Rouge Passion, c'est 45 secondes entièrement en rouge. Assez court pour que le moment reste à deux. Assez fort pour qu'elle s'en souvienne toute sa vie.
+Notre conseil de professionnels, si vous préparez ça : **prenez court**. Trente à quarante-cinq secondes suffisent largement. Un feu de cinq minutes sur une demande en mariage, c'est trop long — le moment doit rester à deux, pas devenir un spectacle.
 
-Vous connaissez quelqu'un qui prépare sa demande ? Partagez-lui ce post. ❤️
+Vous préparez une demande ? Écrivez-nous en privé, on vous aide à caler ça discrètement. ❤️
 
 #demandeenmariage #feudartifice #MonArtifice
 

@@ -5,8 +5,8 @@
 
 | Mois | Posts | Temps fort | Campagne dominante | Produits en tête |
 |---|---|---|---|---|
-| **Sept. 2026** | 17 | Rentrée, fin de saison mariage | *« Le dernier feu de la saison »* | Mariage, Soirée |
-| **Oct. 2026** | 17 | Halloween (31), mariages d'automne | *« La nuit tombe plus tôt »* | Intenses, Découverte |
+| **Sept. 2026** | 17 | **Pré-lancement — boutique pas en ligne** | *« Artificiers de métier »* | **Aucun** — coulisses et pédagogie |
+| **Oct. 2026** | 17 | Halloween (31), **1ers posts produit** | *« On vous présente nos feux »* | Bouquets, Mad Fire Box® |
 | **Nov. 2026** | 18 | Diwali (8), Black Friday (27) | **Lancement campagne Nouvel An** | XL, Mad Fire Box® |
 | **Déc. 2026** | 17 **+18 renfort** | **Saint-Sylvestre (31) — PIC N°1** | *« Comptez jusqu'à minuit »* | Toute la gamme, XL en tête |
 | **Janv. 2027** | 18 | Reprise, projets de mariage | *« On commence l'année »* | Découverte, Petits espaces |
@@ -31,6 +31,12 @@
 | 5 — Communauté | 10 % | ~21 | Interagir, rassurer |
 
 ---
+
+## Décalage du pilier Produit
+
+La boutique n'étant pas en ligne, **le pilier Produit ne démarre qu'en octobre**. Septembre
+redistribue ses 5 posts produit sur le pilier Coulisses métier, qui passe de 2 à 6 publications.
+Sur l'année, la répartition cible reste inchangée.
 
 ## Les deux campagnes majeures
 
@@ -67,7 +73,7 @@ là où l'intention d'achat est à son maximum.
 
 | Mois | Calendrier détaillé | Textes + hashtags | Visuels Canva |
 |---|---|---|---|
-| Sept. 2026 | ✅ | ✅ 17/17 | ✅ 17/17 |
+| Sept. 2026 | ✅ | ✅ 17/17 | ✅ 17/17 (9 en attente de vos photos) |
 | Oct. 2026 → Août 2027 | ⏳ à produire | ⏳ | ⏳ |
 
 Production **mois par mois**, chaque mois validé avant de lancer le suivant.

@@ -2,47 +2,49 @@
 
 | | |
 |---|---|
-| **Pilier** | 5 — Communauté & preuve sociale |
+| **Pilier** | 5 — Communauté |
 | **Format** | Post sondage + sticker sondage en story |
-| **Produit** | Aucun (mais nourrit toute la gamme) |
-| **Objectif** | Interactions — et donnée commerciale exploitable |
+| **Objectif** | Interactions + **donnée commerciale** pour calibrer l'assortiment |
 
 ## Visuel
-Fond nuit, très épuré. Quatre blocs verticaux de hauteur croissante, en dégradé or.
-Titre : **« VOTRE FEU IDÉAL DURE COMBIEN DE TEMPS ? »**
-Les 4 options lisibles : `1 MIN 30` · `3 MIN` · `5 MIN` · `8 MIN`
+Quatre blocs de hauteur croissante. Titre : **« VOTRE FEU IDÉAL DURE COMBIEN DE TEMPS ? »**
+Options : `30 SEC` · `1 MIN 30` · `3 MIN` · `5 MIN`
 
 ## Texte Instagram
-Question sérieuse — et on lira toutes les réponses.
+Question sérieuse — on lira toutes les réponses.
 
-Pour VOTRE événement, votre feu d'artifice idéal, il dure combien de temps ?
+Pour VOTRE événement, le feu idéal, il dure combien de temps ?
 
-1 min 30 → court et intense
+30 sec → un bouquet final, court et très dense
+1 min 30 → l'entrée de gamme, largement suffisante pour un jardin
 3 min → le format classique
-5 min → le vrai spectacle
-8 min → on ne se refuse rien
+5 min → le vrai spectacle, souvent synchronisé sur musique
 
-Il n'y a pas de mauvaise réponse. Un feu de 8 minutes pour un anniversaire dans un jardin, c'est trop. Un feu de 90 secondes pour un mariage de 150 personnes, c'est court.
+Il n'y a pas de mauvaise réponse, mais il y a des mauvais accords. 5 minutes pour un anniversaire dans un jardin, c'est long. 30 secondes pour un mariage de 150 personnes, c'est frustrant.
 
-Dites-nous en commentaire 👇 On vous répond individuellement.
+Dites-nous en commentaire 👇 On répond à chacun.
 
-#MonArtifice #feudartifice #feuxdartifice #sondage #evenementiel #mariage #conseilexpert #pyrotechnie #FeuDArtificePortable #votreavis #france #soireeprivee
+#MonArtifice #feudartifice #feuxdartifice #sondage #evenementiel #mariage #conseilexpert #pyrotechnie #artificier #votreavis #france #soireeprivee
 
 ## Texte Facebook
 **Question sérieuse — et on lira toutes les réponses.**
 
-Pour VOTRE événement, votre feu d'artifice idéal, il dure combien de temps ?
+Pour VOTRE événement, le feu d'artifice idéal, il dure combien de temps ?
 
-⏱️ 1 min 30 — court et intense
-⏱️ 3 min — le format classique
-⏱️ 5 min — le vrai spectacle
-⏱️ 8 min — on ne se refuse rien
+⏱️ 30 secondes — un bouquet final, court et très dense
+⏱️ 1 min 30 — largement suffisant pour un jardin
+⏱️ 3 minutes — le format classique
+⏱️ 5 minutes — le vrai spectacle, souvent synchronisé sur musique
 
-Il n'y a pas de mauvaise réponse, mais il y a des mauvais accords. Huit minutes pour un anniversaire dans un jardin, c'est trop long. Quatre-vingt-dix secondes pour un mariage de 150 personnes, c'est frustrant.
+Il n'y a pas de mauvaise réponse, mais il y a des mauvais accords. Cinq minutes pour un anniversaire dans un jardin, c'est long. Trente secondes pour un mariage de 150 personnes, c'est frustrant.
 
-Dites-nous en commentaire, on vous répond un par un. 👇
+Dites-nous en commentaire, on répond à chacun. 👇
 
 #feudartifice #MonArtifice #evenementiel
 
 ## Story associée
-Sticker sondage avec les 4 durées. Résultats republiés le lendemain — excellent contenu de suite.
+Sticker sondage avec les 4 durées. **Republier les résultats le lendemain** — excellent contenu de suite.
+
+## Note interne
+Les réponses servent directement à calibrer l'assortiment et les priorités de mise en avant
+d'octobre. Noter la répartition dans un fichier.
