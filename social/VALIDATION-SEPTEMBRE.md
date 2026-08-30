@@ -50,23 +50,27 @@ des maquettes Canva : vous voyez directement où chaque photo doit venir.
 
 | Plan | Publication | Slide | Ce qu'il faut photographier | Cadrage |
 |---|---|---|---|---|
-| **T3** | 11/09 — L'autre côté du feu | 1/1 | Le premier départ vu de derrière la rampe | Trépied posé et lancé avant le tir |
+| **T8** | 11/09 — L'autre côté du feu | 1/1 | Vous de dos au pupitre, le feu devant vous | Trépied **au poste de tir**, lancé avant la clé |
 | **A2** | 13/09 — Le méchage | 3/5 | Le détail d'un raccord de mèche | Macro, sur le dispositif méché |
 | **A3** | 13/09 — Le méchage | 4/5 | Le dispositif méché en plan large, prêt à tirer | Trois-quarts, avant le tir |
 | **B2** | 16/09 — La mise d'inflammateur | 2/4 | Le câblage des inflammateurs | Serré sur les fils et leurs couleurs |
-| **T4** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Les tubes qui partent en enfilade, plan serré | Trépied posé et lancé avant le tir |
+| **T10** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Le feu seul, plein cadre | Depuis le poste de tir |
 | **D2** | 23/09 — Le tableau de tir | 2/4 | Les lignes numérotées du tableau de tir | Macro sur le pupitre |
 | **H2** | 25/09 — Les mariages de septembre | 1/1 | Le feu en plan large avec le lieu dans le cadre | Cadrer large, ne pas serrer sur le ciel |
 | **F1** | 30/09 — Ce qu'il reste après | 1/4 | Le site vide après le tir, dispositif éteint | Lumière froide, fin d'intervention |
 | **F2** | 30/09 — Ce qu'il reste après | 2/4 | Le ramassage des reliquats à la lampe | Gros plan mains + lampe |
 
-### Tout se filme depuis le poste de tir
+### Où et quand filmer
 
-Aucun plan ne demande d'être côté public. C'est un correctif important : vous êtes artificiers,
-votre place est derrière la rampe, et c'est exactement ce que personne d'autre ne peut montrer.
+Deux correctifs importants. Aucun plan ne demande d'être **côté public** : vous êtes artificiers.
+Et aucun plan ne demande d'être **près des mortiers pendant le tir** : vous tirez électriquement,
+personne n'est là-bas, et on n'y laisse pas de matériel qu'il faudrait aller rechercher.
 
-1. **T3 et T4** — le départ vu de derrière la rampe. **Trépied posé et lancé avant le tir**,
-   jamais de téléphone en main une fois la clé tournée.
+**La règle : les gros plans du dispositif se font avant le tir, le spectacle se filme depuis
+le poste.**
+
+1. **T8** — vous de dos au pupitre, le feu devant vous. Trépied **au poste de tir**, derrière
+   vous, lancé avant de tourner la clé. C'est le plan qui vaut tous les autres.
 2. **A2, A3, B2, D2** — les macros de chantier. Faciles, à faire pendant le montage.
 3. **H2** — le feu en plan large avec le lieu dans le cadre. Ne prenez pas que du serré.
 4. **F1, F2** — après le tir. C'est celles qu'on oublie parce qu'on est fatigué.

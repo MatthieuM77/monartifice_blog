@@ -43,7 +43,7 @@ filmée sous plusieurs angles, en plusieurs prises courtes, au lieu d'un long pl
 | **Vertical 9:16, toujours** | On ne rattrape pas un plan horizontal. |
 | **Chaque prise : 5 à 8 secondes** | On coupera dedans. Une prise de 3 s ne laisse aucune marge. |
 | **Le même moment sous 2 ou 3 angles** | C'est ce qui permet de couper sans que ça saute. Sans angles multiples, pas de montage. |
-| **Un deuxième téléphone sur trépied** | Posé avant le tir, laissé tourner. C'est lui qui capte les plans rapprochés du départ, que vous ne pouvez pas filmer à la main. Le plus rentable des accessoires. |
+| **Un deuxième téléphone sur trépied, AU POSTE DE TIR** | Posé derrière vous, lancé avant de tourner la clé, laissé tourner. Il ne quitte jamais votre position. **Jamais de matériel laissé près du dispositif** : vous tireriez en sachant qu'il faut retourner le chercher. |
 | **Verrouillez l'exposition et la mise au point, la nuit** | Sinon le téléphone « pompe » à chaque départ : l'image s'assombrit puis se rattrape, et c'est inutilisable. Appui long sur l'écran avant de filmer. |
 | **Essuyez l'objectif** | Buée et poussière de chantier. Une trace, et toute la prise est perdue. |
 | **Filmez trois fois trop** | Le seul regret possible. |
@@ -52,57 +52,69 @@ filmée sous plusieurs angles, en plusieurs prises courtes, au lieu d'un long pl
 
 # Reel du 11/09 — « L'autre côté du feu »
 
-**Cet angle a été refait.** La version précédente montrait le public qui lève la tête. C'était
-doublement mauvais : vous êtes artificiers, donc **jamais du côté du public**, et c'est le plan
-le plus banal qui existe — n'importe qui l'a filmé un 14 juillet.
+**Cet angle a été refait deux fois.** D'abord parce qu'il montrait le public, alors que vous êtes
+artificiers et jamais de ce côté-là. Puis parce que les plans rapprochés des mortiers n'ont aucun
+sens : **vous tirez électriquement**, donc personne n'est près des tubes, et il n'est pas question
+d'y laisser du matériel qu'il faudrait aller rechercher.
 
-**Ce que personne n'a, c'est votre place.** Derrière la rampe. C'est le contenu le plus
-différenciant de tout le compte, et il ne demande à personne d'autre que vous.
+**Le vrai plan-clé n'est pas le tube qui part. C'est vous au pupitre, avec votre feu devant vous.**
+C'est ça, tirer électriquement. C'est unique, c'est sûr, et ça raconte le métier bien mieux qu'un
+gros plan de mortier.
 
 **Cible : 25 s, 10 plans.**
+
+### La règle de tournage
+
+| Moment | Ce qu'on peut filmer |
+|---|---|
+| **Avant le tir** | Tout, de près. Le dispositif, les mortiers, le câblage, les connexions. La zone est encore accessible. |
+| **Pendant le tir** | **Uniquement depuis le poste de tir**, à la distance de sécurité. Rien près du dispositif, ni tenu, ni posé. |
+| **Après le tir** | Après la temporisation d'usage, le site, la fumée, les tubes vides. |
+
+Autrement dit : **les gros plans se font avant, le spectacle se filme de loin.** Le téléphone reste
+avec vous, au pupitre.
 
 ### Le montage visé
 
 | Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 2 s | **Accroche** : `T3` le premier départ vu de derrière la rampe, plein cadre | « L'AUTRE CÔTÉ DU FEU » |
-| 2 - 4 s | `T2` la main sur le tableau de tir | — |
-| 4 - 6 s | `T4` les tubes qui partent en enfilade, plan serré | — |
-| 6 - 8 s | `T12` le regard porté sur le dispositif, pas sur le ciel | « ON NE REGARDE PRESQUE JAMAIS EN L'AIR » |
-| 8 - 10 s | `T5` la fumée qui traverse la lumière | — |
-| 10 - 12 s | `T6` silhouette du collègue contre le feu | — |
-| 12 - 14 s | `T11` mains gantées, frontale allumée | — |
-| 14 - 16 s | `T7` contre-plongée depuis le sol vers le ciel | — |
-| 16 - 19 s | `T8` plan large : le dispositif qui tire, le lieu au fond | — |
-| 19 - 25 s | `T9` le final, toute la batterie | « ON EST LES SEULS À VOIR ÇA » |
+| 0 - 2 s | **Accroche** : `T8` vous de dos au pupitre, le feu devant vous | « L'AUTRE CÔTÉ DU FEU » |
+| 2 - 4 s | `T2` les mortiers alignés, avant le tir | — |
+| 4 - 6 s | `T3` le câblage qui court au sol | — |
+| 6 - 8 s | `T6` le pupitre installé, la clé | — |
+| 8 - 10 s | `T9` les mains sur le pupitre, la lueur du feu dessus | « ON NE REGARDE PAS LE CIEL. ON REGARDE NOS LIGNES. » |
+| 10 - 13 s | `T7` plan large depuis le poste : le dispositif qui tire en entier | — |
+| 13 - 15 s | `T12` le collègue en silhouette contre le feu | — |
+| 15 - 18 s | `T11` la fumée qui traverse la lumière, à distance | — |
+| 18 - 21 s | `T10` le feu seul, plein cadre, depuis le poste | — |
+| 21 - 25 s | `T13` le final, toute la batterie | « ON EST LES SEULS À LE VOIR D'ICI » |
 
-### Ce qu'il faut rapporter — séquence T
+### Séquence T — ce qu'il faut rapporter
 
-Tout se filme **depuis le poste de tir**. Rien ne demande d'être ailleurs.
+**Avant le tir** — de près, la zone est accessible
+`T1` le dispositif monté, de dos, ciel encore vide
+`T2` les mortiers alignés, tubes vides, vus de dessus
+`T3` le câblage qui court au sol vers le pupitre
+`T4` la ligne de tir qui s'éloigne du dispositif jusqu'au poste — **elle raconte la distance**
+`T5` mains gantées sur les connexions
+`T6` le pupitre installé, la clé
 
-`T1` le dispositif de dos avant le tir, ciel encore vide
-`T2` la main sur le tableau, la clé qu'on tourne
-`T3` **le premier départ vu de derrière la rampe** — le plan-clé
-`T4` les tubes qui partent en enfilade, serré
-`T5` la fumée qui traverse le faisceau lumineux
-`T6` le collègue de dos, silhouette contre le feu
-`T7` contre-plongée depuis le sol derrière la rampe vers le ciel
-`T8` plan large : dispositif en action + le lieu au fond
-`T9` le final, toute la batterie
-`T10` la fumée qui retombe sur le site, après
-`T11` détail : mains gantées, frontale
-`T12` votre regard sur le dispositif — pas sur le ciel
-`T13` recul lent, on s'éloigne du dispositif qui tire
+**Pendant le tir** — depuis le poste uniquement
+`T7` plan large : le dispositif qui tire, en entier
+`T8` **vous de dos au pupitre, le feu devant vous** — le plan-clé du compte
+`T9` les mains sur le pupitre, la lueur du feu dessus
+`T10` le feu seul, plein cadre
+`T11` la fumée qui traverse la lumière
+`T12` le collègue en silhouette contre le feu
+`T13` le final, toute la batterie
 
-> ### ⚠️ Sécurité — la seule façon de tourner ces plans
->
-> `T3`, `T4` et `T7` se font avec un **téléphone posé sur un petit trépied, placé et lancé
-> AVANT le tir, et laissé tourner**. On récupère la carte après.
->
-> **Jamais un téléphone tenu en main en zone de tir une fois la clé tournée.** Aucune image ne
-> justifie un écart, et un plan raté se refait au feu suivant.
->
-> Prévoyez un trépied de table et une batterie chargée : le téléphone tourne pendant tout le tir.
+**Après le tir**
+`T14` le site, la fumée qui retombe
+`T15` les tubes vides
+
+> `T8` est le plan qui vaut tous les autres. Posez le téléphone sur un trépied **au poste de tir**,
+> derrière vous, lancez-le avant de tourner la clé et laissez-le tourner. Il ne quitte jamais votre
+> position, vous n'avez rien à aller rechercher, et vous obtenez l'image que personne d'autre n'a.
 
 # Reel du 18/09 — « Il a dit oui. Le ciel aussi. »
 
@@ -114,13 +126,13 @@ le temps ni le droit de le filmer sans son accord.
 
 | Temps | Plan | Texte incrusté |
 |---|---|---|
-| 0 - 2 s | **Accroche** : `T1` le ciel encore vide au-dessus de la rampe, calme | « IL AVAIT PRÉPARÉ UNE PHRASE. » |
-| 2 - 4 s | `T2` la main sur le bouton | — |
-| 4 - 5 s | `T4` le départ, gros plan | — |
-| 5 - 8 s | Le feu qui s'ouvre, plan serré | « IL NE S'EN SOUVIENT PLUS. » |
-| 8 - 13 s | Deux plans du feu enchaînés | — |
+| 0 - 2 s | **Accroche** : `T1` le dispositif monté, ciel encore vide | « IL AVAIT PRÉPARÉ UNE PHRASE. » |
+| 2 - 4 s | `T6` le pupitre, la clé | — |
+| 4 - 5 s | `T7` le dispositif qui part, depuis le poste | — |
+| 5 - 8 s | `T10` le feu qui s'ouvre | « IL NE S'EN SOUVIENT PLUS. » |
+| 8 - 13 s | `T10` et `T13`, deux moments du feu | — |
 | 13 - 16 s | `T5` la fumée dans la lumière | — |
-| 16 - 22 s | `T8` plan large : le feu et le lieu | « IL A DIT OUI. LE CIEL AUSSI. » |
+| 16 - 22 s | `T7` plan large : le feu et le lieu | « IL A DIT OUI. LE CIEL AUSSI. » |
 
 Les plans viennent de la **même séquence T** que le Reel du 11/09 : une seule sortie couvre
 les deux, il suffit de monter différemment.

@@ -3,60 +3,67 @@
 | | |
 |---|---|
 | **Pilier** | 2 — Émotion & moments |
-| **Format** | Reel vertical 9:16, 22-25 s — **tournage depuis le poste de tir** |
+| **Format** | Reel vertical 9:16, 25 s — **tournage depuis le poste de tir** |
 | **Objectif** | Portée et partages. **C'est le contenu le plus différenciant du compte.** |
 
 ## Pourquoi cet angle
 
-La version précédente montrait le public qui lève la tête. Deux problèmes : nous sommes
-artificiers, donc **jamais du côté du public**, et surtout c'est le plan le plus banal qui existe —
-n'importe qui l'a filmé un 14 juillet.
+Deux corrections successives ont amené ici.
 
-Ce que personne n'a, c'est **le feu vu de derrière la rampe**. C'est notre place, elle est
-unique, et elle ne se prête pas.
+La première version montrait le public qui lève la tête : impossible, nous sommes artificiers et
+jamais de ce côté-là — et c'est de toute façon le plan le plus banal du sujet.
+
+La deuxième proposait des plans rapprochés des mortiers. Aussi mauvais : **nous tirons
+électriquement.** Personne n'est près des tubes, et il n'est pas question d'y laisser du matériel
+qu'il faudrait aller rechercher.
+
+**Le vrai sujet, c'est le pupitre.** Un artificier au tir électrique, ce n'est pas quelqu'un qui
+court entre les mortiers : c'est quelqu'un debout à distance, qui regarde ses lignes pendant que
+le ciel s'allume devant lui. Personne ne montre ça.
 
 ## Vidéo à tourner
-Voir `REELS.md` → séquence **T**. Treize plans, tous depuis le poste de tir.
+Voir `REELS.md` → séquence **T**, 15 plans.
 
-> ⚠️ **Sécurité.** Les plans rapprochés du départ se font avec un **téléphone fixe posé sur
-> trépied, lancé avant le tir et laissé tourner**. Jamais un téléphone tenu en main en zone de
-> tir une fois la clé tournée. Aucune image ne justifie un écart.
+> ⚠️ **La règle.** Les gros plans du dispositif se font **avant** le tir, quand la zone est
+> accessible. Pendant le tir, on filme **uniquement depuis le poste**, à la distance de sécurité.
+> Le téléphone reste avec nous, sur trépied derrière le pupitre. **Aucun matériel laissé près
+> du dispositif.**
 
 ## Visuel
-Couverture : le dispositif de dos au moment du départ, silhouette de la rampe au premier plan.
+Couverture : **plan `T8`** — l'artificier de dos au pupitre, le feu qui s'ouvre devant lui.
 Texte incrusté : **« L'AUTRE CÔTÉ DU FEU »**
 
 ## Texte Instagram
 Tout le monde filme le ciel.
 
-Nous, on est de l'autre côté.
+Nous, on est de l'autre côté. Debout derrière un pupitre, à bonne distance.
 
-Derrière la rampe, à quelques mètres. On voit les tubes partir un par un. On entend le départ
-avant de voir la lumière. On prend la fumée dans la figure.
+Et le plus étrange, c'est qu'on ne regarde presque jamais en l'air. On regarde nos lignes. On
+compte. On vérifie que chaque départ part quand il doit partir.
 
-Et on ne regarde presque jamais en l'air : on regarde le dispositif, on compte, on vérifie.
+Le feu, on l'entend plus qu'on ne le voit. On le sent dans la poitrine avant de lever les yeux.
 
-C'est la place la moins confortable et la plus belle du spectacle. Elle ne se prête pas.
+C'est la plus belle place du spectacle, et c'est la seule qui ne se prête pas.
 
-Enregistrez si vous ne saviez pas à quoi ça ressemblait 🔖
+Enregistrez si vous ne saviez pas à quoi ça ressemblait de notre côté 🔖
 
-#MonArtifice #artificier #coulisses #feudartifice #pyrotechnie #vuedartificier #metier
-#feuxdartifice #artificierprofessionnel #posteDeTir #savoirfaire #france #behindthescenes
+#MonArtifice #artificier #coulisses #feudartifice #pyrotechnie #tirelectrique #posteDeTir
+#feuxdartifice #artificierprofessionnel #metier #savoirfaire #france #behindthescenes
 
 ## Texte Facebook
 **Tout le monde filme le ciel. Nous, on est de l'autre côté.**
 
-Derrière la rampe, à quelques mètres des départs. On voit les tubes partir un par un. On entend
-le départ avant même de voir la lumière arriver. On prend la fumée dans la figure, et on la
-sent pendant deux jours.
+Debout derrière un pupitre, à bonne distance du dispositif. Le tir est électrique : personne ne
+court entre les mortiers, personne n'allume quoi que ce soit à la main. Tout part d'ici, ligne
+par ligne, à la seconde près.
 
-Et le plus étrange, c'est qu'on ne regarde presque jamais en l'air. On regarde le dispositif.
-On compte. On vérifie que tout part comme prévu.
+Et le plus étrange, c'est qu'on ne regarde presque jamais en l'air. On regarde nos lignes. On
+compte. On vérifie que chaque départ part quand il doit partir. Le feu, on l'entend plus qu'on
+ne le voit — on le sent dans la poitrine avant de lever les yeux.
 
-C'est la place la moins confortable du spectacle, et de très loin la plus belle. Elle ne se
-prête pas — mais on peut vous la montrer. 🎆
+C'est la plus belle place du spectacle. C'est aussi la seule qui ne se prête pas. 🎆
 
 #artificier #feudartifice #MonArtifice
 
 ## Story associée
-Le même plan en story, avec un sticker question : « Vous imaginiez ça comment, de notre côté ? »
+Le plan `T8` en story, avec un sticker question : « Vous imaginiez ça comment, de notre côté ? »
