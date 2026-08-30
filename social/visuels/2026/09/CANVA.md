@@ -12,11 +12,11 @@ il s'ouvre, se retouche et se publie sans avoir à chercher quoi que ce soit.
 | 03 | 06/09 | Votre feu idéal dure combien de temps ? | 1 | [ouvrir](https://www.canva.com/d/nFcdoc9uEgIuMWJ) | — |
 | 04 | 07/09 | Faut-il prévenir la mairie ? | 5 | [ouvrir](https://www.canva.com/d/pgLpz6sZmk9KPwQ) | — |
 | 05 | 09/09 | Artificiers de métier — **à épingler** | 1 | [ouvrir](https://www.canva.com/d/wXLKqc1daviP8W_) | — |
-| 06 | 11/09 | L'autre côté du feu | 1 | [ouvrir](https://www.canva.com/d/ipRl2_CX2O_F9uU) | **T3** |
+| 06 | 11/09 | L'autre côté du feu | 1 | [ouvrir](https://www.canva.com/d/Z-P1Nor3uAESPeB) | **T8** |
 | 07 | 13/09 | Le méchage | 5 | [ouvrir](https://www.canva.com/d/-ri5_CoOMpqcnUt) | **A2** · **A3** |
 | 08 | 14/09 | 8 mètres ou 25 mètres ? | 5 | [ouvrir](https://www.canva.com/d/D4tmjTPJHZaQCZq) | — |
 | 09 | 16/09 | La mise d'inflammateur | 4 | [ouvrir](https://www.canva.com/d/aiXm5uUT0zRtlSb) | **B2** |
-| 10 | 18/09 | Il a dit oui. Le ciel aussi. | 1 | [ouvrir](https://www.canva.com/d/LfDDRLjE4U6h08M) | **T4** |
+| 10 | 18/09 | Il a dit oui. Le ciel aussi. | 1 | [ouvrir](https://www.canva.com/d/LfDDRLjE4U6h08M) | **T10** |
 | 11 | 20/09 | De la caisse au dispositif | 1 | [ouvrir](https://www.canva.com/d/Y23SnUg6ZEQb5P7) | — |
 | 12 | 21/09 | F2 ou F3 ? | 4 | [ouvrir](https://www.canva.com/d/p6mEMmjBuJQmQfr) | — |
 | 13 | 23/09 | Le tableau de tir | 4 | [ouvrir](https://www.canva.com/d/-GKbwRWYViSFRdN) | **D2** |
@@ -36,7 +36,8 @@ de votre Canva, à supprimer quand vous voulez :
 - *Mon Artifice — Septembre 2026* (17 pages, couvertures seules)
 - *Mon Artifice — Septembre 2026 — carrousels complets* (44 pages)
 - *01 · 02/09 — Compact ou éventail ? (Reel)* — remplacé par la version carrousel
-- *06 · 11/09 — Le moment où tout le monde lève la tête* — remplacé par « L'autre côté du feu »
+- *06 · 11/09 — Le moment où tout le monde lève la tête* — remplacé
+- *06 · 11/09 — L'autre côté du feu (Reel)* sans mention de plan — version intermédiaire, remplacée
 
 ## Les trois Reels
 
@@ -44,8 +45,11 @@ Les publications du **11/09**, **18/09** et **20/09** sont des Reels : le design
 contient que la **couverture**. La vidéo est à tourner et à monter — voir `social/REELS.md`
 pour le partage des rôles et le plan de tournage seconde par seconde.
 
-Les trois se tournent **depuis le poste de tir** : aucun plan ne demande d'être côté public.
-La séquence `T` (13 plans) alimente les Reels du 11/09 et du 18/09, montés différemment à
+Les trois se tournent **depuis le poste de tir**. Le tir étant électrique, les gros plans du
+dispositif se font **avant** le tir ; pendant le tir on ne filme que depuis le pupitre, à la
+distance de sécurité, sans jamais laisser de matériel près du dispositif.
+
+La séquence `T` (15 plans) alimente les Reels du 11/09 et du 18/09, montés différemment à
 partir de la même matière.
 
 ## Réimporter une publication modifiée
