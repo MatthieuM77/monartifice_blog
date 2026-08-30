@@ -73,7 +73,7 @@ là où l'intention d'achat est à son maximum.
 
 | Mois | Calendrier détaillé | Textes + hashtags | Visuels Canva |
 |---|---|---|---|
-| Sept. 2026 | ✅ | ✅ 17/17 | ✅ 17/17 (9 en attente de vos photos) |
+| Sept. 2026 | ✅ | ✅ 17/17 | ✅ 17/17 — **importés dans Canva** (5 cadres en attente du feu du 5/09) |
 | Oct. 2026 → Août 2027 | ⏳ à produire | ⏳ | ⏳ |
 
 Production **mois par mois**, chaque mois validé avant de lancer le suivant.

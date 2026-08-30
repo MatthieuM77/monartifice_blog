@@ -49,16 +49,32 @@ Modifier un texte dans un fichier post, relancer le script : le visuel et sa not
 3. L'import Canva crée **un design de 17 pages**, rangé dans `Mon artifice / 2026 / 09 - Septembre`.
 4. Chaque page est ensuite retouchable individuellement dans Canva.
 
-## Étape manuelle en attente
+## Canva — état de l'import
 
-Le connecteur GitHub de la session ne peut pas créer de dépôt (droits limités à `monartifice_blog`).
-Pour débloquer l'import Canva, créer un dépôt **public** nommé `monartifice-visuels` :
+Le dépôt étant passé en public, l'import fonctionne directement depuis l'URL brute GitHub.
 
-👉 https://github.com/new — nom `monartifice-visuels`, visibilité **Public**, cocher « Add a README ».
+| | |
+|---|---|
+| **Design** | [Mon Artifice — Septembre 2026](https://www.canva.com/d/lYp5ssifn6winx1) — 17 pages |
+| **Dossier** | [Mon artifice / 2026 / 09 - Septembre](https://www.canva.com/folder/FAHTx4uZdp4) |
+| **Source** | `social/visuels/2026/09/septembre-2026.html` |
 
-Ce dépôt ne contiendra **que** les fichiers HTML des visuels — c'est-à-dire des maquettes destinées à
-être publiées sur Instagram de toute façon. Aucune donnée commerciale, aucun prix, aucun fichier privé.
-`monartifice_blog` reste privé.
+Chaque page porte sa date en titre et la légende Instagram en notes de page.
+
+### Réimporter après modification
+
+```bash
+python3 social/visuels/build_visuels.py      # régénère le HTML
+git add -A && git commit && git push          # publie la nouvelle version
+```
+
+Puis relancer l'import depuis l'URL brute. **L'import crée un nouveau design** : il ne met pas à
+jour l'existant. Si vous avez déjà retouché des pages dans Canva, ne réimportez pas — modifiez
+directement dans Canva, ou réimportez et repartez du nouveau design.
+
+> ⚠️ **Le dépôt est public.** N'y placez ni prix, ni données clients, ni identifiants tant qu'il
+> l'est. Une fois tous les mois importés dans Canva, il peut être repassé en privé : les designs
+> Canva n'ont plus besoin de lui.
 
 ## Rappels non négociables
 
