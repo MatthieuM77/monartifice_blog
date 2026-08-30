@@ -26,19 +26,24 @@ Ces images sont **déjà intégrées** aux visuels de septembre. Inutile de les 
 
 Fichiers dans `social/photos/2026-09/`.
 
-## 🎯 Les 5 plans qui manquent encore pour boucler septembre
+## 🎯 Les 9 plans qui manquent encore pour boucler septembre
 
-**C'est la vraie priorité de samedi.** Sans eux, cinq publications restent sans visuel.
+**C'est la vraie priorité de samedi.** Les carrousels ont des slides intérieures : il ne s'agit
+plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail slide par slide.
 
-| Plan | Ce qu'il faut | Publication | Difficulté |
-|---|---|---|---|
-| **I1** | **Le public de dos, têtes levées, éclairé par le feu** | 11/09 | Demande d'être côté public au moment du tir |
-| **H3** | Départ vertical serré, plein cadre | 18/09 | Facile depuis le poste de tir |
-| **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 | Cadrer large, ne pas serrer sur le ciel |
-| **I3** | Téléphones levés qui filment | 27/09 | Côté public, avant le final |
-| **F2** | **Ramassage des reliquats à la lampe** | 30/09 | Après le tir, ne pas oublier |
+| Plan | Ce qu'il faut | Publication · slide |
+|---|---|---|
+| **I1** | **Le public de dos, têtes levées, éclairé par le feu** | 11/09 · 1/1 |
+| **A2** | Le détail d'un raccord de mèche, en macro | 13/09 · 3/5 |
+| **A3** | Le dispositif méché en plan large, prêt à tirer | 13/09 · 4/5 |
+| **B2** | Le câblage des inflammateurs, fils et couleurs | 16/09 · 2/4 |
+| **H3** | Un départ vertical serré, plein cadre | 18/09 · 1/1 |
+| **D2** | Les lignes numérotées du tableau de tir, en macro | 23/09 · 2/4 |
+| **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 · 1/1 |
+| **F1** | Le site vide après le tir, dispositif éteint | 30/09 · 1/4 |
+| **F2** | **Le ramassage des reliquats à la lampe** | 30/09 · 2/4 |
 
-> **I1 et I3 demandent que quelqu'un soit côté public.** Si vous êtes tous les deux au poste de
+> **I1 demande que quelqu'un soit côté public.** Si vous êtes tous les deux au poste de
 > tir, demandez à une personne de confiance de filmer le public de dos avec son téléphone —
 > même en qualité moyenne, ce plan vaut de l'or et ne se rattrape pas.
 
@@ -183,8 +188,8 @@ Si le temps le permet. Ces images resserviront toute l'année.
 
 ## Récapitulatif à cocher sur place
 
-**⚠️ Les 5 qui bloquent des publications — à faire absolument**
-`I1` `H3` `H2` `I3` `F2`
+**⚠️ Les 9 qui bloquent une slide chacun — à faire absolument**
+`I1` `A2` `A3` `B2` `H3` `D2` `H2` `F1` `F2`
 
 **Priorité 1 — le reste des séquences (les ✅ sont déjà couverts)**
 ~~`A1`~~ `A2` `A3` `A4` `A5` · ~~`B1`~~ `B2` `B3` `B4` · `C1` `C2` `C3` `C4` ~~`C5`~~ · ~~`D1`~~ `D2` `D3` `D4` · ~~`E1`~~ `E2` `E3` · `F1` ~~`F2`~~ `F3`

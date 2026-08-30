@@ -127,59 +127,177 @@ h1.xs{{font-size:76px}}
   color:rgba(200,203,212,.45);text-transform:uppercase}}
 """
 
+# --- Styles additionnels pour les slides de carrousel ---------------------
+CSS += f"""
+.num{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:150px;line-height:.8;
+  color:{VERT};opacity:.85;margin-bottom:26px}}
+h2{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:86px;line-height:.96;
+  text-transform:uppercase;color:{BLANC};letter-spacing:-.01em}}
+h2.sm{{font-size:70px}}
+.quote{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:96px;line-height:1.02;
+  text-transform:uppercase;color:{BLANC};letter-spacing:-.01em}}
+.quote.sm{{font-size:76px}}
+.qmark{{font-size:150px;line-height:.5;color:{MAGENTA};margin-bottom:10px}}
+.fig{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:230px;line-height:.82;
+  color:{BLANC}}}
+.fig small{{font-size:88px;color:{VERT}}}
+.tag{{display:inline-block;align-self:flex-start;border:2px solid {MAGENTA};color:{MAGENTA_CLAIR};
+  font-size:30px;font-weight:800;letter-spacing:.2em;padding:12px 26px;margin-bottom:30px}}
+.tag.v{{border-color:{VERT};color:{VERT_CLAIR}}}
+.save{{display:flex;align-items:center;gap:16px;margin-top:40px;font-size:32px;color:{VERT_CLAIR};
+  font-weight:700}}
+.grid6{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}}
+.grid6 div{{aspect-ratio:1;border:2px dashed rgba(141,187,32,.42);border-radius:4px;
+  display:flex;align-items:center;justify-content:center;font-size:22px;
+  color:rgba(141,187,32,.6);letter-spacing:.2em}}
+.diag{{position:absolute;left:0;right:0;top:96px;height:620px}}
+"""
+
+
+def schema_distance(actif, couleur, rayon):
+    """Vue de dessus a l'echelle. Les deux perimetres sont traces : celui dont
+    parle la slide en couleur, l'autre en fantome. La comparaison se voit alors
+    sur chaque slide, et le petit cercle ne parait plus perdu."""
+    cx, cy = 540, 310
+    autre = 281 if rayon == 90 else 90
+    public = "".join(
+        f'<circle cx="{cx + (rayon + 40) * math.cos(math.radians(a)):.0f}" '
+        f'cy="{cy + (rayon + 40) * math.sin(math.radians(a)) * .55:.0f}" r="8" '
+        f'fill="{GRIS}" opacity=".7"/>' for a in range(-60, 62, 12))
+    return (f'<svg class="diag" viewBox="0 0 1080 640">'
+            f'<circle cx="{cx}" cy="{cy}" r="{autre}" fill="none" stroke="{GRIS}" '
+            f'stroke-width="2" stroke-dasharray="8 10" opacity=".22"/>'
+            f'<circle cx="{cx}" cy="{cy}" r="{rayon}" fill="{couleur}" fill-opacity=".08" '
+            f'stroke="{couleur}" stroke-width="3" stroke-dasharray="14 12"/>'
+            f'<rect x="{cx - 22}" y="{cy - 22}" width="44" height="44" fill="{couleur}"/>'
+            f'<line x1="{cx}" y1="{cy}" x2="{cx + rayon}" y2="{cy}" stroke="{BLANC}" stroke-width="3"/>'
+            f'<text x="{cx + rayon / 2}" y="{cy - 18}" fill="{BLANC}" font-size="40" '
+            f'font-family="Helvetica,Arial" font-weight="700" text-anchor="middle">{actif}</text>'
+            f'{public}</svg>')
+
+
+
 # --- Septembre 2026 : phase de PRE-LANCEMENT --------------------------------
 # La boutique n'est pas en ligne : aucun post produit, aucun CTA vers le site.
-# Pilier dominant : coulisses metier (photos reelles a shooter).
+# Chaque publication porte ses slides. `img` = photo disponible,
+# `shot` = plan a shooter (cadre reserve nomme).
 CTA_DM = "Une question ? Écrivez-nous en message privé"
+SAVE = "Enregistrez ce post"
 
-PAGES = [
-    dict(n="01", date="02/09", kind="coulisses", eyebrow="Expertise",
-         title="Compact ou éventail ?", sub="Même durée. Rendu totalement différent."),
-    dict(n="02", date="04/09", kind="silence", title="Le silence juste avant"),
-    dict(n="03", date="06/09", kind="communaute",
-         title="Votre feu idéal dure combien de temps ?", size="xs",
-         opts=["30 sec", "1 min 30", "3 min", "5 min"]),
-    dict(n="04", date="07/09", kind="pedago", badge="À savoir",
-         title="Faut-il prévenir la mairie ?",
-         sub="Ça dépend de trois choses. On vous explique.", cta=CTA_DM),
-    dict(n="05", date="09/09", kind="coulisses", photo="E1", img="E1-artificier-obus.jpg", eyebrow="Qui sommes-nous",
-         title="Artificiers de métier", sub="On se présente, puisque ce compte commence.",
-         cta=CTA_DM),
-    dict(n="06", date="11/09", kind="emotion", photo="I1",
-         title="Le moment où tout le monde lève la tête", size="sm"),
-    dict(n="07", date="13/09", kind="coulisses", photo="A1", img="A1-mechage-rack-meches.jpg", eyebrow="Coulisses",
-         title="Le méchage", sub="3 heures de travail pour 3 minutes de spectacle."),
-    dict(n="08", date="14/09", kind="pedago", badge="Sécurité",
-         title="8 mètres ou 25 mètres ?", sub="La différence n'est pas un détail.",
-         pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="09", date="16/09", kind="coulisses", photo="B1", img="B1-mise-inflammateur-mains.jpg", eyebrow="Coulisses",
-         title="La mise d'inflammateur", size="sm",
-         sub="Chaque départ a son fil. Chaque fil a son numéro."),
-    dict(n="10", date="18/09", kind="emotion", photo="H3",
-         title="Il a dit oui. Le ciel aussi.", cta=CTA_DM),
-    dict(n="11", date="20/09", kind="coulisses", photo="C5", img="C5-dispositif-monte-complet.jpg", wide=True,
-         eyebrow="Coulisses", title="De la caisse au dispositif", size="sm",
-         sub="Un feu d'artifice, ça ne se pose pas. Ça se monte."),
-    dict(n="12", date="21/09", kind="pedago", badge="Réglementation",
-         title="F2 ou F3 ?", sub="C'est ce qui détermine où vous pourrez tirer.",
-         pills=["F2 · 8 m", "F3 · 25 m"]),
-    dict(n="13", date="23/09", kind="coulisses", photo="D1", img="D1-tableau-de-tir.jpg", eyebrow="Coulisses",
-         title="Le tableau de tir", sub="Une ligne = un départ = une seconde précise."),
-    dict(n="14", date="25/09", kind="emotion", photo="H2", eyebrow="Mariage",
-         title="Les mariages de septembre",
-         sub="ont quelque chose que les autres n'ont pas.", cta=CTA_DM),
-    dict(n="15", date="27/09", kind="communaute", photo="I3",
-         title="Montrez-nous votre été", sub="On republie les plus belles."),
-    dict(n="16", date="28/09", kind="pedago", badge="Météo", title="Et s'il pleut ?",
-         sub="La pluie n'est pas le pire ennemi. Le vent, si."),
-    dict(n="17", date="30/09", kind="coulisses", photo="F2", eyebrow="Coulisses",
-         title="Ce qu'il reste après", size="sm",
-         sub="On repart quand le terrain est plus propre qu'à l'arrivée."),
+POSTS = [
+ dict(n="01", date="02/09", fmt="Reel", titre="Compact ou éventail ?", slides=[
+   dict(k="cover", eyebrow="Expertise", t="Compact ou éventail ?",
+        sub="Même durée. Rendu totalement différent.")]),
+
+ dict(n="02", date="04/09", fmt="Post", titre="Le silence juste avant", slides=[
+   dict(k="cover", style="silence", t="Le silence juste avant")]),
+
+ dict(n="03", date="06/09", fmt="Sondage", titre="Votre feu idéal dure combien de temps ?", slides=[
+   dict(k="cover", t="Votre feu idéal dure combien de temps ?", size="xs",
+        opts=["30 sec", "1 min 30", "3 min", "5 min"])]),
+
+ dict(n="04", date="07/09", fmt="Carrousel", titre="Faut-il prévenir la mairie ?", slides=[
+   dict(k="cover", badge="À savoir", t="Faut-il prévenir la mairie ?",
+        sub="Ça dépend de trois choses."),
+   dict(k="point", i="01", t="La catégorie du produit",
+        sub="Toutes les catégories ne sont pas soumises aux mêmes obligations."),
+   dict(k="point", i="02", t="Le lieu",
+        sub="Un terrain privé et un espace public, ce n'est pas la même chose."),
+   dict(k="point", i="03", t="La taille de l'événement",
+        sub="Un feu entre amis dans un jardin n'est pas un feu de village."),
+   dict(k="end", t="Dans le doute, appelez votre mairie.",
+        sub="C'est gratuit et ça prend cinq minutes.", save=True, cta=CTA_DM)]),
+
+ dict(n="05", date="09/09", fmt="Post épinglé", titre="Artificiers de métier", slides=[
+   dict(k="cover", eyebrow="Qui sommes-nous", t="Artificiers de métier",
+        sub="On se présente, puisque ce compte commence.",
+        img="E1-artificier-obus.jpg", cta=CTA_DM)]),
+
+ dict(n="06", date="11/09", fmt="Reel", titre="Le moment où tout le monde lève la tête", slides=[
+   dict(k="cover", t="Le moment où tout le monde lève la tête", size="sm", shot="I1")]),
+
+ dict(n="07", date="13/09", fmt="Carrousel", titre="Le méchage", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="Le méchage",
+        sub="Ce que personne ne voit.", img="A1-mechage-rack-meches.jpg"),
+   dict(k="quote", t="3 heures de travail pour 3 minutes de spectacle."),
+   dict(k="photo", shot="A2", legende="Le détail d'un raccord."),
+   dict(k="photo", shot="A3", legende="Le dispositif méché, prêt à tirer."),
+   dict(k="end", t="On est artificiers.", sub="C'est notre métier, pas notre passe-temps.")]),
+
+ dict(n="08", date="14/09", fmt="Carrousel", titre="8 mètres ou 25 mètres ?", slides=[
+   dict(k="cover", badge="Sécurité", t="8 mètres ou 25 mètres ?",
+        sub="La différence n'est pas un détail.", pills=["F2 · 8 m", "F3 · 25 m"]),
+   dict(k="stat", tag="Catégorie F2", fig="8", unit="mètres", schema=(VERT, 90, "8 m"),
+        sub="Ça passe dans la majorité des jardins."),
+   dict(k="stat", tag="Catégorie F3", fig="25", unit="mètres", schema=(MAGENTA, 281, "25 m"),
+        sub="Il vous faut un vrai terrain dégagé."),
+   dict(k="point", i="!", t="Dans toutes les directions",
+        sub="Pas seulement face au public. Derrière et sur les côtés aussi."),
+   dict(k="end", t="Vent, arbres, fils, toitures.",
+        sub="La distance ne suffit pas à elle seule. La notice du produit fait foi.", save=True)]),
+
+ dict(n="09", date="16/09", fmt="Carrousel", titre="La mise d'inflammateur", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="La mise d'inflammateur", size="sm",
+        img="B1-mise-inflammateur-mains.jpg"),
+   dict(k="photo", shot="B2", legende="Le câblage, fil par fil."),
+   dict(k="quote", t="Chaque départ a son fil. Chaque fil a son numéro.", size="sm"),
+   dict(k="end", t="On décide à la milliseconde.",
+        sub="C'est ce qui permet de synchroniser un feu sur une musique.")]),
+
+ dict(n="10", date="18/09", fmt="Reel", titre="Il a dit oui. Le ciel aussi.", slides=[
+   dict(k="cover", t="Il a dit oui. Le ciel aussi.", shot="H3", cta=CTA_DM)]),
+
+ dict(n="11", date="20/09", fmt="Reel", titre="De la caisse au dispositif", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="De la caisse au dispositif", size="sm",
+        sub="Un feu d'artifice, ça ne se pose pas. Ça se monte.",
+        img="C5-dispositif-monte-complet.jpg", wide=True)]),
+
+ dict(n="12", date="21/09", fmt="Carrousel", titre="F2 ou F3 ?", slides=[
+   dict(k="cover", badge="Réglementation", t="F2 ou F3 ?",
+        sub="C'est ce qui détermine où vous pourrez tirer."),
+   dict(k="stat", tag="F2", fig="8", unit="mètres", schema=(VERT, 90, "8 m"),
+        sub="La majorité des jardins."),
+   dict(k="stat", tag="F3", fig="25", unit="mètres", schema=(MAGENTA, 281, "25 m"),
+        sub="Terrain dégagé nécessaire. Plus puissant, plus haut."),
+   dict(k="end", t="La catégorie est sur le produit.",
+        sub="Regardez-la en premier. Avant la durée, avant le nombre de coups.", save=True)]),
+
+ dict(n="13", date="23/09", fmt="Carrousel", titre="Le tableau de tir", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="Le tableau de tir",
+        img="D1-tableau-de-tir.jpg"),
+   dict(k="photo", shot="D2", legende="Les lignes numérotées."),
+   dict(k="quote", t="Une ligne = un départ = une seconde précise.", size="sm"),
+   dict(k="end", t="Ce n'est pas de l'improvisation.",
+        sub="C'est une partition. Et la clé de sécurité est la dernière barrière.")]),
+
+ dict(n="14", date="25/09", fmt="Post", titre="Les mariages de septembre", slides=[
+   dict(k="cover", eyebrow="Mariage", t="Les mariages de septembre",
+        sub="ont quelque chose que les autres n'ont pas.", shot="H2", cta=CTA_DM)]),
+
+ dict(n="15", date="27/09", fmt="Appel UGC", titre="Montrez-nous votre été", slides=[
+   dict(k="cover", t="Montrez-nous votre été", sub="On republie les plus belles.", grid=True)]),
+
+ dict(n="16", date="28/09", fmt="Carrousel", titre="Et s'il pleut ?", slides=[
+   dict(k="cover", badge="Météo", t="Et s'il pleut ?",
+        sub="La réponse surprend souvent."),
+   dict(k="point", i="01", t="La pluie n'est pas le pire ennemi",
+        sub="Une pluie fine est gérable si le produit est resté au sec et protégé."),
+   dict(k="point", i="02", t="Le vent est le vrai facteur limitant",
+        sub="C'est lui qui décide si le feu part ou non. Pas la pluie."),
+   dict(k="end", t="L'orage : on ne tire pas.",
+        sub="Jamais. Un feu se reporte très bien. Ça ne s'improvise pas.", save=True)]),
+
+ dict(n="17", date="30/09", fmt="Carrousel", titre="Ce qu'il reste après", slides=[
+   dict(k="cover", eyebrow="Coulisses", t="Ce qu'il reste après", size="sm", shot="F1"),
+   dict(k="photo", shot="F2", legende="Le ramassage, un reliquat après l'autre."),
+   dict(k="quote", t="On repart quand le terrain est plus propre qu'à l'arrivée.", size="sm"),
+   dict(k="end", t="En octobre, on vous présente nos feux.",
+        sub="Un par un, avec leurs vraies caractéristiques.")]),
 ]
 
 
 def captions():
-    """Legende Instagram de chaque post : les fichiers posts/ font foi."""
+    """Legende Instagram de chaque publication : les fichiers posts/ font foi."""
     out = []
     for f in sorted((ROOT / "posts/2026/09").glob("*.md")):
         m = re.search(r"## Texte Instagram\n(.*?)\n## Texte Facebook",
@@ -188,77 +306,104 @@ def captions():
     return out
 
 
-def render(p, caption, idx):
-    kind, size = p["kind"], p.get("size", "")
-    seed = idx * 17 + 3
-    n_sparks = 150 if kind in ("emotion", "silence") else 100
-
-    svg = f'<svg class="bg" viewBox="0 0 1080 1350">{sparks(n_sparks, seed)}'
-    if kind == "silence":
-        pass
-    elif p.get("photo") or p.get("img"):
-        # La photo porte le visuel : pas de gerbe, elle chevaucherait le titre.
-        pass
-    elif kind == "emotion":
-        svg += burst(700, 400, 330, 30, seed)
-    elif kind == "pedago":
-        svg += burst(880, 250, 215, 20, seed)
-    else:
-        svg += burst(770, 330, 290, 26, seed) + burst(300, 235, 150, 16, seed + 1)
-    svg += "</svg>"
-
-    uri = photo_uri(p["img"]) if p.get("img") else None
+def fond(sl, seed):
+    """Fond de slide : photo reelle, cadre reserve, ou gerbes."""
+    uri = photo_uri(sl["img"]) if sl.get("img") else None
     if uri:
-        w = " wide" if p.get("wide") else ""
-        photo = (f'<div class="shot{w}" style="background-image:url({uri})"></div>'
-                 f'<div class="veil{w}"></div>')
-    elif p.get("photo"):
-        photo = f'<div class="photo"><span>Photo {html.escape(p["photo"])}</span></div>'
-    else:
-        photo = ""
+        w = " wide" if sl.get("wide") else ""
+        return (f'<div class="shot{w}" style="background-image:url({uri})"></div>'
+                f'<div class="veil{w}"></div>'), ""
+    svg = f'<svg class="bg" viewBox="0 0 1080 1350">{sparks(110, seed)}'
+    k = sl["k"]
+    if sl.get("style") == "silence" or sl.get("shot"):
+        pass                                    # ciel vide, ou photo a venir
+    elif k in ("point", "end"):
+        svg += burst(880, 235, 200, 20, seed)
+    elif k == "quote":
+        svg += burst(760, 330, 300, 28, seed)
+    elif k != "stat":
+        svg += burst(770, 320, 285, 26, seed) + burst(300, 230, 150, 16, seed + 1)
+    svg += "</svg>"
+    cadre = (f'<div class="photo"><span>Photo {html.escape(sl["shot"])}</span></div>'
+             if sl.get("shot") else "")
+    return svg + cadre, ""
 
-    body = []
-    if p.get("badge"):
-        body.append(f'<div class="badge">{html.escape(p["badge"])}</div>')
-    if p.get("eyebrow"):
-        body.append(f'<div class="eyebrow">{html.escape(p["eyebrow"])}</div>')
-    body.append(f'<h1 class="{size}">{html.escape(p["title"])}</h1>')
-    if p.get("sub"):
-        body.append(f'<p class="sub">{html.escape(p["sub"])}</p>')
-    if p.get("pills"):
-        body.append('<div class="pills">' + "".join(
+
+def corps(sl):
+    k, out = sl["k"], []
+    if sl.get("badge"):
+        out.append(f'<div class="badge">{html.escape(sl["badge"])}</div>')
+    if sl.get("eyebrow"):
+        out.append(f'<div class="eyebrow">{html.escape(sl["eyebrow"])}</div>')
+    if sl.get("tag"):
+        cls = "tag v" if sl["tag"].startswith(("F2", "Catégorie F2")) else "tag"
+        out.append(f'<div class="{cls}">{html.escape(sl["tag"])}</div>')
+    if k == "point":
+        out.append(f'<div class="num">{html.escape(sl["i"])}</div>')
+        out.append(f'<h2 class="{sl.get("size", "")}">{html.escape(sl["t"])}</h2>')
+    elif k == "stat":
+        out.append(f'<div class="fig">{sl["fig"]} <small>{html.escape(sl["unit"])}</small></div>')
+    elif k == "quote":
+        out.append('<div class="qmark">“</div>')
+        out.append(f'<div class="quote {sl.get("size", "")}">{html.escape(sl["t"])}</div>')
+    elif k == "end":
+        out.append(f'<h2 class="{sl.get("size", "")}">{html.escape(sl["t"])}</h2>')
+    elif k == "photo":
+        out.append(f'<h2 class="sm">{html.escape(sl.get("legende", ""))}</h2>')
+    else:                                        # cover
+        out.append(f'<h1 class="{sl.get("size", "")}">{html.escape(sl["t"])}</h1>')
+    if sl.get("sub"):
+        out.append(f'<p class="sub">{html.escape(sl["sub"])}</p>')
+    if sl.get("pills"):
+        out.append('<div class="pills">' + "".join(
             f'<span class="pill{" m" if i else ""}">{html.escape(x)}</span>'
-            for i, x in enumerate(p["pills"])) + "</div>")
-    if p.get("opts"):
-        body.append('<div class="opts">' + "".join(
-            f'<span class="opt">{html.escape(x)}</span>' for x in p["opts"]) + "</div>")
-    if not p.get("pills") and not p.get("opts") and not p.get("sub"):
-        body.append('<div class="rule"></div>')
+            for i, x in enumerate(sl["pills"])) + "</div>")
+    if sl.get("opts"):
+        out.append('<div class="opts">' + "".join(
+            f'<span class="opt">{html.escape(x)}</span>' for x in sl["opts"]) + "</div>")
+    if sl.get("grid"):
+        out.append('<div class="grid6">' + '<div>VOTRE VIDÉO</div>' * 6 + "</div>")
+    if sl.get("save"):
+        out.append(f'<div class="save">🔖 {SAVE}</div>')
+    if not any(sl.get(x) for x in ("sub", "pills", "opts", "grid", "save")) and k != "photo":
+        out.append('<div class="rule"></div>')
+    return "".join(out)
 
-    body.append(f'<div class="cta"><span class="cta-txt">{html.escape(p.get("cta", ""))}</span>'
-                f'<span class="brand"></span></div>')
 
-    label = f'{p["n"]} · {p["date"]} · {p["title"]}'
-    if p.get("photo"):
-        label += f' · photo {p["photo"]}'
-    mid = " mid" if p["kind"] == "silence" else ""
+def render(post, sl, idx, total, note, seed):
+    bg, _ = fond(sl, seed)
+    schema = schema_distance(sl["schema"][2], sl["schema"][0], sl["schema"][1]) \
+        if sl.get("schema") else ""
+    cta = (f'<div class="cta"><span class="cta-txt">{html.escape(sl.get("cta", ""))}</span>'
+           f'<span class="brand"></span></div>')
+    mid = " mid" if sl.get("style") == "silence" else ""
+    pos = f'{idx}/{total}'
+    label = f'{post["n"]} · {post["date"]} · {post["titre"]} · {pos}'
+    if sl.get("shot"):
+        label += f' · photo {sl["shot"]}'
     return (f'<div class="page" data-document-role="page" '
             f'data-label="{html.escape(label, quote=True)}" '
-            f'data-speaker-notes="{html.escape(caption, quote=True)}">'
-            f'{svg}{photo}<div class="inner{mid}">{"".join(body)}</div>'
-            f'<div class="foot">Septembre 2026 · {p["date"]}</div></div>')
+            f'data-speaker-notes="{html.escape(note, quote=True)}">'
+            f'{bg}{schema}<div class="inner{mid}">{corps(sl)}{cta}</div>'
+            f'<div class="foot">{post["fmt"]} · {post["date"]} · {pos}</div></div>')
 
 
 def main():
     caps = captions()
-    assert len(caps) == len(PAGES), f"{len(caps)} légendes pour {len(PAGES)} pages"
-    pages = "\n".join(render(p, c, i) for i, (p, c) in enumerate(zip(PAGES, caps)))
+    assert len(caps) == len(POSTS), f"{len(caps)} légendes pour {len(POSTS)} publications"
+    pages, seed = [], 0
+    for post, cap in zip(POSTS, caps):
+        n = len(post["slides"])
+        for i, sl in enumerate(post["slides"], 1):
+            seed += 17
+            note = cap if i == 1 else f'{post["titre"]} — slide {i}/{n}. Légende sur la slide 1.'
+            pages.append(render(post, sl, i, n, note, seed))
     doc = ('<!doctype html><html lang="fr"><head><meta charset="utf-8">'
            f'<title>Mon Artifice — Septembre 2026</title><style>{CSS}</style></head>'
-           f'<body>{pages}</body></html>')
+           f'<body>{"".join(pages)}</body></html>')
     out = ROOT / "visuels/2026/09/septembre-2026.html"
     out.write_text(doc, encoding="utf-8")
-    print(f"{out.name} — {len(PAGES)} pages, {len(doc) // 1024} Ko")
+    print(f'{out.name} — {len(POSTS)} publications, {len(pages)} pages, {len(doc)//1024} Ko')
 
 
 if __name__ == "__main__":
