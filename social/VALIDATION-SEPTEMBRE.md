@@ -1,7 +1,8 @@
 # Valider septembre 2026 — état et checklist
 
 **17 publications · 47 slides · 9 carrousels · 3 Reels.**
-Tout est écrit et maquetté. Il reste **9 photos**, **3 vidéos** et **4 relectures**.
+Tout est écrit et maquetté. Il reste **6 photos à faire**, **3 fichiers d'archive à renvoyer**,
+**3 vidéos** et **4 relectures**.
 
 > **Les Reels : vous filmez, je ne produis pas de vidéo.** Un Reel se monte avec 12 à 15 plans,
 > donc il faut en filmer 25 à 30. Les trois listes de tournage détaillées sont dans `REELS.md`.
@@ -43,7 +44,24 @@ Les 8 autres publications sont des visuels uniques : 3 Reels, posts simples, son
 
 ---
 
-## 3. ⏳ Ce qui manque — 9 photos
+## 3. 📦 Lot 2 — 3 slides couvertes, fichiers à renvoyer
+
+Les 5 photos d'archive que vous venez d'envoyer **ne sont pas arrivées sur le disque de la
+session** — elles se sont affichées mais aucun fichier n'a été déposé. Renvoyez-les et je les
+intègre dans la foulée. Détail dans `social/photos/2026-09/LOT-2-A-RECEVOIR.md`.
+
+| Plan | Slide | Image d'archive |
+|---|---|---|
+| **A2** *(à confirmer au recadrage)* | 13/09 · 3/5 | Raccordement d'un inflammateur, rack numéroté, tube « 197 » |
+| **A3** | 13/09 · 4/5 | Vue de dessus de la batterie complète, lignes orange |
+| **B2** | 16/09 · 2/4 | Préparation des lignes d'inflammateurs, caisses ARDI |
+
+Plus deux images de banque : **C2** (déballage d'obus) et **E1 bis** (artificier de dos, tee
+« ARTIFICIER ») — cette dernière est une alternative sérieuse pour le post épinglé du 09/09.
+
+---
+
+## 4. ⏳ Ce qui manque vraiment — 6 photos
 
 Chaque ligne bloque une slide précise. Les codes sont inscrits dans les cadres réservés
 des maquettes Canva : vous voyez directement où chaque photo doit venir.
@@ -51,9 +69,6 @@ des maquettes Canva : vous voyez directement où chaque photo doit venir.
 | Plan | Publication | Slide | Ce qu'il faut photographier | Cadrage |
 |---|---|---|---|---|
 | **T8** | 11/09 — L'autre côté du feu | 1/1 | Vous de dos au pupitre, le feu devant vous | Trépied **au poste de tir**, lancé avant la clé |
-| **A2** | 13/09 — Le méchage | 3/5 | Le détail d'un raccord de mèche | Macro, sur le dispositif méché |
-| **A3** | 13/09 — Le méchage | 4/5 | Le dispositif méché en plan large, prêt à tirer | Trois-quarts, avant le tir |
-| **B2** | 16/09 — La mise d'inflammateur | 2/4 | Le câblage des inflammateurs | Serré sur les fils et leurs couleurs |
 | **T10** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Le feu seul, plein cadre | Depuis le poste de tir |
 | **D2** | 23/09 — Le tableau de tir | 2/4 | Les lignes numérotées du tableau de tir | Macro sur le pupitre |
 | **H2** | 25/09 — Les mariages de septembre | 1/1 | Le feu en plan large avec le lieu dans le cadre | Cadrer large, ne pas serrer sur le ciel |
@@ -71,13 +86,13 @@ le poste.**
 
 1. **T8** — vous de dos au pupitre, le feu devant vous. Trépied **au poste de tir**, derrière
    vous, lancé avant de tourner la clé. C'est le plan qui vaut tous les autres.
-2. **A2, A3, B2, D2** — les macros de chantier. Faciles, à faire pendant le montage.
+2. **D2** — la macro de chantier qui reste. Facile, à faire pendant le montage.
 3. **H2** — le feu en plan large avec le lieu dans le cadre. Ne prenez pas que du serré.
 4. **F1, F2** — après le tir. C'est celles qu'on oublie parce qu'on est fatigué.
 
 ---
 
-## 4. ⏳ Ce qui manque — 4 relectures
+## 5. ⏳ Ce qui manque — 4 relectures
 
 Ces quatre publications portent des affirmations réglementaires ou sécuritaires.
 Elles sont formulées en principes généraux et renvoient à la notice du produit,
@@ -92,7 +107,7 @@ jamais en conseil juridique. **À relire avant publication.**
 
 ---
 
-## 5. Trois décisions
+## 6. Trois décisions
 
 **A. La formulation Ciels en Fête.** Le logo porte déjà « by Ciels en Fête », donc le lien
 est affiché en permanence. Le post épinglé du 9 septembre l'explicite. Validez la phrase ou
@@ -107,7 +122,7 @@ auprès du fournisseur.
 
 ---
 
-## 6. Ce que je fais dès réception
+## 7. Ce que je fais dès réception
 
 1. Vous déposez les photos dans `social/photos/2026-09/`, nommées par code de plan
    (`I1-public-tetes-levees.jpg`, `A2-raccord-macro.jpg`…).

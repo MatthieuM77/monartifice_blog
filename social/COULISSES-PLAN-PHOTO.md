@@ -26,7 +26,25 @@ Ces images sont **déjà intégrées** aux visuels de septembre. Inutile de les 
 
 Fichiers dans `social/photos/2026-09/`.
 
-## 🎯 Les 9 plans qui manquent encore pour boucler septembre
+## 📦 Lot 2 — 3 plans couverts par vos archives, fichiers à renvoyer
+
+Vous m'avez renvoyé 5 photos d'archive. **Les fichiers ne sont pas parvenus jusqu'à la session**
+(voir `social/photos/2026-09/LOT-2-A-RECEVOIR.md`), mais ce qu'elles montrent est identifié et
+**sort de la liste de samedi** :
+
+| Plan | Image d'archive | Publication |
+|---|---|---|
+| **A2** *(à confirmer)* | Raccordement d'un inflammateur sur un rack numéroté, tube « 197 » | 13/09 · 3/5 |
+| **A3** | Vue de dessus de la batterie complète, lignes orange, tubes numérotés | 13/09 · 4/5 |
+| **B2** | Préparation des lignes d'inflammateurs, caisses ARDI | 16/09 · 2/4 |
+
+Deux autres photos du lot entrent en banque : le déballage d'obus (**C2**) et l'artificier de dos
+en tee « ARTIFICIER » (**E1 bis**, alternative au post épinglé du 09/09).
+
+> **Attention :** ces plans sont couverts **en photo**, pas en vidéo. Les Reels ont toujours
+> besoin de leurs plans tournés samedi.
+
+## 🎯 Les 6 plans qui manquent encore pour boucler septembre
 
 **C'est la vraie priorité de samedi.** Les carrousels ont des slides intérieures : il ne s'agit
 plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail slide par slide.
@@ -34,9 +52,6 @@ plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail s
 | Plan | Ce qu'il faut | Publication · slide |
 |---|---|---|
 | **T8** | **Vous de dos au pupitre, le feu devant vous** | 11/09 · 1/1 |
-| **A2** | Le détail d'un raccord de mèche, en macro | 13/09 · 3/5 |
-| **A3** | Le dispositif méché en plan large, prêt à tirer | 13/09 · 4/5 |
-| **B2** | Le câblage des inflammateurs, fils et couleurs | 16/09 · 2/4 |
 | **T10** | Le feu seul, plein cadre, depuis le poste | 18/09 · 1/1 |
 | **D2** | Les lignes numérotées du tableau de tir, en macro | 23/09 · 2/4 |
 | **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 · 1/1 |
