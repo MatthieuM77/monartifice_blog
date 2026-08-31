@@ -42,5 +42,16 @@ C'est la partie du métier dont personne ne parle. C'est aussi celle qui en dit 
 
 #artificier #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Le ramassage, c'est la partie du métier dont personne ne parle. On repart quand le terrain est plus propre qu'à notre arrivée.
+
 ## Story associée
 Compte à rebours vers octobre + teasing de la présentation des produits.

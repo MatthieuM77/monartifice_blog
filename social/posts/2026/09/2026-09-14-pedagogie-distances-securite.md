@@ -58,5 +58,16 @@ Notre conseil : avant même de regarder la durée ou le nombre de coups, mesurez
 
 #securite #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Le chiffre est écrit sur chaque produit. S'il n'y est pas, ou s'il est illisible : ne l'achetez pas.
+
 ## Story associée
 3 stories : le schéma 8 m, le schéma 25 m, puis sticker question « Vous avez combien de mètres ? »

@@ -52,5 +52,16 @@ Vous avez un cas précis en tête ? Écrivez-nous, on vous répond gratuitement.
 
 #feudartifice #reglementation #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Un détail qui surprend souvent : dans beaucoup de communes, un simple appel suffit, il n'y a même pas de formulaire à remplir. Le mauvais réflexe, c'est de ne pas appeler du tout.
+
 ## Story associée
 Sticker question : « Vous avez déjà appelé votre mairie pour un feu ? » → répondre aux cas concrets.

@@ -36,6 +36,17 @@ C'est votre feu, votre moment. Montrez-le nous. 🎆
 
 #feudartifice #MonArtifice #communaute
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Envoyez-nous vos vidéos même ratées, même filmées à l'arrache, même trop sombres. Ce sont souvent les meilleures.
+
 ## Story associée
 Sticker « ajoutez le vôtre » + rappel en fin de semaine.
 

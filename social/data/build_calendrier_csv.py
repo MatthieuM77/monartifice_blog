@@ -37,14 +37,43 @@ def nettoie(txt):
     return txt.strip()
 
 
+def section(txt, titre, brut=False):
+    """Contenu d'une section markdown, jusqu'au titre de niveau 2 suivant.
+
+    brut=True rend le markdown intact : utile quand il faut encore y chercher un
+    marqueur que nettoie() effacerait.
+    """
+    m = re.search(rf"^## {titre}\n(.*?)(?=\n## |\Z)", txt, re.S | re.M)
+    if not m:
+        return ""
+    return m.group(1).strip() if brut else nettoie(m.group(1))
+
+
 def lire(md):
-    """Extrait l'heure, la legende Instagram et la legende Facebook d'un fichier post."""
+    """Extrait l'heure, les deux legendes et les deux premiers commentaires.
+
+    Le premier commentaire Instagram, ce sont les hashtags : on les sort de la legende
+    pour la garder lisible. Celui de Facebook est une relance ecrite, parce que Facebook
+    ne fait presque rien des hashtags mais pousse les fils de commentaires.
+    """
     txt = md.read_text(encoding="utf-8")
     h = re.search(r"^# \d+ · .+? · (\d+) h (\d+)", txt, re.M)
     heure = f"{int(h.group(1)):02d}:{h.group(2)}" if h else ""
-    ig = re.search(r"## Texte Instagram\n(.*?)\n## Texte Facebook", txt, re.S)
-    fb = re.search(r"## Texte Facebook\n(.*?)\n## Story associée", txt, re.S)
-    return heure, nettoie(ig.group(1)) if ig else "", nettoie(fb.group(1)) if fb else ""
+
+    ig = section(txt, "Texte Instagram")
+    lignes = ig.rstrip().split("\n")
+    if lignes and lignes[-1].lstrip().startswith("#"):
+        com_ig = lignes[-1].strip()
+        ig = "\n".join(lignes[:-1]).rstrip()
+    else:
+        com_ig = ""
+
+    # la section porte un bloc de consigne en citation puis "**Facebook :**" : on ne
+    # garde que ce qui suit ce marqueur, avant de retirer le balisage
+    brut = section(txt, "Premier commentaire", brut=True)
+    com_fb = nettoie(brut.split("**Facebook :**", 1)[1]) if "**Facebook :**" in brut else ""
+
+    return heure, ig, section(txt, "Texte Facebook"), com_ig, com_fb
 
 
 def main():
@@ -56,7 +85,7 @@ def main():
         if post["fmt"] == "Reel":
             exclus.append(f'{post["date"]} — {post["titre"]}')
             continue
-        heure, ig, fb = lire(md)
+        heure, ig, fb, com_ig, com_fb = lire(md)
         date = f'2026-09-{post["date"][:2]}'
         n = len(post["slides"])
         typ = "carousel" if n > 1 else "photo"
@@ -67,9 +96,9 @@ def main():
         else:
             fics = [f"{md.stem}.jpg"]
         medias = ",".join(f for f in fics if (exp / f).exists())
-        for compte, legende in ((FB, fb), (IG, ig)):
+        for compte, legende, com in ((FB, fb, com_fb), (IG, ig, com_ig)):
             lignes.append([date, heure, FUSEAU, compte, typ, legende,
-                           medias, "", "", CAMPAGNE])
+                           medias, "", com, CAMPAGNE])
 
     entete = ["date", "heure", "fuseau", "compte", "type", "legende",
               "medias", "lien", "commentaire", "campagne"]

@@ -50,5 +50,16 @@ Pour les règles précises applicables à votre situation, référez-vous à la 
 
 #feudartifice #reglementation #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+La question à se poser n'est pas « lequel est le plus impressionnant », c'est « combien de recul j'ai vraiment ». Mesurez avant de choisir, pas après.
+
 ## Story associée
 Story « mesurez votre terrain » avec un pas-à-pas + sticker question.

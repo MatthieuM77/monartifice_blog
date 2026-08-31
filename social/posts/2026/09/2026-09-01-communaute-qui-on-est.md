@@ -70,6 +70,17 @@ En attendant, si vous préparez un événement et que vous avez une question : �
 
 #artificier #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Si vous nous découvrez : dites-nous ce que vous aimeriez voir ici. Les coulisses ? Les conseils avant d'acheter ? Les deux ? On construit cette page avec vous.
+
 ## Story associée
 Présentation en 3-4 stories, à mettre **en story à la une** intitulée « Qui sommes-nous ».
 

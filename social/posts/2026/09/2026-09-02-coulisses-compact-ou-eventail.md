@@ -44,5 +44,16 @@ Vous hésitez ? Décrivez-nous votre lieu en commentaire, on vous oriente gratui
 
 #feudartifice #conseil #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Le plus simple pour trancher : dites-nous où seront vos invités. Alignés face au feu, ou répartis tout autour ? On vous dit lequel des deux prendre.
+
 ## Story associée
 Deux stories côte à côte + sticker sondage « Vous préférez lequel ? »

@@ -35,5 +35,16 @@ Ces dix secondes-là font déjà partie du spectacle. C'est peut-être même le 
 
 #feudartifice #MonArtifice #souvenirs
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Ces trente secondes-là, on ne les montre jamais. C'est pourtant le moment où tout se joue : à partir de là, plus rien n'est rattrapable.
+
 ## Story associée
 Sticker question : « Vous êtes plutôt avant, pendant, ou après ? »

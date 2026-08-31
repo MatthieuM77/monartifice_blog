@@ -58,6 +58,17 @@ Et vous, c'est quoi votre question ? Posez-la en commentaire : on répond à tou
 
 #artificier #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+On répond à toutes les questions posées ici, même celles qui vous paraissent bêtes. Elles ne le sont jamais, et ce sont souvent celles-là qui servent au plus grand monde.
+
 ## Story associée
 Une story par question, avec le sticker « question » sur la dernière pour récolter les vraies
 questions des abonnés. Elles alimenteront les publications d'octobre.

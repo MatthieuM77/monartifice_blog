@@ -42,6 +42,17 @@ Dites-nous en commentaire, on répond à chacun. 👇
 
 #feudartifice #MonArtifice #evenementiel
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Votre réponse nous sert vraiment : c'est elle qui décidera des formats qu'on mettra en boutique. Dites-nous aussi pour quelle occasion.
+
 ## Story associée
 Sticker sondage avec les 4 durées. **Republier les résultats le lendemain** — excellent contenu de suite.
 

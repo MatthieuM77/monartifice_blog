@@ -42,5 +42,16 @@ Notre métier tient beaucoup plus de la rigueur que du spectacle. 🎆
 
 #artificier #securite #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Cette clé, on ne la tourne qu'une fois tout vérifié. À partir de là, plus personne n'est côté dispositif.
+
 ## Story associée
 Vidéo courte : la clé qu'on tourne. Sticker question : « Vous pensiez que c'était comment ? »

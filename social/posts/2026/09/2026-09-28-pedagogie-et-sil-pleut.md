@@ -52,5 +52,16 @@ Un feu d'artifice, ça se reporte très bien. Ça ne s'improvise pas. 🔖
 
 #feudartifice #securite #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+La vraie question n'est jamais la pluie, c'est le vent. Une averse, ça se gère. Un vent de travers, on annule.
+
 ## Story associée
 Sticker question : « Vous avez déjà dû reporter un feu ? »

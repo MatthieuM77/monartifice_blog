@@ -42,5 +42,16 @@ Nous sommes artificiers de métier. Ce compte, c'est aussi l'occasion de vous mo
 
 #artificier #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Trois heures de travail sur cette photo. Pour trois minutes de spectacle. C'est le rapport habituel, et c'est exactement ce que personne ne voit.
+
 ## Story associée
 Time-lapse du méchage, même court. Format brut, non monté — c'est ce qui fonctionne le mieux.

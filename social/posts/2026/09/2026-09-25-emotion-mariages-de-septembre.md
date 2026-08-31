@@ -37,5 +37,16 @@ Vous vous mariez cette année ou l'an prochain ? Écrivez-nous, on vous aide à 
 
 #mariage #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Septembre est notre mois préféré : les soirées sont assez fraîches pour que la fumée retombe vite, et la nuit tombe assez tôt pour ne pas finir à une heure du matin.
+
 ## Story associée
 Sondage : « Mariage d'été ou mariage d'automne ? »

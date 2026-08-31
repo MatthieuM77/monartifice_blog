@@ -39,5 +39,16 @@ C'est nettement plus long à monter. Mais c'est ce qui sépare un feu qui part d
 
 #artificier #pyrotechnie #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible — générés
+> automatiquement dans le CSV, rien à écrire ici.
+> **Facebook** : une relance, pas des hashtags. Facebook ne fait presque rien des hashtags,
+> mais il pousse les publications qui ouvrent un fil de commentaires.
+
+**Facebook :**
+Chaque fil part vers une ligne numérotée. Une erreur de numéro et c'est tout l'ordre du spectacle qui change — d'où la vérification, deux fois plutôt qu'une.
+
 ## Story associée
 Vidéo courte du câblage + sticker question : « Vous saviez que ça marchait comme ça ? »

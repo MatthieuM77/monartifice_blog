@@ -68,3 +68,21 @@ python3 social/data/build_calendrier_csv.py
 
 Le CSV est reconstruit depuis les fichiers `posts/`. **Modifier un texte dans `posts/`, pas
 dans le CSV** : le CSV est écrasé à chaque exécution.
+
+
+## La colonne `commentaire`
+
+L'outil de programmation publie ce texte **en premier commentaire, juste après la publication**.
+Les deux comptes ne l'utilisent pas pour la même chose.
+
+| Compte | Contenu | Pourquoi |
+|---|---|---|
+| **Instagram** | Les 14 hashtags, **retirés de la légende** | La portée est identique, mais la légende reste lisible. Les quatre premières lignes sont tout ce qu'on voit avant « plus » : autant ne pas les gâcher. |
+| **Facebook** | Une **relance écrite**, jamais des hashtags | Facebook ne fait presque rien des hashtags, mais il pousse les publications qui ouvrent un fil de commentaires. |
+
+Les relances Facebook sont écrites une par une dans les fichiers de publication, section
+`## Premier commentaire`. Le commentaire Instagram, lui, est **généré** : le script détache la
+dernière ligne de la légende quand elle commence par un `#`. Rien à saisir à la main.
+
+> Une relance n'est pas un remplissage. Elle doit appeler une réponse, sinon elle occupe le
+> premier commentaire pour rien — et c'est la place la plus visible de la publication.
