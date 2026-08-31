@@ -5,7 +5,7 @@ lisibles à la frontale.
 
 | Fichier | Usage |
 |---|---|
-| `liste-tournage-05-09.pdf` | **Liste de tournage du feu du 5 septembre 2026.** 37 plans, 2 pages A4, classés dans l'ordre de la journée : au montage, avant le tir, pendant, après. |
+| `liste-tournage-05-09.pdf` | **Liste de tournage du feu du 5 septembre 2026.** 36 plans, 2 pages A4, classés dans l'ordre de la journée : au montage, avant le tir, pendant, après. |
 | `liste-tournage-05-09.html` | Source. Modifier puis régénérer le PDF. |
 
 ## Régénérer le PDF

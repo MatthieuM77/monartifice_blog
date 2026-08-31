@@ -1,8 +1,8 @@
 # Valider septembre 2026 — état et checklist
 
 **17 publications · 47 slides · 9 carrousels · 3 Reels.**
-Tout est écrit et maquetté. Il reste **6 photos à faire**, **3 fichiers d'archive à renvoyer**,
-**3 vidéos** et **4 relectures**.
+Tout est écrit et maquetté. Il reste **5 photos à faire**, **10 fichiers d'archive à me faire
+parvenir**, **3 vidéos** et **4 relectures**.
 
 > **Les Reels : vous filmez, je ne produis pas de vidéo.** Un Reel se monte avec 12 à 15 plans,
 > donc il faut en filmer 25 à 30. Les trois listes de tournage détaillées sont dans `REELS.md`.
@@ -44,24 +44,30 @@ Les 8 autres publications sont des visuels uniques : 3 Reels, posts simples, son
 
 ---
 
-## 3. 📦 Lot 2 — 3 slides couvertes, fichiers à renvoyer
+## 3. 📦 Lots 2 et 3 — 4 slides couvertes, fichiers à récupérer
 
-Les 5 photos d'archive que vous venez d'envoyer **ne sont pas arrivées sur le disque de la
-session** — elles se sont affichées mais aucun fichier n'a été déposé. Renvoyez-les et je les
-intègre dans la foulée. Détail dans `social/photos/2026-09/LOT-2-A-RECEVOIR.md`.
+Les dix photos d'archive envoyées **ne sont pas arrivées sur le disque de la session** — elles
+s'affichent de mon côté mais aucun fichier n'est déposé. `social/photos/2026-09/PHOTOS-A-RECEVOIR.md`
+donne les deux moyens de me les faire parvenir : **Google Drive** (j'ai le connecteur, je vais
+les chercher) ou **GitHub** (dépôt public, upload direct dans `social/photos/2026-09/`).
 
 | Plan | Slide | Image d'archive |
 |---|---|---|
-| **A2** *(à confirmer au recadrage)* | 13/09 · 3/5 | Raccordement d'un inflammateur, rack numéroté, tube « 197 » |
-| **A3** | 13/09 · 4/5 | Vue de dessus de la batterie complète, lignes orange |
-| **B2** | 16/09 · 2/4 | Préparation des lignes d'inflammateurs, caisses ARDI |
+| **A2** *(à confirmer au recadrage)* | 13/09 · 3/5 | Raccordement sur un rack numéroté, tube « 197 » |
+| **A3** | 13/09 · 4/5 | Plan large du montage, racks bleus et racks sanglés |
+| **B2** | 16/09 · 2/4 | Tee Ciel en fête, ligne orange sur le rack « L7 » |
+| **D2** | 23/09 · 2/4 | **Tableau GENETEC à l'heure bleue, la clé dans le barillet** |
 
-Plus deux images de banque : **C2** (déballage d'obus) et **E1 bis** (artificier de dos, tee
-« ARTIFICIER ») — cette dernière est une alternative sérieuse pour le post épinglé du 09/09.
+Cinq images entrent en banque : **G1** (caisses ARDI), **D3** (raccordement au tableau vu de
+dos), **T2** (batterie vue de dessus), **C2** (déballage d'obus) et **E1 bis** (artificier de
+dos, tee « ARTIFICIER »).
+
+> Le tableau à l'heure bleue avec la clé dans le barillet est la plus forte des dix. Elle vaut
+> mieux qu'une slide intérieure : je la passerais en couverture du 23/09.
 
 ---
 
-## 4. ⏳ Ce qui manque vraiment — 6 photos
+## 4. ⏳ Ce qui manque vraiment — 5 photos
 
 Chaque ligne bloque une slide précise. Les codes sont inscrits dans les cadres réservés
 des maquettes Canva : vous voyez directement où chaque photo doit venir.
@@ -70,7 +76,6 @@ des maquettes Canva : vous voyez directement où chaque photo doit venir.
 |---|---|---|---|---|
 | **T8** | 11/09 — L'autre côté du feu | 1/1 | Vous de dos au pupitre, le feu devant vous | Trépied **au poste de tir**, lancé avant la clé |
 | **T10** | 18/09 — Il a dit oui. Le ciel aussi. | 1/1 | Le feu seul, plein cadre | Depuis le poste de tir |
-| **D2** | 23/09 — Le tableau de tir | 2/4 | Les lignes numérotées du tableau de tir | Macro sur le pupitre |
 | **H2** | 25/09 — Les mariages de septembre | 1/1 | Le feu en plan large avec le lieu dans le cadre | Cadrer large, ne pas serrer sur le ciel |
 | **F1** | 30/09 — Ce qu'il reste après | 1/4 | Le site vide après le tir, dispositif éteint | Lumière froide, fin d'intervention |
 | **F2** | 30/09 — Ce qu'il reste après | 2/4 | Le ramassage des reliquats à la lampe | Gros plan mains + lampe |
@@ -86,9 +91,8 @@ le poste.**
 
 1. **T8** — vous de dos au pupitre, le feu devant vous. Trépied **au poste de tir**, derrière
    vous, lancé avant de tourner la clé. C'est le plan qui vaut tous les autres.
-2. **D2** — la macro de chantier qui reste. Facile, à faire pendant le montage.
-3. **H2** — le feu en plan large avec le lieu dans le cadre. Ne prenez pas que du serré.
-4. **F1, F2** — après le tir. C'est celles qu'on oublie parce qu'on est fatigué.
+2. **H2** — le feu en plan large avec le lieu dans le cadre. Ne prenez pas que du serré.
+3. **F1, F2** — après le tir. C'est celles qu'on oublie parce qu'on est fatigué.
 
 ---
 

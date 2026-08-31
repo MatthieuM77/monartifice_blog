@@ -26,25 +26,27 @@ Ces images sont **déjà intégrées** aux visuels de septembre. Inutile de les 
 
 Fichiers dans `social/photos/2026-09/`.
 
-## 📦 Lot 2 — 3 plans couverts par vos archives, fichiers à renvoyer
+## 📦 Lots 2 et 3 — 4 plans couverts par vos archives
 
-Vous m'avez renvoyé 5 photos d'archive. **Les fichiers ne sont pas parvenus jusqu'à la session**
-(voir `social/photos/2026-09/LOT-2-A-RECEVOIR.md`), mais ce qu'elles montrent est identifié et
-**sort de la liste de samedi** :
+Vous m'avez renvoyé dix photos d'archive. **Aucun fichier n'est parvenu jusqu'à la session**
+(voir `social/photos/2026-09/PHOTOS-A-RECEVOIR.md` pour les deux moyens de me les faire
+parvenir), mais ce qu'elles montrent est identifié et **sort de la liste de samedi** :
 
 | Plan | Image d'archive | Publication |
 |---|---|---|
-| **A2** *(à confirmer)* | Raccordement d'un inflammateur sur un rack numéroté, tube « 197 » | 13/09 · 3/5 |
-| **A3** | Vue de dessus de la batterie complète, lignes orange, tubes numérotés | 13/09 · 4/5 |
-| **B2** | Préparation des lignes d'inflammateurs, caisses ARDI | 16/09 · 2/4 |
+| **A2** *(à confirmer)* | Raccordement sur un rack numéroté, tube « 197 » | 13/09 · 3/5 |
+| **A3** | Plan large du montage : racks bleus, racks sanglés, table de matériel | 13/09 · 4/5 |
+| **B2** | Tee Ciel en fête, raccordement d'une ligne orange sur le rack « L7 » | 16/09 · 2/4 |
+| **D2** | **Le tableau GENETEC à l'heure bleue, la clé dans le barillet** | 23/09 · 2/4 |
 
-Deux autres photos du lot entrent en banque : le déballage d'obus (**C2**) et l'artificier de dos
-en tee « ARTIFICIER » (**E1 bis**, alternative au post épinglé du 09/09).
+Quatre autres entrent en banque d'images : les caisses ARDI dans l'herbe (**G1**), le
+raccordement au tableau vu de dos (**D3**), la batterie vue de dessus (**T2**), le déballage
+d'obus (**C2**), et l'artificier de dos en tee « ARTIFICIER » (**E1 bis**).
 
 > **Attention :** ces plans sont couverts **en photo**, pas en vidéo. Les Reels ont toujours
 > besoin de leurs plans tournés samedi.
 
-## 🎯 Les 6 plans qui manquent encore pour boucler septembre
+## 🎯 Les 5 plans qui manquent encore pour boucler septembre
 
 **C'est la vraie priorité de samedi.** Les carrousels ont des slides intérieures : il ne s'agit
 plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail slide par slide.
@@ -53,7 +55,6 @@ plus seulement des couvertures. Voir `VALIDATION-SEPTEMBRE.md` pour le détail s
 |---|---|---|
 | **T8** | **Vous de dos au pupitre, le feu devant vous** | 11/09 · 1/1 |
 | **T10** | Le feu seul, plein cadre, depuis le poste | 18/09 · 1/1 |
-| **D2** | Les lignes numérotées du tableau de tir, en macro | 23/09 · 2/4 |
 | **H2** | Le feu en plan large **avec le lieu dans le cadre** | 25/09 · 1/1 |
 | **F1** | Le site vide après le tir, dispositif éteint | 30/09 · 1/4 |
 | **F2** | **Le ramassage des reliquats à la lampe** | 30/09 · 2/4 |
