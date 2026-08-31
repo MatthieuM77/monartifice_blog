@@ -41,8 +41,10 @@ Un compte qui ne fait que vendre ne grandit pas ; un compte qui ne vend jamais n
 - **Septembre sert à construire l'audience et l'autorité**, pas à vendre. Quand la boutique
   ouvrira, elle ouvrira devant un public déjà là et déjà convaincu. C'est très supérieur à une
   ouverture devant zéro abonné.
-- **Le pilier Coulisses passe en tête en septembre** (6 posts sur 17 au lieu de 2). C'est
-  l'atout que personne ne peut copier : Mon Artifice est artificier, pas revendeur.
+- **Le pilier Coulisses passe en tête en septembre** (6 posts sur 18 au lieu de 2). C'est
+  l'atout que personne ne peut copier : la boutique est tenue par des gens qui tirent. Une
+  boutique concurrente peut copier un prix, une fiche produit, une photo de catalogue — elle
+  ne peut pas produire une image de méchage.
 
 **Si l'ouverture glisse au-delà d'octobre** : les posts produit d'octobre sont conçus pour
 fonctionner avec un CTA « message privé » également. Rien ne casse, il suffit de remplacer
@@ -252,25 +254,56 @@ Côté Canva : `Mon artifice / 2026 / 09 - Septembre`, chaque page du design nom
 
 ---
 
-## 11. Ciels en Fête et Mon Artifice — tranché par le logo
+## 11. Ciels en Fête et Mon Artifice — qui est qui
 
-**La question est réglée : le logo officiel porte déjà la signature « Mon Artifice — by Ciels
-en Fête ».** Le lien entre les deux marques est donc affiché sur chaque visuel, en permanence.
-Il ne reste qu'à l'expliciter une fois, dans le post épinglé, et à s'y tenir partout ailleurs.
+**Deux choses différentes, portées par les mêmes personnes.**
 
-**La formulation de référence :**
+| | Ciels en Fête | Mon Artifice |
+|---|---|---|
+| **Nature** | Société de spectacle pyrotechnique | **Boutique en ligne** |
+| **Activité** | Conçoit et tire des feux pour des villes, des mariages, des événements | **Revend** des feux d'artifice au grand public et aux professionnels |
+| **Clients** | Organisateurs, collectivités, particuliers qui commandent une prestation | Acheteurs qui tirent eux-mêmes |
+| **Fabrication** | Aucune | **Aucune** |
 
-> « Mon Artifice, c'est la boutique de Ciels en Fête. Nous tirons des feux pour des villes et
-> des événements. On a sélectionné, dans ce qu'on connaît, les feux qu'un particulier peut
-> tirer lui-même en sécurité. »
+Le logo porte déjà la signature « Mon Artifice — by Ciels en Fête » : le lien est affiché en
+permanence sur chaque visuel. Il ne reste qu'à l'expliciter une fois, dans le post d'ouverture.
 
-C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
-une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
+### ⚠️ Ce qu'on ne dit pas
 
-C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
-une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
+**Mon Artifice est une boutique en ligne. C'est un revendeur, et il faut l'assumer.**
+Un concurrent direct : `sparklers-club.com`. Le catalogue actuel est de l'ARDI, mais rien
+n'empêche d'ajouter d'autres marques demain — **ne jamais lier l'identité de la marque à un
+fournisseur.**
 
-Le post d'ouverture du 1er septembre (« Artificiers de métier ») porte cette explication.
+Trois formulations à bannir, elles étaient dans les premières versions et elles sont fausses :
+
+| ❌ À ne plus écrire | Pourquoi |
+|---|---|
+| « Pas revendeurs, pas intermédiaires » | Si, précisément. C'est le métier de la boutique. |
+| « Mon Artifice est artificier, pas revendeur » | Confond les deux sociétés. |
+| « Ce qu'on vous propose, on l'a fabriqué » | Personne ne fabrique. |
+
+### La formulation de référence
+
+> « Mon Artifice, c'est la boutique de Ciels en Fête. On ne fabrique pas — personne ne fabrique.
+> On tire des feux pour des villes et des événements, et on a choisi, dans ce qu'on connaît,
+> ceux qu'un particulier peut tirer lui-même en sécurité. »
+
+**Le différenciateur n'est pas de ne pas être revendeur. C'est qui choisit.** Toutes les
+boutiques du secteur vendent des produits qu'elles n'ont pas fabriqués : la seule variable,
+c'est la compétence de celui qui compose le catalogue. Chez la plupart, c'est un acheteur.
+Ici, ce sont des gens qui tirent ces produits pour vivre.
+
+La phrase à retenir, courte : **« Ce qu'on vend, on le tire. »**
+
+C'est vrai, c'est vérifiable, et aucune boutique tenue par des commerçants ne peut le dire.
+
+### ⚠️ La fabrication française — à ne pas affirmer publiquement
+
+L'idée que « plus personne ne fabrique en France » est probablement exacte, mais c'est une
+**affirmation vérifiable par n'importe quel commentateur**, et une erreur sur ce terrain
+coûterait la crédibilité du compte. En public, rester sur le terrain sûr : « on ne fabrique
+pas, on choisit » — sans généraliser au pays entier, tant que la source n'est pas établie.
 
 ### Un garde-fou à respecter
 

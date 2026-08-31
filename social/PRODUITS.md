@@ -4,6 +4,11 @@
 > **Aucun prix n'y figure volontairement** : les tarifs changent, les publications restent en ligne.
 > CTA à utiliser tant que la boutique n'est pas en ligne : « Écrivez-nous en message privé ».
 
+> ⚠️ **Le catalogue est celui d'un revendeur.** Les références actuelles sont de l'ARDI, mais
+> rien n'engage à s'y tenir : d'autres marques peuvent entrer demain. **Ne jamais lier
+> l'identité de Mon Artifice à un fournisseur** — pas de « la marque qu'on distribue » en
+> communication, pas de logo fournisseur dans les visuels. Voir `STRATEGIE.md` § 11.
+
 ## Ce qu'il faut savoir avant d'utiliser ce fichier
 
 - La disponibilité fiable est **`dispo_stock`**, pas `stock` (voir le rapport en fin de page).

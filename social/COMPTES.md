@@ -11,29 +11,38 @@ créés et renseignés avant. Compter trente minutes.
 |---|---|
 | **Nom d'utilisateur** | `monartifice` — sinon `mon.artifice` ou `monartifice.fr` |
 | **Nom** | `Mon Artifice` |
-| **Catégorie** | Boutique de loisirs / Événementiel |
+| **Catégorie** | **Boutique en ligne** / Magasin de loisirs |
 | **Type de compte** | **Professionnel** — obligatoire pour les statistiques et les liens |
 
 ### Bio — 150 caractères maximum
 
 ```
-🎆 Feux d'artifice choisis par des artificiers de métier
-Coulisses, sécurité, conseils
+🎆 La boutique de feux d'artifice tenue par des artificiers
+Ce qu'on vend, on le tire
 by Ciels en Fête
-Boutique en ligne bientôt ↓
+Ouverture bientôt ↓
 ```
 
-**140 caractères.** Trois choses en quatre lignes : ce qu'on vend, la preuve qu'on sait de quoi
-on parle, et le fait que la boutique arrive. Le lien reste vide tant que le site n'est pas en
-ligne — mieux vaut pas de lien qu'un lien mort.
+**132 caractères.** « Tenue par » et non « de » : ce sont les gérants qui sont artificiers,
+la boutique est un revendeur. La deuxième ligne est la preuve, en cinq mots. Le lien reste vide
+tant que le site n'est pas en ligne — mieux vaut pas de lien qu'un lien mort.
 
-### Variante si vous préférez sans emoji
+### Variantes
 
 ```
-Feux d'artifice choisis par des artificiers de métier.
-Coulisses, sécurité, conseils. by Ciels en Fête.
-Boutique en ligne bientôt.
+Boutique de feux d'artifice. La sélection est faite par des artificiers
+qui tirent pour de vrai. by Ciels en Fête. Ouverture bientôt.
 ```
+
+```
+🎆 Feux d'artifice sélectionnés par des artificiers en exercice
+Particuliers & professionnels · by Ciels en Fête
+Ouverture bientôt ↓
+```
+
+> **À ne pas écrire :** « boutique d'artificiers », « pas des revendeurs », « nos feux ».
+> Mon Artifice **est** un revendeur, et ses produits ne sont pas les siens. Le différenciateur
+> est ailleurs : c'est **qui compose le catalogue**. Voir `STRATEGIE.md` § 11.
 
 ---
 
@@ -48,19 +57,22 @@ Boutique en ligne bientôt.
 ### À propos — version courte
 
 ```
-Feux d'artifice sélectionnés par des artificiers de métier. by Ciels en Fête.
+Boutique de feux d'artifice. Sélection faite par des artificiers. by Ciels en Fête.
 ```
 
 ### À propos — version longue
 
 ```
-Mon Artifice, c'est la boutique de deux artificiers.
+Mon Artifice est une boutique en ligne de feux d'artifice, pour les particuliers
+comme pour les professionnels. C'est la boutique de Ciels en Fête, la société avec
+laquelle nous concevons et tirons des feux pour des villes et des événements.
 
-Pas des revendeurs, pas des intermédiaires : c'est notre métier. On méche, on monte,
-on tire. Ce qu'on vous propose, on l'a manipulé.
+Nous ne fabriquons pas — personne ne fabrique. Dans ce métier, toutes les boutiques
+vendent des produits sortis des mêmes usines. La seule variable, c'est la sélection,
+et la nôtre est faite par des artificiers en exercice. Ce qu'on vend, on le tire.
 
 Sur cette page : les coulisses du métier, ce qu'il faut savoir avant d'acheter un feu
-— réglementation, sécurité, distances — et notre sélection dès l'ouverture de la boutique.
+— réglementation, sécurité, distances — et le catalogue dès l'ouverture.
 
 Une question sur votre projet ? Écrivez-nous. On répond à tout le monde, gratuitement
 et sans engagement.

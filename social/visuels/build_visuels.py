@@ -215,7 +215,7 @@ SAVE = "Enregistrez ce post"
 POSTS = [
  dict(n="00", date="01/09", fmt="Post épinglé", titre="Artificiers de métier", slides=[
    dict(k="cover", eyebrow="Qui sommes-nous", t="Artificiers de métier",
-        sub="On se présente, puisque ce compte commence.",
+        sub="Ce qu'on vend, on le tire.",
         img="E1-artificier-obus.jpg", cta=CTA_DM)]),
 
  dict(n="01", date="02/09", fmt="Carrousel", titre="Compact ou éventail ?", slides=[
@@ -347,7 +347,7 @@ POSTS = [
    dict(k="cover", eyebrow="Coulisses", t="Ce qu'il reste après", size="sm", shot="F1"),
    dict(k="photo", shot="F2", legende="Le ramassage, un reliquat après l'autre."),
    dict(k="quote", t="On repart quand le terrain est plus propre qu'à l'arrivée.", size="sm"),
-   dict(k="end", t="En octobre, on vous présente nos feux.",
+   dict(k="end", t="En octobre, on vous présente la sélection.",
         sub="Un par un, avec leurs vraies caractéristiques.")]),
 ]
 

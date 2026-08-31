@@ -6,7 +6,7 @@
 | Mois | Posts | Temps fort | Campagne dominante | Produits en tête |
 |---|---|---|---|---|
 | **Sept. 2026** | 18 | **Pré-lancement — boutique pas en ligne** | *« Artificiers de métier »* | **Aucun** — coulisses et pédagogie |
-| **Oct. 2026** | 17 | Halloween (31), **1ers posts produit** | *« On vous présente nos feux »* | Bouquets, Mad Fire Box® |
+| **Oct. 2026** | 17 | Halloween (31), **1ers posts produit** | *« On vous présente la sélection »* | Bouquets, Mad Fire Box® |
 | **Nov. 2026** | 18 | Diwali (8), Black Friday (27) | **Lancement campagne Nouvel An** | XL, Mad Fire Box® |
 | **Déc. 2026** | 17 **+18 renfort** | **Saint-Sylvestre (31) — PIC N°1** | *« Comptez jusqu'à minuit »* | Toute la gamme, XL en tête |
 | **Janv. 2027** | 18 | Reprise, projets de mariage | *« On commence l'année »* | Découverte, Petits espaces |

@@ -3,9 +3,9 @@
 > **Objectif de la sortie : une seule session pour tenir plusieurs mois.**
 > Vous êtes deux : pendant que l'un travaille, l'autre shoote. Alternez selon les séquences.
 >
-> Votre plus gros avantage concurrentiel : **vous êtes artificiers, pas revendeurs.** Aucun
-> concurrent qui expédie des boîtes ne peut publier ces images. C'est ce qui va faire la
-> différence sur le compte.
+> Votre plus gros avantage concurrentiel : **la boutique est tenue par des artificiers en
+> exercice.** Mon Artifice revend, comme ses concurrents — mais aucune boutique tenue par des
+> commerçants ne peut publier ces images. C'est ce qui va faire la différence sur le compte.
 
 **48 plans listés.** Les 22 de la **priorité 1** couvrent tout septembre. Les autres constituent
 une banque d'images pour octobre à décembre, qu'on ne pourra pas refaire avant longtemps.

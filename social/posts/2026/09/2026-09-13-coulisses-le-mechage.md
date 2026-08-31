@@ -5,7 +5,7 @@
 | **Pilier** | 4 — Coulisses & métier |
 | **Format** | Carrousel 5 slides — **photos réelles à shooter** |
 | **Produit** | Aucun — phase pré-lancement |
-| **Objectif** | Poser l'expertise : nous ne sommes pas des revendeurs, nous sommes artificiers |
+| **Objectif** | Poser l'expertise : la sélection est faite par des gens qui tirent |
 
 ## Photos à prendre
 Voir `social/COULISSES-PLAN-PHOTO.md` → séquence **A. Méchage**.

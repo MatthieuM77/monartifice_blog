@@ -14,7 +14,7 @@ Site au petit matin, dispositif éteint, ramassage des reliquats, sacs.
 **S1** — Site vide au petit matin. Titre : **« CE QU'IL RESTE APRÈS »**
 **S2** — Ramassage
 **S3** — « On repart quand le terrain est plus propre qu'à l'arrivée »
-**S4** — Teasing : « En octobre, on vous présente nos feux 🎃 »
+**S4** — Teasing : « En octobre, on vous présente la sélection 🎃 »
 
 ## Texte Instagram
 Le feu est fini. Les invités sont partis. Nous, on est encore là.
@@ -25,7 +25,7 @@ On repart toujours quand le terrain est plus propre qu'à notre arrivée. Ce n'e
 
 C'est la partie du métier dont personne ne parle, et c'est celle qui dit le plus de choses sur un artificier.
 
-👉 En octobre, on passe à la suite : on commence à vous présenter nos feux, un par un.
+👉 En octobre, on passe à la suite : on commence à vous présenter la sélection, produit par produit.
 
 #MonArtifice #artificier #coulisses #feudartifice #pyrotechnie #securite #savoirfaire #apreslefeu #feuxdartifice #artificierprofessionnel #responsabilite #france
 
@@ -38,7 +38,7 @@ On repart toujours quand le terrain est plus propre qu'à notre arrivée. Ce n'e
 
 C'est la partie du métier dont personne ne parle. C'est aussi celle qui en dit le plus long sur un artificier.
 
-👉 **En octobre, on passe à la suite** : on commence à vous présenter nos feux, un par un, avec leurs vraies caractéristiques. 🎆
+👉 **En octobre, on passe à la suite** : on commence à vous présenter la sélection, produit par produit, avec leurs vraies caractéristiques. 🎆
 
 #artificier #feudartifice #MonArtifice
 
