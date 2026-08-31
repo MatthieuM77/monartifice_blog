@@ -80,7 +80,17 @@ def main():
     posts_md = sorted((ROOT / "posts/2026/09").glob("*.md"))
     assert len(posts_md) == len(bv.POSTS), "posts et slides desynchronises"
 
-    lignes, exclus = [], []
+    photos = {f.name.split("-")[0] for f in (ROOT / "photos/2026-09").glob("*.jpg")}
+
+    def complet(post):
+        """Vrai si chaque slide a soit un dessin, soit une photo deja sur le disque."""
+        for s in post["slides"]:
+            code = s.get("shot") or (s["img"].split("-")[0] if s.get("img") else None)
+            if code and code not in photos:
+                return False
+        return True
+
+    lignes, exclus, prets = [], [], []
     for post, md in zip(bv.POSTS, posts_md):
         if post["fmt"] == "Reel":
             exclus.append(f'{post["date"]} — {post["titre"]}')
@@ -97,8 +107,11 @@ def main():
             fics = [f"{md.stem}.jpg"]
         medias = ",".join(f for f in fics if (exp / f).exists())
         for compte, legende, com in ((FB, fb, com_fb), (IG, ig, com_ig)):
-            lignes.append([date, heure, FUSEAU, compte, typ, legende,
-                           medias, "", com, CAMPAGNE])
+            ligne = [date, heure, FUSEAU, compte, typ, legende,
+                     medias, "", com, CAMPAGNE]
+            lignes.append(ligne)
+            if complet(post):
+                prets.append(ligne)
 
     entete = ["date", "heure", "fuseau", "compte", "type", "legende",
               "medias", "lien", "commentaire", "campagne"]
@@ -117,6 +130,9 @@ def main():
     s1 = [l for l in lignes if l[0] <= "2026-09-09"]
     ecrire(ROOT / "calendrier/import-semaine1.csv", s1)
 
+    # programmable aujourd'hui : aucune photo manquante, quelle que soit la date
+    ecrire(ROOT / "calendrier/import-pret.csv", prets)
+
     pub = len(lignes) // 2
     car = sum(1 for l in lignes if l[4] == "carousel") // 2
     print(f"{out.relative_to(ROOT.parent)}")
@@ -126,6 +142,10 @@ def main():
     avec = sum(1 for l in lignes if l[6]) // 2
     print(f"  {avec} publications avec leurs visuels renseignes")
     print(f"  semaine 1 : {len(s1)} lignes → calendrier/import-semaine1.csv")
+    dates = sorted({l[0][-5:] for l in prets})
+    print(f"  programmable : {len(prets)} lignes ({len(prets)//2} publications) "
+          f"→ calendrier/import-pret.csv")
+    print(f"    " + " · ".join(d.replace("-", "/") for d in dates))
 
 
 if __name__ == "__main__":
