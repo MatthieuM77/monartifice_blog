@@ -39,11 +39,11 @@ parvenir), mais ce qu'elles montrent est identifié et **sort de la liste de sam
 | **B2** | Tee Ciel en fête, raccordement d'une ligne orange sur le rack « L7 » | 16/09 · 2/4 |
 | **D2** | **Le tableau GENETEC à l'heure bleue, la clé dans le barillet** | 23/09 · 2/4 |
 
-Sept autres entrent en banque d'images : les caisses ARDI dans l'herbe (**G1**), la caisse
-ouverte pleine d'obus en format vertical (**G2**), le raccordement au tableau vu de dos
-(**D3**), la batterie vue de dessus (**T2**), le déballage d'obus (**C2**), l'artificier de dos
-en tee « ARTIFICIER » (**E1 bis**), et le dispositif complet réutilisable en couverture du
-carrousel des distances du 14/09 (**C6**).
+Huit autres entrent en banque : les caisses ARDI dans l'herbe (**C1a**), le déballage d'obus
+(**C1b**), la caisse ouverte pleine d'obus en vertical (**C1c**), le montage en cours
+(**C2 bis**), le raccordement au tableau vu de dos (**B3**), **D3** (la clé de sécurité, sur la
+même image que D2), la batterie vue de dessus (**T2**) et l'artificier de dos en tee
+« ARTIFICIER » (**E1 bis**).
 
 > **Attention :** ces plans sont couverts **en photo**, pas en vidéo. Les Reels ont toujours
 > besoin de leurs plans tournés samedi.

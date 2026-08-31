@@ -58,10 +58,13 @@ les chercher) ou **GitHub** (dépôt public, upload direct dans `social/photos/2
 | **B2** | 16/09 · 2/4 | Tee Ciel en fête, ligne orange sur le rack « L7 » |
 | **D2** | 23/09 · 2/4 | **Tableau GENETEC à l'heure bleue, la clé dans le barillet** |
 
-Sept images entrent en banque : **G1** (caisses ARDI), **G2** (caisse ouverte pleine d'obus,
-déjà en vertical 9:16), **D3** (raccordement au tableau vu de dos), **T2** (batterie vue de
-dessus), **C2** (déballage d'obus), **E1 bis** (artificier de dos, tee « ARTIFICIER ») et
-**C6** (le dispositif complet, candidat en couverture du carrousel des distances du 14/09).
+Huit images entrent en banque : **C1a** (caisses ARDI), **C1b** (déballage d'obus), **C1c**
+(caisse ouverte pleine d'obus, déjà en vertical 9:16), **C2 bis** (le montage en cours), **B3**
+(raccordement au tableau vu de dos), **D3** (la clé de sécurité — même image que D2), **T2**
+(batterie vue de dessus) et **E1 bis** (artificier de dos, tee « ARTIFICIER »).
+
+Le dispositif monté complet (**C5 bis**) est en plus un candidat sérieux pour la couverture du
+carrousel des distances du 14/09, aujourd'hui entièrement dessiné.
 
 **Le 20/09 est désormais couvert des deux bouts** : la caisse ouverte pleine d'obus pour le
 départ, le dispositif monté pour l'arrivée. C'est toute la publication en deux images réelles.
