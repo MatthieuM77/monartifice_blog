@@ -270,7 +270,7 @@ une confusion potentielle en preuve de compétence, et il justifie à lui seul l
 C'est le positionnement le plus fort disponible : aucun revendeur ne peut le dire. Il transforme
 une confusion potentielle en preuve de compétence, et il justifie à lui seul le prix.
 
-Le post épinglé du 9 septembre (« Artificiers de métier ») porte cette explication.
+Le post d'ouverture du 1er septembre (« Artificiers de métier ») porte cette explication.
 
 ### Un garde-fou à respecter
 

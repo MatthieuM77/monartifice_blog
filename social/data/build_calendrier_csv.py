@@ -40,7 +40,7 @@ def nettoie(txt):
 def lire(md):
     """Extrait l'heure, la legende Instagram et la legende Facebook d'un fichier post."""
     txt = md.read_text(encoding="utf-8")
-    h = re.search(r"^# \d+ · \w+ \d+ \w+ \d{4} · (\d+) h (\d+)", txt, re.M)
+    h = re.search(r"^# \d+ · .+? · (\d+) h (\d+)", txt, re.M)
     heure = f"{int(h.group(1)):02d}:{h.group(2)}" if h else ""
     ig = re.search(r"## Texte Instagram\n(.*?)\n## Texte Facebook", txt, re.S)
     fb = re.search(r"## Texte Facebook\n(.*?)\n## Story associée", txt, re.S)

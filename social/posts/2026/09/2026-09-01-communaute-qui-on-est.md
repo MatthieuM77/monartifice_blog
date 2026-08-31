@@ -1,11 +1,15 @@
-# 05 · Mercredi 9 septembre 2026 · 12 h 30
+# 00 · Mardi 1er septembre 2026 · 18 h 30 — **post d'ouverture**
 
 | | |
 |---|---|
 | **Pilier** | 5 — Communauté & preuve sociale |
 | **Format** | Post de présentation + photo d'équipe |
 | **Produit** | Aucun |
-| **Objectif** | **Post de fondation.** À épingler en haut du profil. |
+| **Objectif** | **Post de fondation.** Le tout premier post des deux comptes. À épingler. |
+
+> **Hors grille, et c'est voulu.** Les comptes sont neufs : on n'ouvre pas devant zéro abonné
+> avec un carrousel pédagogique. Ce post dit qui vous êtes et donne une raison de suivre.
+> La grille normale (lundi / mercredi / vendredi / dimanche) démarre le lendemain, mercredi 2.
 
 ## Photos à prendre
 Photo de vous en situation, sur un site de tir, en fin de montage. Pas une photo posée en studio :
@@ -54,3 +58,6 @@ Présentation en 3-4 stories, à mettre **en story à la une** intitulée « Qui
 ## Note interne
 **Épingler ce post** en haut du profil Instagram et Facebook. C'est le premier post que verra
 quiconque découvre le compte pendant toute la phase de pré-lancement.
+
+Les comptes doivent être créés et renseignés **avant** cette publication : nom, bio, photo de
+profil, lien. Voir `social/COMPTES.md`.

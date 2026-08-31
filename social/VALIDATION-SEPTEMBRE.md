@@ -1,6 +1,6 @@
 # Valider septembre 2026 — état et checklist
 
-**17 publications · 47 slides · 9 carrousels · 3 Reels.**
+**18 publications · 53 slides · 10 carrousels · 3 Reels.**
 Tout est écrit et maquetté. Il reste **5 photos à faire**, **12 fichiers d'archive à me faire
 parvenir**, **3 vidéos** et **4 relectures**.
 
@@ -14,12 +14,12 @@ parvenir**, **3 vidéos** et **4 relectures**.
 | Élément | État |
 |---|---|
 | Stratégie, piliers, cadence | ✅ |
-| Calendrier des 17 publications | ✅ |
-| **Textes Instagram** — 17/17 | ✅ |
-| **Textes Facebook** — 17/17, réécrits, pas des copies | ✅ |
+| Calendrier des 18 publications | ✅ |
+| **Textes Instagram** — 18/18 | ✅ |
+| **Textes Facebook** — 18/18, réécrits, pas des copies | ✅ |
 | **Hashtags** — 14 par post Instagram, 3 par post Facebook | ✅ |
 | Stories associées décrites | ✅ |
-| **44 slides maquettées**, aux couleurs et au logo de la marque | ✅ |
+| **53 slides maquettées**, aux couleurs et au logo de la marque | ✅ |
 | 5 photos intégrées | ✅ |
 | Import Canva | ✅ — **un design par publication** |
 
@@ -121,11 +121,11 @@ jamais en conseil juridique. **À relire avant publication.**
 ## 6. Trois décisions
 
 **A. La formulation Ciels en Fête.** Le logo porte déjà « by Ciels en Fête », donc le lien
-est affiché en permanence. Le post épinglé du 9 septembre l'explicite. Validez la phrase ou
+est affiché en permanence. Le post d'ouverture du 1er septembre l'explicite. Validez la phrase ou
 donnez-moi la vôtre.
 
-**B. Le compte Instagram et la page Facebook existent-ils ?** Si non, à créer avant le 2/09.
-Nom, bio, photo de profil, lien. Je peux rédiger la bio.
+**B. Les comptes.** ✅ Réglé : les comptes sont neufs. Bios, catégories, réglages et checklist
+de création sont rédigés dans `social/COMPTES.md`. **À créer avant le 1er septembre au soir.**
 
 **C. Les vidéos produit.** 27 références ont un ID YouTube dans la base. Si vous avez le droit
 de les réutiliser, elles règlent une partie du besoin en images de feu pour octobre. À vérifier

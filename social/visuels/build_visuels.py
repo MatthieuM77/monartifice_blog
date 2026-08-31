@@ -213,6 +213,11 @@ CTA_DM = "Une question ? Écrivez-nous en message privé"
 SAVE = "Enregistrez ce post"
 
 POSTS = [
+ dict(n="00", date="01/09", fmt="Post épinglé", titre="Artificiers de métier", slides=[
+   dict(k="cover", eyebrow="Qui sommes-nous", t="Artificiers de métier",
+        sub="On se présente, puisque ce compte commence.",
+        img="E1-artificier-obus.jpg", cta=CTA_DM)]),
+
  dict(n="01", date="02/09", fmt="Carrousel", titre="Compact ou éventail ?", slides=[
    dict(k="cover", eyebrow="Expertise", t="Compact ou éventail ?",
         sub="Même durée. Rendu totalement différent."),
@@ -245,10 +250,23 @@ POSTS = [
    dict(k="end", t="Dans le doute, appelez votre mairie.",
         sub="C'est gratuit et ça prend cinq minutes.", save=True, cta=CTA_DM)]),
 
- dict(n="05", date="09/09", fmt="Post épinglé", titre="Artificiers de métier", slides=[
-   dict(k="cover", eyebrow="Qui sommes-nous", t="Artificiers de métier",
-        sub="On se présente, puisque ce compte commence.",
-        img="E1-artificier-obus.jpg", cta=CTA_DM)]),
+ dict(n="05", date="09/09", fmt="Carrousel", titre="Les 4 questions qu'on nous pose le plus", slides=[
+   dict(k="cover", eyebrow="Vos questions", t="Les 4 questions\nqu'on nous pose le plus",
+        sub="Les réponses courtes."),
+   dict(k="point", i="01", t="« Ça dure combien de temps ? »",
+        sub="Moins que vous ne croyez, et c'est normal. Un feu de 2 minutes bien construit "
+            "marque plus qu'un feu de 5 minutes qui traîne. La densité compte plus que la durée."),
+   dict(k="point", i="02", t="« Est-ce que j'ai le droit ? »",
+        sub="Ça dépend de la catégorie, du lieu et de la taille de l'événement. "
+            "Dans le doute : votre mairie. C'est gratuit et ça prend cinq minutes."),
+   dict(k="point", i="03", t="« Il faut combien de recul ? »",
+        sub="Ça se joue en mètres, pas au feeling. C'est écrit sur chaque produit. "
+            "On en reparle en détail très bientôt."),
+   dict(k="point", i="04", t="« Et s'il pleut ? »",
+        sub="La pluie n'est pas le vrai sujet. Le vent, si. "
+            "On y consacre une publication à la fin du mois."),
+   dict(k="end", t="Votre question, c'est laquelle ?",
+        sub="Posez-la en commentaire. On répond à tout le monde.", save=True, cta=CTA_DM)]),
 
  dict(n="06", date="11/09", fmt="Reel", titre="L'autre côté du feu", slides=[
    dict(k="cover", eyebrow="Coulisses", t="L'autre côté du feu",
