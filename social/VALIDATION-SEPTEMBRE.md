@@ -1,7 +1,7 @@
 # Valider septembre 2026 — état et checklist
 
 **17 publications · 47 slides · 9 carrousels · 3 Reels.**
-Tout est écrit et maquetté. Il reste **5 photos à faire**, **10 fichiers d'archive à me faire
+Tout est écrit et maquetté. Il reste **5 photos à faire**, **12 fichiers d'archive à me faire
 parvenir**, **3 vidéos** et **4 relectures**.
 
 > **Les Reels : vous filmez, je ne produis pas de vidéo.** Un Reel se monte avec 12 à 15 plans,
@@ -44,9 +44,9 @@ Les 8 autres publications sont des visuels uniques : 3 Reels, posts simples, son
 
 ---
 
-## 3. 📦 Lots 2 et 3 — 4 slides couvertes, fichiers à récupérer
+## 3. 📦 Lots 2, 3 et 4 — 4 slides couvertes, fichiers à récupérer
 
-Les dix photos d'archive envoyées **ne sont pas arrivées sur le disque de la session** — elles
+Les douze photos d'archive envoyées **ne sont pas arrivées sur le disque de la session** — elles
 s'affichent de mon côté mais aucun fichier n'est déposé. `social/photos/2026-09/PHOTOS-A-RECEVOIR.md`
 donne les deux moyens de me les faire parvenir : **Google Drive** (j'ai le connecteur, je vais
 les chercher) ou **GitHub** (dépôt public, upload direct dans `social/photos/2026-09/`).
@@ -54,13 +54,17 @@ les chercher) ou **GitHub** (dépôt public, upload direct dans `social/photos/2
 | Plan | Slide | Image d'archive |
 |---|---|---|
 | **A2** *(à confirmer au recadrage)* | 13/09 · 3/5 | Raccordement sur un rack numéroté, tube « 197 » |
-| **A3** | 13/09 · 4/5 | Plan large du montage, racks bleus et racks sanglés |
+| **A3** | 13/09 · 4/5 | **Le dispositif monté complet, plein jour, jalons de périmètre au fond** |
 | **B2** | 16/09 · 2/4 | Tee Ciel en fête, ligne orange sur le rack « L7 » |
 | **D2** | 23/09 · 2/4 | **Tableau GENETEC à l'heure bleue, la clé dans le barillet** |
 
-Cinq images entrent en banque : **G1** (caisses ARDI), **D3** (raccordement au tableau vu de
-dos), **T2** (batterie vue de dessus), **C2** (déballage d'obus) et **E1 bis** (artificier de
-dos, tee « ARTIFICIER »).
+Sept images entrent en banque : **G1** (caisses ARDI), **G2** (caisse ouverte pleine d'obus,
+déjà en vertical 9:16), **D3** (raccordement au tableau vu de dos), **T2** (batterie vue de
+dessus), **C2** (déballage d'obus), **E1 bis** (artificier de dos, tee « ARTIFICIER ») et
+**C6** (le dispositif complet, candidat en couverture du carrousel des distances du 14/09).
+
+**Le 20/09 est désormais couvert des deux bouts** : la caisse ouverte pleine d'obus pour le
+départ, le dispositif monté pour l'arrivée. C'est toute la publication en deux images réelles.
 
 > Le tableau à l'heure bleue avec la clé dans le barillet est la plus forte des dix. Elle vaut
 > mieux qu'une slide intérieure : je la passerais en couverture du 23/09.

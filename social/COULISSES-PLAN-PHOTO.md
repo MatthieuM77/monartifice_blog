@@ -26,22 +26,24 @@ Ces images sont **déjà intégrées** aux visuels de septembre. Inutile de les 
 
 Fichiers dans `social/photos/2026-09/`.
 
-## 📦 Lots 2 et 3 — 4 plans couverts par vos archives
+## 📦 Lots 2, 3 et 4 — 4 plans couverts par vos archives
 
-Vous m'avez renvoyé dix photos d'archive. **Aucun fichier n'est parvenu jusqu'à la session**
+Vous m'avez renvoyé douze photos d'archive. **Aucun fichier n'est parvenu jusqu'à la session**
 (voir `social/photos/2026-09/PHOTOS-A-RECEVOIR.md` pour les deux moyens de me les faire
 parvenir), mais ce qu'elles montrent est identifié et **sort de la liste de samedi** :
 
 | Plan | Image d'archive | Publication |
 |---|---|---|
 | **A2** *(à confirmer)* | Raccordement sur un rack numéroté, tube « 197 » | 13/09 · 3/5 |
-| **A3** | Plan large du montage : racks bleus, racks sanglés, table de matériel | 13/09 · 4/5 |
+| **A3** | **Le dispositif monté complet, plein jour, jalons de périmètre au fond** | 13/09 · 4/5 |
 | **B2** | Tee Ciel en fête, raccordement d'une ligne orange sur le rack « L7 » | 16/09 · 2/4 |
 | **D2** | **Le tableau GENETEC à l'heure bleue, la clé dans le barillet** | 23/09 · 2/4 |
 
-Quatre autres entrent en banque d'images : les caisses ARDI dans l'herbe (**G1**), le
-raccordement au tableau vu de dos (**D3**), la batterie vue de dessus (**T2**), le déballage
-d'obus (**C2**), et l'artificier de dos en tee « ARTIFICIER » (**E1 bis**).
+Sept autres entrent en banque d'images : les caisses ARDI dans l'herbe (**G1**), la caisse
+ouverte pleine d'obus en format vertical (**G2**), le raccordement au tableau vu de dos
+(**D3**), la batterie vue de dessus (**T2**), le déballage d'obus (**C2**), l'artificier de dos
+en tee « ARTIFICIER » (**E1 bis**), et le dispositif complet réutilisable en couverture du
+carrousel des distances du 14/09 (**C6**).
 
 > **Attention :** ces plans sont couverts **en photo**, pas en vidéo. Les Reels ont toujours
 > besoin de leurs plans tournés samedi.

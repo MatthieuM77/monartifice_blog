@@ -54,8 +54,31 @@ visible sur un vrai chantier. À garder telle quelle, sans recadrage qui coupera
 fournisseur. Rien de confidentiel, mais un recadrage léger sur la caisse du bas — celle qui
 porte l'étiquette 1.3G — donne une image plus forte et évite la question.
 
-### Un ajustement de texte
+## Lot 4 — 2 photos
 
-La slide **A3** du 13/09 annonce « le dispositif méché, prêt à tirer ». La photo montre le
-dispositif **en cours de montage**, en plein jour. C'est très bien, mais je recale la légende
-sur « le montage » plutôt que sur « prêt à tirer » — sinon l'image et le texte se contredisent.
+| # | Ce que montre la photo | Code | Sert à |
+|---|---|---|---|
+| 1 | **Le dispositif monté complet, plein jour** : une douzaine de racks bâchés sur palettes, deux racks jaunes en flancs, deux flight cases sur pieds, jalons de périmètre au fond, comètes scotchées au sol devant | **A3** + **C6** | 13/09 · slide 4/5 · **et 14/09 — 8 m ou 25 m ?** |
+| 2 | Caisse ouverte tenue à bout de bras, obus ensachés à coiffe rouge, cerclage orange, botte de mèches | **G2** *(vertical 9:16)* | 20/09 — De la caisse au dispositif |
+
+### Ce que ça débloque
+
+**La photo 1 règle A3 pour de bon.** C'est le vrai « dispositif prêt à tirer », pas le montage
+en cours — l'ajustement de légende prévu pour le lot 3 n'est plus nécessaire, on garde le texte
+d'origine.
+
+**Et elle ouvre une possibilité pour le 14/09.** Le carrousel « 8 mètres ou 25 mètres ? » est
+entièrement dessiné : schémas de périmètre, rien de photographique. Cette image montre un
+dispositif réel **avec ses jalons de périmètre visibles au fond** et l'échelle du terrain.
+Une photo réelle en couverture, les schémas à l'intérieur : le carrousel devient beaucoup plus
+crédible. Code **C6**.
+
+**La photo 2 est déjà au bon format.** Vertical 9:16, prise à bout de bras au-dessus de la
+caisse : c'est exactement le cadrage Instagram. Elle donne le premier temps du 20/09 — ce qui
+sort de la caisse — quand la photo 1 en donne le dernier — ce que ça devient une fois monté.
+Les deux ensemble racontent la publication en entier.
+
+### Ce que ça ne change pas
+
+Aucun des cinq plans de samedi ne tombe : **T8, T10, H2, F1 et F2 sont tous des plans de nuit
+ou d'après-tir.** Aucune archive de jour ne peut les remplacer.
