@@ -38,5 +38,14 @@ Vous préparez une demande ? Écrivez-nous en privé, on vous aide à caler ça 
 
 #demandeenmariage #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible.
+> **Facebook** : une relance, pas des hashtags.
+
+**Facebook :**
+Il ne savait rien. Elle nous avait appelés trois semaines avant. C'est le genre de commande qu'on ne rate pas.
+
 ## Story associée
 Sticker question : « Racontez-nous votre demande en mariage » → mine d'or de contenu communautaire.

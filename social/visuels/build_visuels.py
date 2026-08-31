@@ -146,8 +146,8 @@ h2.sm{{font-size:70px}}
 .tag.v{{border-color:{VERT};color:{VERT_CLAIR}}}
 .save{{display:flex;align-items:center;gap:16px;margin-top:40px;font-size:32px;color:{VERT_CLAIR};
   font-weight:700}}
-.grid6{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}}
-.grid6 div{{aspect-ratio:1;border:2px dashed rgba(141,187,32,.42);border-radius:4px;
+.grid6{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}}
+.grid6 div{{aspect-ratio:5/4;border:2px dashed rgba(141,187,32,.42);border-radius:4px;
   display:flex;align-items:center;justify-content:center;font-size:22px;
   color:rgba(141,187,32,.6);letter-spacing:.2em}}
 .diag{{position:absolute;left:0;right:0;top:96px;height:620px}}
@@ -331,7 +331,8 @@ POSTS = [
         sub="ont quelque chose que les autres n'ont pas.", shot="H2", cta=CTA_DM)]),
 
  dict(n="15", date="27/09", fmt="Appel UGC", titre="Montrez-nous votre été", slides=[
-   dict(k="cover", t="Montrez-nous votre été", sub="On republie les plus belles.", grid=True)]),
+   dict(k="cover", eyebrow="Vos vidéos", t="Montrez-nous votre été", size="sm",
+        sub="On republie les plus belles.", grid=True)]),
 
  dict(n="16", date="28/09", fmt="Carrousel", titre="Et s'il pleut ?", slides=[
    dict(k="cover", badge="Météo", t="Et s'il pleut ?",

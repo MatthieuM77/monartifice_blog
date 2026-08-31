@@ -65,5 +65,14 @@ C'est la plus belle place du spectacle. C'est aussi la seule qui ne se prête pa
 
 #artificier #feudartifice #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible.
+> **Facebook** : une relance, pas des hashtags.
+
+**Facebook :**
+On ne voit jamais le feu depuis cette place. C'est pourtant la seule d'où on le sent vraiment : le souffle arrive avant l'image.
+
 ## Story associée
 Le plan `T8` en story, avec un sticker question : « Vous imaginiez ça comment, de notre côté ? »

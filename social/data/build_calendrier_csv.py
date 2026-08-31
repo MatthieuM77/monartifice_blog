@@ -61,12 +61,14 @@ def lire(md):
     heure = f"{int(h.group(1)):02d}:{h.group(2)}" if h else ""
 
     ig = section(txt, "Texte Instagram")
+    # le bloc de hashtags peut tenir sur plusieurs lignes : on remonte tant que
+    # la ligne commence par un #, sinon on n'en detacherait qu'une partie
     lignes = ig.rstrip().split("\n")
-    if lignes and lignes[-1].lstrip().startswith("#"):
-        com_ig = lignes[-1].strip()
-        ig = "\n".join(lignes[:-1]).rstrip()
-    else:
-        com_ig = ""
+    i = len(lignes)
+    while i > 0 and lignes[i - 1].lstrip().startswith("#"):
+        i -= 1
+    com_ig = " ".join(l.strip() for l in lignes[i:])
+    ig = "\n".join(lignes[:i]).rstrip()
 
     # la section porte un bloc de consigne en citation puis "**Facebook :**" : on ne
     # garde que ce qui suit ce marqueur, avant de retirer le balisage

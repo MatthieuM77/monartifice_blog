@@ -40,5 +40,14 @@ C'est la partie la moins spectaculaire de notre métier. C'est aussi celle qui �
 
 #artificier #securite #MonArtifice
 
+## Premier commentaire
+
+> Publié automatiquement juste après la publication.
+> **Instagram** : les hashtags, retirés de la légende pour la garder lisible.
+> **Facebook** : une relance, pas des hashtags.
+
+**Facebook :**
+Entre la première caisse posée et la dernière ligne raccordée, il se passe des heures. Le spectacle, lui, dure trois minutes.
+
 ## Story associée
 Avant / après : la caisse fermée, puis le dispositif monté et calé.
