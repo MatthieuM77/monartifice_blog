@@ -16,29 +16,62 @@ créés et renseignés avant. Compter trente minutes.
 
 ### Bio — 150 caractères maximum
 
-```
-🎆 La boutique de feux d'artifice tenue par des artificiers
-Ce qu'on vend, on le tire
-by Ciels en Fête
-Ouverture bientôt ↓
-```
-
-**132 caractères.** « Tenue par » et non « de » : ce sont les gérants qui sont artificiers,
-la boutique est un revendeur. La deuxième ligne est la preuve, en cinq mots. Le lien reste vide
-tant que le site n'est pas en ligne — mieux vaut pas de lien qu'un lien mort.
-
-### Variantes
+**Point de départ : la bio que vous aviez déjà écrite.**
 
 ```
-Boutique de feux d'artifice. La sélection est faite par des artificiers
-qui tirent pour de vrai. by Ciels en Fête. Ouverture bientôt.
+🔥 Boutique pyrotechnique spécialisée.
+🎇 Feux auto, compacts, packs prêts à tirer.
+😁 Qualité, sécurité et émotions garanties.
 ```
+*124 caractères.*
+
+Les deux premières lignes sont bonnes, meilleures que ce que j'avais proposé : « feux auto,
+compacts, packs prêts à tirer » est **concret**. Un acheteur sait en une seconde s'il est au
+bon endroit. On les garde.
+
+La troisième est le maillon faible. « Qualité, sécurité et émotions garanties » est la ligne
+que **toutes** les boutiques du secteur écrivent — un concurrent peut la recopier telle quelle.
+Elle occupe un tiers de la bio sans rien apprendre à personne, et « garanties » est un mot à
+portée juridique qu'il vaut mieux ne pas employer à la légère.
+
+Surtout, il manque la seule chose que la concurrence ne peut pas copier : **qui tient la
+boutique.**
+
+### Recommandation — variante C
 
 ```
-🎆 Feux d'artifice sélectionnés par des artificiers en exercice
-Particuliers & professionnels · by Ciels en Fête
-Ouverture bientôt ↓
+🔥 La boutique pyrotechnique tenue par des artificiers
+🎇 Feux auto, compacts, packs prêts à tirer
+🎆 Ce qu'on vend, on le tire · by Ciels en Fête
 ```
+*143 caractères.* La preuve dès la première ligne, vos produits au milieu, la signature à la fin.
+
+### Les autres options
+
+**B — la plus courte,** si vous voulez de la marge (124 car.) :
+```
+🔥 Boutique pyrotechnique spécialisée
+🎇 Feux auto, compacts, packs prêts à tirer
+🎆 Sélection d'artificiers · by Ciels en Fête
+```
+
+**D — si les pros comptent dès maintenant** (138 car.) :
+```
+🔥 Boutique pyrotechnique · particuliers & pros
+🎇 Feux auto, compacts, packs prêts à tirer
+🎆 Choisis par des artificiers · by Ciels en Fête
+```
+
+### Trois détails
+
+**Les points finaux.** Les enlever fait gagner trois caractères et allège la lecture : dans une
+bio, chaque ligne est déjà une unité, la ponctuation ne sert à rien.
+
+**Le 😁.** Il jure avec la direction artistique du compte — fond nuit, vert et magenta, quelque
+chose de premium. Un 🎆 tient le même rôle et reste dans l'univers.
+
+**Le lien.** À laisser vide tant que la boutique n'est pas en ligne : mieux vaut pas de lien
+qu'un lien mort. Le jour de l'ouverture, il remplace la mention « Ouverture bientôt ».
 
 > **À ne pas écrire :** « boutique d'artificiers », « pas des revendeurs », « nos feux ».
 > Mon Artifice **est** un revendeur, et ses produits ne sont pas les siens. Le différenciateur
