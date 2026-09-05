@@ -12,3 +12,17 @@ venv/
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Fichiers régénérables — ils se refabriquent en une commande et pesaient 20 Mo
+# sur 27, chaque retouche de photo en réécrivant la totalité (images encodées
+# en base64 dans les maquettes). Voir ENVOYER-DES-FICHIERS.md.
+#   python3 social/visuels/build_visuels.py      → les maquettes HTML
+#   python3 social/visuels/export_visuels.py     → les JPEG 1080×1350
+#   python3 social/data/build_calendrier_csv.py  → les CSV d'import
+social/visuels/2026/**/*.html
+social/visuels/2026/**/*.png
+social/visuels/export/2026-09/
+social/visuels/export/*.zip
+
+# Rushes vidéo : jamais dans le dépôt, voir ENVOYER-DES-FICHIERS.md
+social/rushes/

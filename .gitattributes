@@ -1,0 +1,14 @@
+# Git LFS — fichiers trop lourds pour l'historique Git.
+# GitHub refuse tout fichier de plus de 100 Mo sans LFS.
+# ⚠️ Le quota LFS gratuit est d'environ 1 Go : voir ENVOYER-DES-FICHIERS.md
+#    avant d'y pousser de la vidéo.
+
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.MP4  filter=lfs diff=lfs merge=lfs -text
+*.mov  filter=lfs diff=lfs merge=lfs -text
+*.MOV  filter=lfs diff=lfs merge=lfs -text
+*.avi  filter=lfs diff=lfs merge=lfs -text
+*.zip  filter=lfs diff=lfs merge=lfs -text
+
+# Les photos restent en Git ordinaire : quelques Mo, c'est sans conséquence,
+# et ça évite d'avoir besoin de git-lfs pour simplement les consulter.
