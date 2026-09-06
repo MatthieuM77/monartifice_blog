@@ -363,9 +363,22 @@ def captions():
     return out
 
 
+def fichier_du_plan(code):
+    """Le fichier photo portant ce code de plan, s'il a ete livre.
+
+    Les slides declarent un code (`shot="A2"`) tant que la photo n'existe pas.
+    Des qu'un fichier `A2-....jpg` arrive dans le dossier, il remplit le cadre
+    sans qu'il y ait a toucher au montage.
+    """
+    for f in sorted((ROOT / "photos/2026-09").glob(f"{code}-*.jpg")):
+        return f.name
+    return None
+
+
 def fond(sl, seed):
     """Fond de slide : photo reelle, cadre reserve, ou gerbes."""
-    uri = photo_uri(sl["img"]) if sl.get("img") else None
+    nom = sl.get("img") or (fichier_du_plan(sl["shot"]) if sl.get("shot") else None)
+    uri = photo_uri(nom) if nom else None
     if uri:
         w = " wide" if sl.get("wide") else ""
         return (f'<div class="shot{w}" style="background-image:url({uri})"></div>'
@@ -383,7 +396,7 @@ def fond(sl, seed):
         svg += burst(770, 320, 285, 26, seed) + burst(300, 230, 150, 16, seed + 1)
     svg += "</svg>"
     cadre = (f'<div class="photo"><span>Photo {html.escape(sl["shot"])}</span></div>'
-             if sl.get("shot") else "")
+             if sl.get("shot") else "")   # le code n'a pas encore de fichier
     return svg + cadre, ""
 
 
