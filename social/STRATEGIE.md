@@ -54,25 +54,90 @@ le CTA — l'assortiment et les visuels restent valables.
 
 Chaque publication appartient à un pilier et un seul. Le mix hebdomadaire est calibré pour que l'algorithme ne perçoive pas le compte comme un catalogue.
 
-### Pilier 1 — PRODUIT (30 % · ~62 posts/an)
-Mise en avant d'une référence précise : durée, nombre de coups, effet, usage idéal.
-*Objectif : vente directe.* Format : carrousel ou reel produit.
+> ⚠️ **Pondération revue après septembre.** Le mois de pré-lancement était volontairement
+> tenu par les coulisses et la pédagogie — la boutique n'était pas en ligne, il n'y avait rien
+> à vendre. Ce registre ne doit pas s'installer : voir § 3 bis.
+
+### Pilier 1 — PRODUIT & OCCASION (40 % · ~83 posts/an)
+Une référence précise, ou une occasion qui appelle un produit : anniversaire, crémaillère,
+mariage, réveillon, fête de village. Durée, nombre de coups, effet, ce que ça donne dans un
+jardin. *Objectif : vente directe.* Format : carrousel produit, Reel produit, avant/après.
 
 ### Pilier 2 — ÉMOTION & MOMENTS (25 % · ~52 posts/an)
 Le feu d'artifice comme moment de vie : demande en mariage, ouverture de bal, minuit du 31, anniversaire surprise.
 *Objectif : partages et enregistrements.* C'est le pilier qui fait grossir le compte. Format : reel vertical, gros plan émotion.
 
-### Pilier 3 — PÉDAGOGIE, SÉCURITÉ & RÉGLEMENTATION (20 % · ~42 posts/an)
-Comment choisir sa durée, quelle distance de sécurité, que dit la loi, catégories F2/F3, déclaration en mairie, quoi faire en cas de pluie.
-*Objectif : crédibilité, autorité, et surtout **enregistrements** (les gens sauvegardent l'info utile).* Format : carrousel infographique.
+### Pilier 3 — BIEN CHOISIR (15 % · ~31 posts/an)
+**Registre acheteur, pas registre réglementaire.** Quelle durée pour combien d'invités,
+quelle différence entre 100 coups et 200, combien de recul il faut vraiment, F2 ou F3 pour un
+jardin. La sécurité et la loi y figurent — mais comme **réponse à une question d'achat**,
+jamais comme sujet en soi. *Objectif : lever le dernier frein avant la commande.*
 
-### Pilier 4 — COULISSES & EXPERTISE (15 % · ~31 posts/an)
-Le métier : préparation, installation, tests, atelier, différence entre un compact et un éventail, pourquoi un « 202 coups » n'est pas forcément mieux qu'un « 49 départs ».
-*Objectif : confiance et différenciation.* Format : reel brut, vidéo terrain.
+### Pilier 4 — COULISSES (10 % · ~21 posts/an)
+Le métier, en preuve et non en sujet : ce que Ciels en Fête fait sur le terrain, et pourquoi
+ça rend la sélection fiable. *Objectif : différenciation.* Format : Reel brut, vidéo terrain.
 
 ### Pilier 5 — COMMUNAUTÉ & PREUVE SOCIALE (10 % · ~21 posts/an)
 Avis clients, vidéos de clients (UGC), sondages, questions ouvertes, réponses en story.
 *Objectif : interactions et réassurance avant achat.* Format : repost, sondage, question.
+
+---
+
+## 3 bis. ⚠️ Le piège du registre professionnel
+
+**Le compte doit vendre des produits de fête, pas raconter un métier.**
+
+Septembre est très marqué artificier, sécurité, réglementation. C'était juste pour un mois de
+pré-lancement sans rien à vendre. Tenu toute l'année, ce registre produit un compte que les
+confrères trouvent excellent et que les clients ne comprennent pas.
+
+### La tension à connaître
+
+Montrer trois heures de montage, un pupitre de tir et un périmètre de sécurité prouve la
+compétence — mais dit aussi, en creux : **« c'est compliqué, c'est dangereux, ce n'est pas
+pour vous »**. Or l'argument de vente d'un compact est exactement l'inverse : *une mèche, on
+allume, on recule, ça part tout seul.* Le contenu coulisses peut donc travailler contre le
+produit s'il occupe trop de place.
+
+**La règle : les coulisses prouvent, elles ne vendent pas.** Une publication sur cinq au
+maximum, et toujours refermée sur le produit — « ça, c'est notre métier ; ce qu'on vous vend,
+c'est prêt à l'emploi ».
+
+### Le vocabulaire
+
+| ❌ Registre métier | ✅ Registre client |
+|---|---|
+| artificier, pyrotechnie | *(à réserver à la preuve, pas à l'argumentaire)* |
+| dispositif, méchage, calage | le feu, la boîte, l'installation |
+| départs, calibre 30 mm | coups, la taille des effets |
+| distance de sécurité réglementaire | le recul qu'il faut, « 8 m, c'est un jardin » |
+| catégorie F2 / F3 | *garder les sigles, mais toujours traduits* |
+| « conforme à la réglementation » | « autorisé sans formation » |
+
+### Ce qui remplace les carrousels réglementaires
+
+Le même contenu, retourné du côté de l'acheteur :
+
+| Ancien angle | Nouvel angle |
+|---|---|
+| « Faut-il prévenir la mairie ? » | « Chez vous, dans votre jardin : ce que vous pouvez faire sans rien demander » |
+| « 8 mètres ou 25 mètres ? » | « Quelle taille de feu pour votre terrain » |
+| « F2 ou F3 ? » | « Lequel choisir pour 30 invités, pour 100, pour 300 » |
+| « Et s'il pleut ? » | « Votre feu est prévu samedi et la météo tourne : ce qu'on ferait » |
+
+---
+
+## 3 ter. ⚠️ Le catalogue de référence est incomplet
+
+L'export SQL reçu contient **30 références, toutes F2 ou F3** : des compacts, des bouquets,
+des Champs-Élysées, une Mad Fire Box. **Aucun cotillon, aucun article de fête** — alors que
+c'est une part annoncée de l'assortiment.
+
+Tant que ces références manquent, le plan éditorial ne peut pas leur faire de place, et il
+reste calé sur les feux seuls. **C'est probablement la correction la plus rentable à apporter
+avant octobre** : les cotillons ouvrent un public beaucoup plus large — anniversaires
+d'enfants, mariages, réveillons, pots de départ — là où les compacts F2/F3 parlent à un
+acheteur déjà décidé. Fournir cet export permet de rééquilibrer tout le calendrier.
 
 ---
 

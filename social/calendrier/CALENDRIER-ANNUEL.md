@@ -5,6 +5,15 @@
 
 | Mois | Posts | Temps fort | Campagne dominante | Produits en tête |
 |---|---|---|---|---|
+> ⚠️ **À partir d'octobre, le registre change.** Septembre est très marqué métier,
+> sécurité et réglementation : c'était juste pour un mois sans rien à vendre. Tenu toute
+> l'année, ce registre parle aux confrères et pas aux clients. Les coulisses redescendent à
+> une publication sur cinq, la pédagogie devient du conseil d'achat, et le produit reprend la
+> tête. Voir `STRATEGIE.md` § 3 bis.
+>
+> Les cotillons et articles de fête **ne sont pas dans l'export catalogue reçu** : le plan
+> ci-dessous ne couvre donc que les feux. Voir § 3 ter.
+
 | **Sept. 2026** | 18 | **Pré-lancement — boutique pas en ligne** | *« Artificiers de métier »* | **Aucun** — coulisses et pédagogie |
 | **Oct. 2026** | 17 | Halloween (31), **1ers posts produit** | *« On vous présente la sélection »* | Bouquets, Mad Fire Box® |
 | **Nov. 2026** | 18 | Diwali (8), Black Friday (27) | **Lancement campagne Nouvel An** | XL, Mad Fire Box® |
