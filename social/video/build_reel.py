@@ -8,6 +8,12 @@ Partis pris, tous demandes par le client :
 - **Pas de bandeaux de sous-titres.** A la place, un reperage d'etape discret en
   haut de l'image : numero, titre, une ligne d'explication. Il tient sur toute
   la duree de l'etape au lieu de clignoter a chaque plan.
+- **Stabilisation.** Les plans sortent d'une Osmo Action 5 Pro : RockSteady a
+  deja fait le gros du travail, il reste un flottement de main. Passe vidstab en
+  deux temps sur une image agrandie de 10 %, pour que le recadrage du
+  stabilisateur mange la marge et non l'image finale. Mesure sur M8A : le
+  deplacement image a image tombe de 1,40 a 0,76 px, les a-coups (p90) de 3,0 a 1,0.
+
 - **Etalonnage.** Les rushes sortent tres plats — saturation moyenne 0,17,
   noirs leves a 35/255. La chaine ci-dessous les remonte a ~0,32 et redescend
   les noirs vers 4, avec un leger virage chaud dans les hautes lumieres pour
@@ -36,6 +42,12 @@ L, H = 1080, 1920
 TEMPS = musique.TEMPS
 
 VERT, MAGENTA, BLANC = "#AEDA4A", "#F5399B", "#FFFFFF"
+
+# on travaille 10 % plus grand que la sortie : la marge absorbe le recadrage
+# du stabilisateur
+LS, HS = 1188, 2112
+PRE = (f"scale={LS}:{HS}:force_original_aspect_ratio=increase,"
+       f"crop={LS}:{HS},fps=30")
 
 ETALONNAGE = (
     "curves="
@@ -66,10 +78,12 @@ MONTAGE = [
                                 "Un fil par départ. Chaque fil est numéroté"), False),
     ("T2.MP4",         1.5, 2, ("05", "Les chandelles",
                                 "Bâchées jusqu'au dernier moment"), True),
-    ("M11.MP4",        2.0, 2, ("06", "Le tableau de tir",
-                                "Une ligne, un départ, une seconde précise"), True),
+    # M11 ne montre le pupitre qu'a partir de ~9 s : avant, c'est un plan large.
+    # Le repere "tableau de tir" arrivait donc une coupe trop tot.
+    ("T2.MP4",         4.0, 2, ("05", "Les chandelles",
+                                "Bâchées jusqu'au dernier moment"), False),
     ("M11.MP4",        9.5, 4, ("06", "Le tableau de tir",
-                                "Une ligne, un départ, une seconde précise"), False),
+                                "Une ligne, un départ, une seconde précise"), True),
     ("M12.MP4",        9.0, 2, ("07", "On recule",
                                 "Une fois la clé tournée, plus personne côté dispositif"), True),
     ("M13.MP4",        1.0, 4, ("07", "On recule",
@@ -146,11 +160,29 @@ def rendre_calques():
     return calques
 
 
+def stabiliser(fichier, debut, duree):
+    """Premiere passe vidstab : releve les transformations du plan.
+
+    Une passe par extrait, pas par fichier : un meme rush sert a plusieurs plans
+    a des points d'entree differents, et le fichier de transformations est
+    indexe sur les images de l'extrait.
+    """
+    trf = TRAVAIL / f"stab-{pathlib.Path(fichier).stem}-{debut}-{duree}.trf"
+    if not trf.exists():
+        subprocess.run([FFMPEG, "-y", "-loglevel", "error",
+                        "-ss", str(debut), "-t", str(duree), "-i", str(RUSHES / fichier),
+                        "-vf", f"{PRE},vidstabdetect=shakiness=7:accuracy=15:"
+                               f"result={trf}", "-f", "null", "-"], check=True)
+    return trf
+
+
 def couper(i, fichier, debut, temps, calque, fondu):
     sortie = TRAVAIL / f"plan{i:02d}.mp4"
     duree = temps * TEMPS
-    base = (f"scale={L}:{H}:force_original_aspect_ratio=increase,crop={L}:{H},"
-            f"fps=30,{ETALONNAGE},format=yuv420p")
+    trf = stabiliser(fichier, debut, duree)
+    base = (f"{PRE},"
+            f"vidstabtransform=input={trf}:smoothing=20:optzoom=1:interpol=bicubic,"
+            f"scale={L}:{H},{ETALONNAGE},format=yuv420p")
     # -loop : un PNG n'a qu'une image, sans lui le fondu alpha la fige a zero
     cmd = [FFMPEG, "-y", "-loglevel", "error", "-ss", str(debut), "-t", str(duree),
            "-i", str(RUSHES / fichier),
