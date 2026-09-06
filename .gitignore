@@ -26,3 +26,10 @@ social/visuels/export/*.zip
 
 # Rushes vidéo : jamais dans le dépôt, voir ENVOYER-DES-FICHIERS.md
 social/rushes/
+
+# HyperFrames : installation locale et projets d'essai, pas des sources
+/video/
+node_modules/
+
+# Rendus video : le master reste sur le disque et part sur Drive
+social/video/*.mp4
