@@ -1,146 +1,163 @@
 #!/usr/bin/env python3
-"""Compose un lit musical libre de droits pour les Reels.
+"""Compose la bande-son des Reels — ecrite de toutes pieces, donc libre de droits.
 
-Ecrit de toutes pieces : aucune licence a verifier, et le tempo est celui sur
-lequel le montage est coupe, donc les plans tombent sur les temps.
+Parti pris : **upbeat**. Quatre au sol a 128 BPM, clap sur 2 et 4, charleston
+ouvert sur les contretemps — c'est lui qui donne l'elan —, basse syncopee et
+arpege clair par-dessus. Structure intro / montee / corps / sortie, pour que le
+morceau aille quelque part au lieu de tourner en boucle.
 
-Palette sonore : quatre au sol sourd, sub, charleston sur les contretemps,
-nappe mineure filtree. Rien de melodique — le Reel montre un chantier, la
-musique porte le rythme, elle ne raconte pas.
+Le montage est coupe sur cette meme grille : un plan change toujours sur un temps.
 """
 import numpy as np
+from scipy.io import wavfile
 
 SR = 48000
-BPM = 120
-TEMPS = 60 / BPM          # 0,5 s
-MESURE = 4 * TEMPS        # 2 s
+BPM = 128
+TEMPS = 60 / BPM            # 0,46875 s
+MESURE = 4 * TEMPS
+
+# la mineur : le mode qui sonne energique sans devenir joyeux-publicitaire
+LA, DO, MI, SOL, LA2 = 220.0, 261.63, 329.63, 392.0, 440.0
+BASSE = 55.0
 
 
-def _env(n, attaque, chute, courbe=2.5):
+def _env(n, attaque, courbe=2.5):
     a = max(int(attaque * SR), 1)
     e = np.ones(n)
     e[:a] = np.linspace(0, 1, a)
-    d = np.linspace(1, 0, max(n - a, 1)) ** courbe
-    e[a:] = d[: n - a]
+    e[a:] = np.linspace(1, 0, max(n - a, 1))[: n - a] ** courbe
     return e
 
 
-def kick(dur=0.42):
+def _passe_bas(x, coupe):
+    """Un pole, coupe donnee en coefficient (0-1). Suffisant pour arrondir."""
+    y, acc = np.empty_like(x), 0.0
+    c = coupe if np.ndim(coupe) else np.full(len(x), coupe)
+    for i in range(len(x)):
+        acc += c[i] * (x[i] - acc)
+        y[i] = acc
+    return y
+
+
+def kick(dur=0.34):
+    n = int(dur * SR); t = np.arange(n) / SR
+    f = 120 * np.exp(-t * 38) + 44
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * _env(n, 0.001, 3.4)
+    clic = np.sin(2 * np.pi * 1800 * t) * _env(n, 0.0004, 6) * 0.22
+    return np.tanh((x + clic) * 1.7) * 0.92
+
+
+def clap(dur=0.20):
     n = int(dur * SR)
-    t = np.arange(n) / SR
-    f = 105 * np.exp(-t * 34) + 42
-    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * _env(n, 0.001, dur, 3.2)
-    clic = np.sin(2 * np.pi * 1400 * t) * _env(n, 0.0005, 0.012, 5) * 0.16
-    return np.tanh((x + clic) * 1.5) * 0.78
-
-
-def charley(dur=0.06, ouvert=False):
-    n = int((dur * (3 if ouvert else 1)) * SR)
-    rng = np.random.default_rng(7)
-    x = rng.standard_normal(n)
-    # passe-haut grossier : la difference successive coupe le grave
-    x = np.diff(np.concatenate([[0], x]))
-    return x * _env(n, 0.0004, dur, 4.5) * (0.40 if ouvert else 0.28)
-
-
-def sub(freq, dur):
-    n = int(dur * SR)
-    t = np.arange(n) / SR
-    x = np.sin(2 * np.pi * freq * t) + 0.28 * np.sin(2 * np.pi * freq * 2 * t)
-    return x * _env(n, 0.006, dur, 1.6) * 0.42
-
-
-def nappe(freqs, dur, niveau=0.14):
-    n = int(dur * SR)
-    t = np.arange(n) / SR
+    rng = np.random.default_rng(3)
     x = np.zeros(n)
-    for f in freqs:
-        for det in (-0.4, 0.0, 0.4):          # trois voix legerement desaccordees
-            ph = 2 * np.pi * (f + det) * t
-            x += (2 * (ph / (2 * np.pi) % 1) - 1)   # dent de scie
-    x /= len(freqs) * 3
-    # passe-bas a un pole, balaye lentement vers le haut
-    c = np.linspace(0.010, 0.055, n)
-    y = np.zeros(n)
-    acc = 0.0
-    for i in range(n):
-        acc += c[i] * (x[i] - acc)
-        y[i] = acc
-    env = np.minimum(np.linspace(0, 1, n) * 3, 1) * np.linspace(1, 0.55, n)
-    return y * env * niveau
+    for d in (0, 0.010, 0.019):                 # trois rebonds : ca fait le clap
+        i = int(d * SR)
+        b = rng.standard_normal(n - i) * _env(n - i, 0.0006, 5.5)
+        x[i:] += b * (1.0 if d == 0 else 0.65)
+    x = x - _passe_bas(x, 0.06)                 # on vide le grave
+    return x * 0.33
 
 
-def montee(dur=1.6):
-    n = int(dur * SR)
-    rng = np.random.default_rng(11)
+def hat(dur=0.05, ouvert=False):
+    d = dur * (4.5 if ouvert else 1)
+    n = int(d * SR)
+    rng = np.random.default_rng(19 if ouvert else 5)
     x = rng.standard_normal(n)
-    c = np.linspace(0.004, 0.20, n)
-    y, acc = np.zeros(n), 0.0
-    for i in range(n):
-        acc += c[i] * (x[i] - acc)
-        y[i] = acc
-    return y * (np.linspace(0, 1, n) ** 2.2) * 0.30
+    x = x - _passe_bas(x, 0.035)
+    return x * _env(n, 0.0004, 3.0 if ouvert else 5.0) * (0.34 if ouvert else 0.20)
 
 
-def pose(piste, son, depart):
-    i = int(depart * SR)
-    j = min(i + len(son), len(piste))
-    if i < len(piste):
-        piste[i:j] += son[: j - i]
+def basse(freq, dur):
+    n = int(dur * SR); t = np.arange(n) / SR
+    ph = 2 * np.pi * freq * t
+    dent = 2 * ((ph / (2 * np.pi)) % 1) - 1
+    x = 0.75 * np.sin(ph) + 0.35 * dent
+    x = _passe_bas(x, np.linspace(0.045, 0.020, n))
+    return x * _env(n, 0.004, 1.9) * 0.50
+
+
+def pluck(freq, dur=0.30):
+    """Arpege : dent de scie courte, filtre qui se referme. C'est la melodie."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    ph = 2 * np.pi * freq * t
+    x = 2 * ((ph / (2 * np.pi)) % 1) - 1
+    x += 0.5 * (2 * (((ph * 1.005) / (2 * np.pi)) % 1) - 1)
+    x = _passe_bas(x, np.linspace(0.42, 0.06, n))
+    return x * _env(n, 0.002, 3.6) * 0.22
+
+
+def montee(dur):
+    n = int(dur * SR)
+    rng = np.random.default_rng(23)
+    x = _passe_bas(rng.standard_normal(n), np.linspace(0.006, 0.30, n))
+    return x * (np.linspace(0, 1, n) ** 2.4) * 0.34
 
 
 def composer(duree, sortie):
     n = int(duree * SR)
     p = np.zeros(n)
 
-    LA, DO, MI = 55.0, 65.41, 82.41       # la mineur, registre grave
+    def pose(son, t, gain=1.0):
+        i = int(t * SR); j = min(i + len(son), n)
+        if i < n:
+            p[i:j] += son[: j - i] * gain
 
-    # nappe continue, par blocs de deux mesures
-    b = 0.0
-    while b < duree:
-        pose(p, nappe([LA, DO, MI] if int(b / (2 * MESURE)) % 2 == 0 else [LA, MI, 73.42],
-                      min(2 * MESURE, duree - b)), b)
-        b += 2 * MESURE
+    intro = 2 * MESURE                 # 2 mesures d'installation
+    fin = duree - 2.2                  # la carte de fin respire
 
-    # le kick entre a la 2e mesure, s'arrete sur la carte de fin
-    fin_kick = duree - 3.4
-    t = MESURE
-    while t < fin_kick:
-        pose(p, kick(), t)
+    # --- batterie ---
+    t = intro
+    while t < fin:
+        pose(kick(), t)
         t += TEMPS
-
-    # sub sur les temps 1 et 3
-    t = MESURE
-    while t < fin_kick:
-        pose(p, sub(LA, TEMPS * 0.9), t)
+    t = intro + TEMPS
+    while t < fin:                     # clap sur 2 et 4
+        pose(clap(), t)
         t += 2 * TEMPS
-
-    # charleston sur les contretemps, ouvert en fin de mesure
-    t = MESURE + TEMPS / 2
-    while t < fin_kick:
-        ouv = abs((t % MESURE) - (3.5 * TEMPS)) < 1e-6
-        pose(p, charley(ouvert=ouv), t)
+    t = TEMPS / 2                      # charleston des le debut : c'est l'elan
+    while t < fin:
+        pose(hat(ouvert=True), t, 0.6 if t < intro else 1.0)
         t += TEMPS
+    t = intro
+    while t < fin:
+        pose(hat(), t)
+        t += TEMPS / 2
 
-    # montee avant la carte de fin
-    pose(p, montee(), fin_kick - 1.6)
-    pose(p, kick(0.8), fin_kick)
+    # --- basse syncopee : fondamentale, puis contretemps ---
+    motif = [(0.0, LA/4), (1.5*TEMPS, LA/4), (2.0*TEMPS, SOL/4),
+             (3.0*TEMPS, LA/4), (3.5*TEMPS, DO/4)]
+    t = intro
+    while t < fin:
+        for dt, f in motif:
+            if t + dt < fin:
+                pose(basse(f, TEMPS * 0.75), t + dt)
+        t += MESURE
 
-    # limiteur doux puis normalisation a -14 dBFS crete
-    p = np.tanh(p * 1.25)
+    # --- arpege : entre a la 4e mesure, c'est lui qui donne envie ---
+    arp = [LA, DO, MI, LA2, MI, DO]
+    depart = intro + 2 * MESURE
+    t, k = depart, 0
+    while t < fin - MESURE:
+        pose(pluck(arp[k % len(arp)]), t)
+        k += 1
+        t += TEMPS / 2
+
+    # --- montee avant la carte de fin, puis coup d'arret ---
+    pose(montee(2 * MESURE), fin - 2 * MESURE)
+    pose(kick(0.7), fin)
+    for f in (LA, DO, MI):
+        pose(pluck(f, 1.8), fin, 0.8)
+
+    p = np.tanh(p * 1.15)
     p *= 10 ** (-1.0 / 20) / max(np.abs(p).max(), 1e-9)
-
-    # fondu de sortie sur la derniere seconde
-    f = int(1.2 * SR)
+    f = int(1.0 * SR)
     p[-f:] *= np.linspace(1, 0, f)
-
-    st = np.stack([p, p], axis=1)
-    from scipy.io import wavfile
-    wavfile.write(sortie, SR, (st * 32767).astype(np.int16))
+    wavfile.write(sortie, SR, (np.stack([p, p], 1) * 32767).astype(np.int16))
     return sortie
 
 
 if __name__ == "__main__":
     import sys
-    composer(float(sys.argv[2]) if len(sys.argv) > 2 else 23.0, sys.argv[1])
+    composer(float(sys.argv[2]) if len(sys.argv) > 2 else 22.0, sys.argv[1])
     print(sys.argv[1])
