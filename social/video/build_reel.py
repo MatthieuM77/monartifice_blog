@@ -8,11 +8,18 @@ Partis pris, tous demandes par le client :
 - **Pas de bandeaux de sous-titres.** A la place, un reperage d'etape discret en
   haut de l'image : numero, titre, une ligne d'explication. Il tient sur toute
   la duree de l'etape au lieu de clignoter a chaque plan.
-- **Stabilisation.** Les plans sortent d'une Osmo Action 5 Pro : RockSteady a
-  deja fait le gros du travail, il reste un flottement de main. Passe vidstab en
-  deux temps sur une image agrandie de 10 %, pour que le recadrage du
-  stabilisateur mange la marge et non l'image finale. Mesure sur M8A : le
-  deplacement image a image tombe de 1,40 a 0,76 px, les a-coups (p90) de 3,0 a 1,0.
+- **Pas de stabilisation logicielle.** Une passe vidstab a ete essayee puis
+  retiree : sur cet objectif ultra grand-angle elle plaque une transformation
+  affine globale par-dessus la distorsion en barillet, ce qui fait respirer les
+  bords et donne un effet d'etirement. Les chiffres etaient bons — deplacement
+  image a image de 1,40 a 0,76 px — et le resultat mauvais a l'oeil : la mesure
+  ne voyait pas le defaut qu'elle creait.
+
+  RockSteady a deja stabilise a la prise de vue. Pour aller plus loin, la bonne
+  voie est **Gyroflow**, qui lit le log IMU embarque dans le fichier (piste
+  `dbgi`, ~2 Mo par plan ici) et corrige image par image en tenant compte de
+  l'objectif. C'est une application de bureau : les plans doivent etre passes
+  dedans avant d'arriver ici.
 
 - **Etalonnage.** Les rushes sortent tres plats — saturation moyenne 0,17,
   noirs leves a 35/255. La chaine ci-dessous les remonte a ~0,32 et redescend
@@ -42,12 +49,6 @@ L, H = 1080, 1920
 TEMPS = musique.TEMPS
 
 VERT, MAGENTA, BLANC = "#AEDA4A", "#F5399B", "#FFFFFF"
-
-# on travaille 10 % plus grand que la sortie : la marge absorbe le recadrage
-# du stabilisateur
-LS, HS = 1188, 2112
-PRE = (f"scale={LS}:{HS}:force_original_aspect_ratio=increase,"
-       f"crop={LS}:{HS},fps=30")
 
 ETALONNAGE = (
     "curves="
@@ -160,29 +161,11 @@ def rendre_calques():
     return calques
 
 
-def stabiliser(fichier, debut, duree):
-    """Premiere passe vidstab : releve les transformations du plan.
-
-    Une passe par extrait, pas par fichier : un meme rush sert a plusieurs plans
-    a des points d'entree differents, et le fichier de transformations est
-    indexe sur les images de l'extrait.
-    """
-    trf = TRAVAIL / f"stab-{pathlib.Path(fichier).stem}-{debut}-{duree}.trf"
-    if not trf.exists():
-        subprocess.run([FFMPEG, "-y", "-loglevel", "error",
-                        "-ss", str(debut), "-t", str(duree), "-i", str(RUSHES / fichier),
-                        "-vf", f"{PRE},vidstabdetect=shakiness=7:accuracy=15:"
-                               f"result={trf}", "-f", "null", "-"], check=True)
-    return trf
-
-
 def couper(i, fichier, debut, temps, calque, fondu):
     sortie = TRAVAIL / f"plan{i:02d}.mp4"
     duree = temps * TEMPS
-    trf = stabiliser(fichier, debut, duree)
-    base = (f"{PRE},"
-            f"vidstabtransform=input={trf}:smoothing=20:optzoom=1:interpol=bicubic,"
-            f"scale={L}:{H},{ETALONNAGE},format=yuv420p")
+    base = (f"scale={L}:{H}:force_original_aspect_ratio=increase,crop={L}:{H},"
+            f"fps=30,{ETALONNAGE},format=yuv420p")
     # -loop : un PNG n'a qu'une image, sans lui le fondu alpha la fige a zero
     cmd = [FFMPEG, "-y", "-loglevel", "error", "-ss", str(debut), "-t", str(duree),
            "-i", str(RUSHES / fichier),

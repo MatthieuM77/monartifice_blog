@@ -87,3 +87,51 @@ python3 social/data/build_calendrier_md.py     # le tableau du calendrier
 ```
 
 Les vraies sources — textes, photos, logo, scripts — pèsent 6,5 Mo.
+
+## Stabilisation : Gyroflow, sur votre machine
+
+**Une passe vidstab a ete essayee ici, puis retiree.** Sur un ultra grand-angle
+elle plaque une transformation affine globale par-dessus la distorsion en
+barillet de l'objectif : les bords respirent, l'image s'etire, et le resultat
+donne mal au coeur. Les chiffres etaient pourtant bons — deplacement image a
+image ramene de 1,40 a 0,76 px. **La mesure ne voyait pas le defaut qu'elle
+creait.**
+
+Gyroflow ne souffre pas de ce probleme : il lit le **log IMU embarque dans le
+fichier** et corrige image par image en tenant compte du profil de l'objectif,
+au lieu de deviner le mouvement en comparant les images.
+
+### Les donnees gyro sont bien la
+
+Verifie sur vos rushes : chaque fichier porte une piste `dbgi` d'environ 2 Mo,
+c'est le log de la centrale inertielle. Gyroflow connait l'Osmo Action 5 Pro —
+il embarque plus de 12 000 profils d'objectifs.
+
+### Pourquoi ca ne peut pas tourner ici
+
+Gyroflow a besoin d'un backend de calcul GPU (OpenCL, CUDA ou wgpu). Le
+conteneur n'en a aucun : le binaire Linux se lance, charge les profils, parse
+le gyro — puis plante au rendu. Un OpenCL logiciel (pocl) ne suffit pas non plus.
+
+**C'est de toute facon la bonne place** : vous avez les fichiers d'origine et une
+machine avec une carte graphique.
+
+### La marche a suivre
+
+1. Ouvrir les rushes dans Gyroflow, verifier que le profil d'objectif est
+   detecte automatiquement.
+2. Exporter en **1080 x 1920**, sans audio — la bande-son est refaite ici.
+3. Deposer les fichiers stabilises dans un dossier Drive `video-stab/`, en
+   **gardant les memes noms** (`M6.MP4`, `T5.MP4`…).
+4. Me le dire : je repointe le montage dessus et je relance. Rien d'autre a
+   changer, le tableau des plans reste valable.
+
+En ligne de commande, pour traiter le dossier d'un coup :
+
+```bash
+gyroflow *.MP4 -f -t "" \
+  -p "{'codec':'x264','bitrate':40,'audio':false,'output_width':1080,'output_height':1920}"
+```
+
+Gyroflow a aussi un mode `--watch <dossier>` qui traite automatiquement tout
+fichier depose dedans.
