@@ -1,24 +1,24 @@
 # À programmer — septembre 2026
 
-**Trois publications prêtes**, plus le Reel du 20. Tout le reste du mois est soit déjà
-programmé, soit bloqué faute d'image.
+**Quatre publications prêtes.** Tout le reste du mois est soit déjà programmé, soit bloqué
+faute d'image.
 
-| Date | Publication | Format | État |
+| Date | Publication | Format | Comment |
 |---|---|---|---|
-| 13/09 · dim 11 h | Le méchage | Carrousel 5 images | 🟢 à programmer |
-| 16/09 · mer 12 h 30 | La mise d'inflammateur | Carrousel 4 images | 🟢 à programmer |
-| **20/09 · dim 11 h** | **De la caisse au dispositif** | **Reel 22 s** | 🎬 **à poster à la main** |
-| 27/09 · dim 11 h | Montrez-nous votre été | Post simple | 🟢 à programmer |
+| 13/09 · dim 11 h | Le méchage | Carrousel 5 images | import ou à la main |
+| 16/09 · mer 12 h 30 | La mise d'inflammateur | Carrousel 4 images | import ou à la main |
+| **20/09 · dim 11 h** | **De la caisse au dispositif** | **Reel 22 s** | **à la main, avec la vidéo** |
+| 27/09 · dim 11 h | Montrez-nous votre été | Post simple | import ou à la main |
 
 > **Instagram et Facebook portent des textes différents.** Ne copiez pas l'un dans l'autre.
-> Le premier commentaire est publié automatiquement juste après : sur Instagram ce sont les
-> hashtags, sur Facebook une relance qui ouvre le fil.
+> Le premier commentaire part automatiquement juste après la publication : sur Instagram ce
+> sont les hashtags, sur Facebook une relance qui ouvre le fil.
 
 > ⚠️ **Ne jamais sponsoriser.** Meta interdit la publicité payante sur les feux d'artifice.
 
 ---
 
-## 13 septembre · dimanche 11:00 — Le méchage
+## 13 septembre · dimanche 11 h — Le méchage
 
 **Carrousel · 5 images**, dans cet ordre :
 
@@ -69,7 +69,7 @@ Time-lapse du méchage, même court. Format brut, non monté — c'est ce qui fo
 
 ---
 
-## 16 septembre · mercredi 12:30 — La mise d'inflammateur
+## 16 septembre · mercredi 12 h 30 — La mise d'inflammateur
 
 **Carrousel · 4 images**, dans cet ordre :
 
@@ -117,7 +117,61 @@ Vidéo courte du câblage + sticker question : « Vous saviez que ça marchait c
 
 ---
 
-## 27 septembre · dimanche 11:00 — Montrez-nous votre été
+## 20 septembre · dimanche 11 h — De la caisse au dispositif
+
+**Reel, 22 s, 1080 × 1920.** Il se poste **à la main**, avec le fichier vidéo —
+pas par import CSV.
+
+- Le montage est le `.mp4` envoyé dans la conversation. **Récupérez-le** : il n'est pas dans
+  le dépôt, et le poste de travail qui l'a produit est temporaire.
+- La musique est déjà dedans. Si vous préférez une piste de la bibliothèque Instagram —
+  meilleur pour la portée — prenez-en une **autour de 128 BPM** : les coupes tomberont sur
+  les temps.
+
+### Instagram — légende
+```
+Un feu d'artifice, ça ne se pose pas. Ça se monte.
+
+Décharger. Positionner. Caler. Lester. Vérifier. Revérifier.
+
+Le calage, c'est le point que les particuliers négligent le plus. Un dispositif qui bouge pendant le tir, c'est un dispositif qui n'envoie plus là où vous aviez prévu.
+
+Sur un sol meuble, dans l'herbe, sur du sable : ça bouge. Toujours. Il faut lester.
+
+C'est la partie la moins spectaculaire du métier. C'est aussi celle qui évite les accidents.
+```
+
+### Instagram — premier commentaire
+```
+#MonArtifice #artificier #montage #coulisses #feudartifice #pyrotechnie #securite #savoirfaire #feuxdartifice #artificierprofessionnel #technique #france
+```
+
+### Facebook — légende
+```
+Un feu d'artifice, ça ne se pose pas. Ça se monte.
+
+Décharger. Positionner. Caler. Lester. Vérifier. Puis revérifier.
+
+Le calage est le point que les particuliers négligent le plus souvent, et c'est probablement le plus important. Un dispositif qui bouge pendant le tir, c'est un dispositif qui n'envoie plus là où vous l'aviez prévu.
+
+Et sur un sol meuble — dans l'herbe, sur du sable, sur de la terre — ça bouge. Toujours. Il faut lester, sans exception.
+
+C'est la partie la moins spectaculaire de notre métier. C'est aussi celle qui évite les accidents. 🎆
+
+#artificier #securite #MonArtifice
+```
+
+### Facebook — premier commentaire
+```
+Entre la première caisse posée et la dernière ligne raccordée, il se passe des heures. Le spectacle, lui, dure trois minutes.
+```
+
+### Story
+Avant / après : la caisse fermée, puis le dispositif monté et calé.
+
+---
+
+## 27 septembre · dimanche 11 h — Montrez-nous votre été
 
 **Appel UGC · 1 image**, dans cet ordre :
 
@@ -163,18 +217,6 @@ Envoyez-nous vos vidéos même ratées, même filmées à l'arrache, même trop 
 
 ### Story
 Sticker « ajoutez le vôtre » + rappel en fin de semaine.
-
----
-
-## 20 septembre · dimanche 11 h — De la caisse au dispositif
-
-**Reel, 22 s, 1080 × 1920.** Il se poste à la main, avec le fichier vidéo — pas par import CSV.
-
-- Le montage est le `.mp4` envoyé dans la conversation. **Récupérez-le** : il n'est pas dans
-  le dépôt et le poste de travail qui l'a produit est temporaire.
-- La musique est intégrée. Si vous préférez une piste de la bibliothèque Instagram — meilleur
-  pour la portée — prenez-en une **autour de 128 BPM** : les coupes tomberont sur les temps.
-- Légende et hashtags : dans la page des textes, publication du 20/09.
 
 ---
 
