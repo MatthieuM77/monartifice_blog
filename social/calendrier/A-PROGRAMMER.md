@@ -98,11 +98,11 @@ Sondage : « Le dernier feu que vous avez vu, c'était pour quoi ? » — mariag
 
 La question revient tout le temps. Voilà nos repères.
 
-→ Une trentaine d'invités, un jardin. 1 min 30 suffit largement. Comptez 8 mètres de recul : c'est un jardin normal.
+→ **Une trentaine d'invités, un jardin.** 1 min 30 suffit largement. Comptez 8 mètres de recul : c'est un jardin normal.
 
-→ Une centaine, un grand terrain. 2 à 3 minutes. C'est là que ça devient un vrai moment.
+→ **Une centaine, un grand terrain.** 2 à 3 minutes. C'est là que ça devient un vrai moment.
 
-→ Trois cents et plus, un espace dégagé. 4 à 5 minutes, et 25 mètres de recul.
+→ **Trois cents et plus, un espace dégagé.** 4 à 5 minutes, et 25 mètres de recul.
 
 Le piège, c'est de viser trop long. Un feu de 5 minutes devant 30 personnes, la moitié regarde son téléphone avant la fin.
 
@@ -116,17 +116,17 @@ Enregistrez, vous y reviendrez 🔖
 
 ### Facebook — légende
 ```
-« Il me faut quoi, pour 50 personnes ? »
+**« Il me faut quoi, pour 50 personnes ? »**
 
 C'est la question qu'on nous pose le plus souvent. Voici nos repères, simplement.
 
-👥 Une trentaine d'invités, dans un jardin. Une minute trente suffit largement. Il vous faut environ 8 mètres de recul — c'est la taille d'un jardin ordinaire.
+👥 **Une trentaine d'invités, dans un jardin.** Une minute trente suffit largement. Il vous faut environ 8 mètres de recul — c'est la taille d'un jardin ordinaire.
 
-👥 Une centaine, sur un grand terrain. Deux à trois minutes. C'est à partir de là que ça devient un vrai moment, avec un début et une fin.
+👥 **Une centaine, sur un grand terrain.** Deux à trois minutes. C'est à partir de là que ça devient un vrai moment, avec un début et une fin.
 
-👥 Trois cents et plus, sur un espace dégagé. Quatre à cinq minutes, et 25 mètres de recul.
+👥 **Trois cents et plus, sur un espace dégagé.** Quatre à cinq minutes, et 25 mètres de recul.
 
-⚠️ Le piège, c'est de viser trop long. Un feu de cinq minutes devant trente personnes, la moitié de la salle regarde son téléphone avant la fin. La densité compte plus que la durée.
+⚠️ **Le piège, c'est de viser trop long.** Un feu de cinq minutes devant trente personnes, la moitié de la salle regarde son téléphone avant la fin. La densité compte plus que la durée.
 
 Dites-nous votre nombre d'invités et la taille de votre terrain : on vous oriente, gratuitement.
 
@@ -156,10 +156,10 @@ Sticker question : « Combien d'invités pour votre événement ? » — les ré
 ```
 Un feu d'artifice, c'est pas que pour les mariages.
 
-→ Un anniversaire. 40, 50, 60 ans. Le moment où on pensait que la soirée était finie.
-→ Une crémaillère. Vous inaugurez le jardin. Autant le faire correctement.
-→ Un départ à la retraite. Quarante ans de boulot, ça vaut mieux qu'un pot au bureau.
-→ Une fête de village. Le comité cherche toujours une idée. C'est celle-là.
+→ **Un anniversaire.** 40, 50, 60 ans. Le moment où on pensait que la soirée était finie.
+→ **Une crémaillère.** Vous inaugurez le jardin. Autant le faire correctement.
+→ **Un départ à la retraite.** Quarante ans de boulot, ça vaut mieux qu'un pot au bureau.
+→ **Une fête de village.** Le comité cherche toujours une idée. C'est celle-là.
 
 Le point commun : il faut une fin. Sans fin, les gens partent en ordre dispersé et personne ne se souvient de rien.
 
@@ -173,17 +173,17 @@ C'est pour quoi, chez vous ? Dites-le en commentaire 👇
 
 ### Facebook — légende
 ```
-Un feu d'artifice, ce n'est pas réservé aux mariages.
+**Un feu d'artifice, ce n'est pas réservé aux mariages.**
 
-🎂 Un anniversaire. 40, 50, 60 ans — le moment où tout le monde pensait que la soirée était finie.
+🎂 **Un anniversaire.** 40, 50, 60 ans — le moment où tout le monde pensait que la soirée était finie.
 
-🏡 Une crémaillère. Vous inaugurez le jardin. Autant le faire correctement.
+🏡 **Une crémaillère.** Vous inaugurez le jardin. Autant le faire correctement.
 
-👔 Un départ à la retraite. Quarante ans de travail, ça vaut mieux qu'un pot dans une salle de réunion.
+👔 **Un départ à la retraite.** Quarante ans de travail, ça vaut mieux qu'un pot dans une salle de réunion.
 
-🎪 Une fête de village. Le comité des fêtes cherche toujours une idée qui change. C'est celle-là.
+🎪 **Une fête de village.** Le comité des fêtes cherche toujours une idée qui change. C'est celle-là.
 
-Le point commun entre ces quatre-là : il leur faut une fin. Sans fin, les invités partent en ordre dispersé et personne ne se souvient de rien. Un feu, c'est une fin que tout le monde voit arriver et que personne ne rate.
+Le point commun entre ces quatre-là : **il leur faut une fin.** Sans fin, les invités partent en ordre dispersé et personne ne se souvient de rien. Un feu, c'est une fin que tout le monde voit arriver et que personne ne rate.
 
 Et vous, c'est pour quelle occasion ? Dites-le en commentaire, on vous oriente.
 
@@ -218,7 +218,7 @@ On vous a montré le méchage, les inflammateurs, le tableau de tir. On a répon
 
 C'était le but : que vous sachiez à qui vous avez affaire avant qu'on vous vende quoi que ce soit.
 
-En octobre, on passe à la suite. On commence à vous présenter la sélection, produit par produit. Durée réelle, nombre de coups, recul nécessaire, ce que ça donne vraiment dans un jardin.
+**En octobre, on passe à la suite.** On commence à vous présenter la sélection, produit par produit. Durée réelle, nombre de coups, recul nécessaire, ce que ça donne vraiment dans un jardin.
 
 Pas de superlatifs. Les chiffres, et notre avis quand il est utile.
 
@@ -232,13 +232,13 @@ Abonnez-vous si vous préparez quelque chose pour cet hiver 🔖
 
 ### Facebook — légende
 ```
-Un mois que ce compte existe.
+**Un mois que ce compte existe.**
 
 On vous a montré le méchage, la mise des inflammateurs, le tableau de tir. On a répondu à la question de la mairie, à celle des distances de recul, à la différence entre F2 et F3.
 
-C'était le but : que vous sachiez à qui vous avez affaire avant qu'on vous vende quoi que ce soit.
+C'était le but : que vous sachiez à qui vous avez affaire **avant** qu'on vous vende quoi que ce soit.
 
-🎯 En octobre, on passe à la suite. On commence à vous présenter la sélection, produit par produit : durée réelle, nombre de coups, recul nécessaire, et ce que ça donne concrètement dans un jardin.
+🎯 **En octobre, on passe à la suite.** On commence à vous présenter la sélection, produit par produit : durée réelle, nombre de coups, recul nécessaire, et ce que ça donne concrètement dans un jardin.
 
 Pas de superlatifs, pas de « le plus puissant du marché ». Les chiffres, et notre avis quand il est utile.
 

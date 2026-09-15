@@ -28,10 +28,16 @@ spec.loader.exec_module(bv)
 
 
 def nettoie(txt):
-    """Retire le balisage markdown : Facebook et Instagram publient du texte brut,
-    un **gras** y apparaitrait tel quel, asterisques comprises."""
-    txt = re.sub(r"\*\*(.+?)\*\*", r"\1", txt, flags=re.S)   # gras
-    txt = re.sub(r"(?<!\w)\*(.+?)\*(?!\w)", r"\1", txt, flags=re.S)  # italique
+    """Prepare le texte pour l'outil de programmation.
+
+    Le **gras** est CONSERVE : l'outil le convertit en caracteres Unicode gras au
+    moment de publier, Facebook et Instagram n'ayant pas de mise en forme native.
+    Le retirer ici ferait perdre la mise en forme, pas l'inverse.
+
+    L'italique en asterisque simple est aplani : rien ne garantit qu'il soit gere,
+    et un asterisque isole publie tel quel est pire que pas d'italique du tout.
+    """
+    txt = re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"\1", txt, flags=re.S)  # italique
     txt = re.sub(r"^#+ ", "", txt, flags=re.M)                 # titres residuels
     txt = re.sub(r"^> ?", "", txt, flags=re.M)                 # citations
     return txt.strip()
