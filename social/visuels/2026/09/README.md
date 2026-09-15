@@ -12,6 +12,10 @@ Regénérer avec `python3 social/visuels/build_visuels.py`.
 | 04 | 07/09 | Faut-il prévenir la mairie ? | Carrousel | 5 | `2026-09-07-pedagogie-prevenir-la-mairie.html` |
 | 05 | 09/09 | Les 4 questions qu'on nous pose le plus | Carrousel | 6 | `2026-09-09-communaute-questions-frequentes.html` |
 | 06 | 11/09 | L'autre côté du feu | Reel | 1 | `2026-09-11-emotion-l-autre-cote-du-feu.html` |
+| 06b | 18/09 | Le lendemain | Post | 1 | `2026-09-18-emotion-le-lendemain.html` |
+| 07b | 23/09 | Combien d'invités ? | Carrousel | 5 | `2026-09-23-choisir-combien-invites.html` |
+| 08b | 25/09 | Pas que pour les mariages | Carrousel | 4 | `2026-09-25-occasion-anniversaire.html` |
+| 09b | 30/09 | En octobre, on passe à la suite | Carrousel | 4 | `2026-09-30-communaute-octobre.html` |
 | 07 | 13/09 | Le méchage | Carrousel | 5 | `2026-09-13-coulisses-le-mechage.html` |
 | 08 | 14/09 | 8 mètres ou 25 mètres ? | Carrousel | 5 | `2026-09-14-pedagogie-distances-securite.html` |
 | 09 | 16/09 | La mise d'inflammateur | Carrousel | 4 | `2026-09-16-coulisses-inflammateurs.html` |

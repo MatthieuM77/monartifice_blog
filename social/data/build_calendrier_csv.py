@@ -57,7 +57,7 @@ def lire(md):
     ne fait presque rien des hashtags mais pousse les fils de commentaires.
     """
     txt = md.read_text(encoding="utf-8")
-    h = re.search(r"^# \d+ · .+? · (\d+) h (\d+)", txt, re.M)
+    h = re.search(r"^# \w+ · .+? · (\d+) h (\d+)", txt, re.M)
     heure = f"{int(h.group(1)):02d}:{h.group(2)}" if h else ""
 
     ig = section(txt, "Texte Instagram")
@@ -79,8 +79,10 @@ def lire(md):
 
 
 def main():
-    posts_md = sorted((ROOT / "posts/2026/09").glob("*.md"))
-    assert len(posts_md) == len(bv.POSTS), "posts et slides desynchronises"
+    # apparier par nom, pas par position (voir build_visuels.py)
+    posts_md = [ROOT / f'posts/2026/09/{p["md"]}.md' for p in bv.POSTS]
+    manquants = [f.name for f in posts_md if not f.exists()]
+    assert not manquants, f"fichiers introuvables : {manquants}"
 
     photos = {f.name.split("-")[0] for f in (ROOT / "photos/2026-09").glob("*.jpg")}
 

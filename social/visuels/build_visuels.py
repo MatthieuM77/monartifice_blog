@@ -223,12 +223,12 @@ CTA_DM = "Une question ? Écrivez-nous en message privé"
 SAVE = "Enregistrez ce post"
 
 POSTS = [
- dict(n="00", date="01/09", fmt="Post épinglé", titre="Artificiers de métier", slides=[
+ dict(n="00", date="01/09", fmt="Post épinglé", titre="Artificiers de métier", md="2026-09-01-communaute-qui-on-est", slides=[
    dict(k="cover", eyebrow="Qui sommes-nous", t="Artificiers de métier",
         sub="Ce qu'on vend, on le tire.",
         img="E1-artificier-obus.jpg", cta=CTA_DM)]),
 
- dict(n="01", date="02/09", fmt="Carrousel", titre="Compact ou éventail ?", slides=[
+ dict(n="01", date="02/09", fmt="Carrousel", titre="Compact ou éventail ?", md="2026-09-02-coulisses-compact-ou-eventail", slides=[
    dict(k="cover", eyebrow="Expertise", t="Compact ou éventail ?",
         sub="Même durée. Rendu totalement différent."),
    dict(k="point", tag="Compact", traj="compact", t="Tout part du même point",
@@ -241,14 +241,14 @@ POSTS = [
         sub="C'est une question de terrain et de placement de vos invités. "
             "Décrivez-nous votre lieu, on vous oriente.", cta=CTA_DM)]),
 
- dict(n="02", date="04/09", fmt="Post", titre="Le silence juste avant", slides=[
+ dict(n="02", date="04/09", fmt="Post", titre="Le silence juste avant", md="2026-09-04-emotion-le-silence-juste-avant", slides=[
    dict(k="cover", style="silence", t="Le silence juste avant")]),
 
- dict(n="03", date="06/09", fmt="Sondage", titre="Votre feu idéal dure combien de temps ?", slides=[
+ dict(n="03", date="06/09", fmt="Sondage", titre="Votre feu idéal dure combien de temps ?", md="2026-09-06-communaute-sondage-duree", slides=[
    dict(k="cover", t="Votre feu idéal dure combien de temps ?", size="xs",
         opts=["30 sec", "1 min 30", "3 min", "5 min"])]),
 
- dict(n="04", date="07/09", fmt="Carrousel", titre="Faut-il prévenir la mairie ?", slides=[
+ dict(n="04", date="07/09", fmt="Carrousel", titre="Faut-il prévenir la mairie ?", md="2026-09-07-pedagogie-prevenir-la-mairie", slides=[
    dict(k="cover", badge="À savoir", t="Faut-il prévenir la mairie ?",
         sub="Ça dépend de trois choses."),
    dict(k="point", i="01", t="La catégorie du produit",
@@ -260,7 +260,7 @@ POSTS = [
    dict(k="end", t="Dans le doute, appelez votre mairie.",
         sub="C'est gratuit et ça prend cinq minutes.", save=True, cta=CTA_DM)]),
 
- dict(n="05", date="09/09", fmt="Carrousel", titre="Les 4 questions qu'on nous pose le plus", slides=[
+ dict(n="05", date="09/09", fmt="Carrousel", titre="Les 4 questions qu'on nous pose le plus", md="2026-09-09-communaute-questions-frequentes", slides=[
    dict(k="cover", eyebrow="Vos questions", t="Les 4 questions\nqu'on nous pose le plus",
         sub="Les réponses courtes."),
    dict(k="point", i="01", t="« Ça dure combien de temps ? »",
@@ -278,11 +278,53 @@ POSTS = [
    dict(k="end", t="Votre question, c'est laquelle ?",
         sub="Posez-la en commentaire. On répond à tout le monde.", save=True, cta=CTA_DM)]),
 
- dict(n="06", date="11/09", fmt="Reel", titre="L'autre côté du feu", slides=[
+ dict(n="06", date="11/09", fmt="Reel", titre="L'autre côté du feu", md="2026-09-11-emotion-l-autre-cote-du-feu", slides=[
    dict(k="cover", eyebrow="Coulisses", t="L'autre côté du feu",
         sub="Tout le monde filme le ciel. Nous, on est derrière le pupitre.", shot="T8")]),
 
- dict(n="07", date="13/09", fmt="Carrousel", titre="Le méchage", slides=[
+ dict(n="06b", date="18/09", fmt="Post", titre="Le lendemain", md="2026-09-18-emotion-le-lendemain", slides=[
+   dict(k="cover", eyebrow="Trois minutes", t="Les gens en parlent\npendant six mois.",
+        size="sm", sub="C'est ça qu'on achète, en vrai.", cta=CTA_DM)]),
+
+ dict(n="07b", date="23/09", fmt="Carrousel", titre="Combien d'invités ?", md="2026-09-23-choisir-combien-invites", slides=[
+   dict(k="cover", badge="Bien choisir", t="Il me faut quoi,\npour 50 personnes ?",
+        size="sm", sub="Nos repères, simplement."),
+   dict(k="point", i="30", t="Invités, dans un jardin",
+        sub="1 min 30 suffit largement. Comptez 8 mètres de recul : "
+            "c'est la taille d'un jardin ordinaire."),
+   dict(k="point", i="100", t="Sur un grand terrain",
+        sub="2 à 3 minutes. C'est à partir de là que ça devient un vrai moment, "
+            "avec un début et une fin."),
+   dict(k="point", i="300", t="Sur un espace dégagé",
+        sub="4 à 5 minutes, et 25 mètres de recul."),
+   dict(k="end", t="Le piège, c'est de viser trop long.",
+        sub="Cinq minutes devant trente personnes, la moitié regarde son téléphone "
+            "avant la fin.", save=True, cta=CTA_DM)]),
+
+ dict(n="08b", date="25/09", fmt="Carrousel", titre="Pas que pour les mariages", md="2026-09-25-occasion-anniversaire", slides=[
+   dict(k="cover", eyebrow="Vos occasions", t="Pas que pour\nles mariages.",
+        size="sm", sub="Quatre fins de soirée qui méritent mieux."),
+   dict(k="point", i="01", t="Un anniversaire",
+        sub="40, 50, 60 ans. Le moment où tout le monde pensait que la soirée "
+            "était finie."),
+   dict(k="point", i="02", t="Une crémaillère",
+        sub="Vous inaugurez le jardin. Autant le faire correctement."),
+   dict(k="end", t="Il leur faut une fin.",
+        sub="Sans fin, les invités partent en ordre dispersé et personne ne se "
+            "souvient de rien.", cta=CTA_DM)]),
+
+ dict(n="09b", date="30/09", fmt="Carrousel", titre="En octobre, on passe à la suite", md="2026-09-30-communaute-octobre", slides=[
+   dict(k="cover", eyebrow="Un mois", t="Vous savez\nà qui vous parlez.",
+        size="sm", sub="C'était le but de septembre."),
+   dict(k="quote", t="Pas de superlatifs. Les chiffres, et notre avis quand il est utile.",
+        size="sm"),
+   dict(k="point", i="→", t="En octobre, la sélection",
+        sub="Produit par produit. Durée réelle, nombre de coups, recul nécessaire, "
+            "et ce que ça donne dans un jardin."),
+   dict(k="end", t="Vous préparez quelque chose cet hiver ?",
+        sub="C'est le moment de nous suivre.", save=True, cta=CTA_DM)]),
+
+ dict(n="07", date="13/09", fmt="Carrousel", titre="Le méchage", md="2026-09-13-coulisses-le-mechage", slides=[
    dict(k="cover", eyebrow="Coulisses", t="Le méchage",
         sub="Ce que personne ne voit.", img="A1-mechage-rack-meches.jpg"),
    dict(k="quote", t="3 heures de travail pour 3 minutes de spectacle."),
@@ -290,7 +332,7 @@ POSTS = [
    dict(k="photo", shot="A3", legende="Le dispositif méché, prêt à tirer."),
    dict(k="end", t="On est artificiers.", sub="C'est notre métier, pas notre passe-temps.")]),
 
- dict(n="08", date="14/09", fmt="Carrousel", titre="8 mètres ou 25 mètres ?", slides=[
+ dict(n="08", date="14/09", fmt="Carrousel", titre="8 mètres ou 25 mètres ?", md="2026-09-14-pedagogie-distances-securite", slides=[
    dict(k="cover", badge="Sécurité", t="8 mètres ou 25 mètres ?",
         sub="La différence n'est pas un détail.", pills=["F2 · 8 m", "F3 · 25 m"]),
    dict(k="stat", tag="Catégorie F2", fig="8", unit="mètres", schema=(VERT, 90, "8 m"),
@@ -302,7 +344,7 @@ POSTS = [
    dict(k="end", t="Vent, arbres, fils, toitures.",
         sub="La distance ne suffit pas à elle seule. La notice du produit fait foi.", save=True)]),
 
- dict(n="09", date="16/09", fmt="Carrousel", titre="La mise d'inflammateur", slides=[
+ dict(n="09", date="16/09", fmt="Carrousel", titre="La mise d'inflammateur", md="2026-09-16-coulisses-inflammateurs", slides=[
    dict(k="cover", eyebrow="Coulisses", t="La mise d'inflammateur", size="sm",
         img="B1-mise-inflammateur-mains.jpg"),
    dict(k="photo", shot="B2", legende="Le câblage, fil par fil."),
@@ -310,15 +352,15 @@ POSTS = [
    dict(k="end", t="On décide à la milliseconde.",
         sub="C'est ce qui permet de synchroniser un feu sur une musique.")]),
 
- dict(n="10", date="18/09", fmt="Reel", titre="Il a dit oui. Le ciel aussi.", slides=[
+ dict(n="10", date="18/09", fmt="Reel", titre="Il a dit oui. Le ciel aussi.", md="2026-09-18-emotion-demande-en-mariage", slides=[
    dict(k="cover", t="Il a dit oui. Le ciel aussi.", shot="T10", cta=CTA_DM)]),
 
- dict(n="11", date="20/09", fmt="Reel", titre="De la caisse au dispositif", slides=[
+ dict(n="11", date="20/09", fmt="Reel", titre="De la caisse au dispositif", md="2026-09-20-coulisses-le-montage", slides=[
    dict(k="cover", eyebrow="Coulisses", t="De la caisse au dispositif", size="sm",
         sub="Un feu d'artifice, ça ne se pose pas. Ça se monte.",
         img="C5-dispositif-monte-complet.jpg", wide=True)]),
 
- dict(n="12", date="21/09", fmt="Carrousel", titre="F2 ou F3 ?", slides=[
+ dict(n="12", date="21/09", fmt="Carrousel", titre="F2 ou F3 ?", md="2026-09-21-pedagogie-f2-ou-f3", slides=[
    dict(k="cover", badge="Réglementation", t="F2 ou F3 ?",
         sub="C'est ce qui détermine où vous pourrez tirer."),
    dict(k="stat", tag="F2", fig="8", unit="mètres", schema=(VERT, 90, "8 m"),
@@ -328,7 +370,7 @@ POSTS = [
    dict(k="end", t="La catégorie est sur le produit.",
         sub="Regardez-la en premier. Avant la durée, avant le nombre de coups.", save=True)]),
 
- dict(n="13", date="23/09", fmt="Carrousel", titre="Le tableau de tir", slides=[
+ dict(n="13", date="23/09", fmt="Carrousel", titre="Le tableau de tir", md="2026-09-23-coulisses-tableau-de-tir", slides=[
    dict(k="cover", eyebrow="Coulisses", t="Le tableau de tir",
         img="D1-tableau-de-tir.jpg"),
    dict(k="photo", shot="D2", legende="Les lignes numérotées."),
@@ -336,11 +378,11 @@ POSTS = [
    dict(k="end", t="Ce n'est pas de l'improvisation.",
         sub="C'est une partition. Et la clé de sécurité est la dernière barrière.")]),
 
- dict(n="14", date="25/09", fmt="Post", titre="Les mariages de septembre", slides=[
+ dict(n="14", date="25/09", fmt="Post", titre="Les mariages de septembre", md="2026-09-25-emotion-mariages-de-septembre", slides=[
    dict(k="cover", eyebrow="Mariage", t="Les mariages de septembre",
         sub="ont quelque chose que les autres n'ont pas.", shot="H2", cta=CTA_DM)]),
 
- dict(n="15", date="27/09", fmt="Appel UGC", titre="Montrez-nous votre été", slides=[
+ dict(n="15", date="27/09", fmt="Appel UGC", titre="Montrez-nous votre été", md="2026-09-27-communaute-appel-ugc", slides=[
    dict(k="cover", eyebrow="Vos vidéos", t="Montrez-nous\nvotre été", size="sm",
         sub="On republie les plus belles.",
         etapes=[("Filmez", "Même au téléphone, même pas parfait"),
@@ -348,7 +390,7 @@ POSTS = [
                 ("On republie", "Avec votre nom, si vous voulez")],
         cta=CTA_DM)]),
 
- dict(n="16", date="28/09", fmt="Carrousel", titre="Et s'il pleut ?", slides=[
+ dict(n="16", date="28/09", fmt="Carrousel", titre="Et s'il pleut ?", md="2026-09-28-pedagogie-et-sil-pleut", slides=[
    dict(k="cover", badge="Météo", t="Et s'il pleut ?",
         sub="La réponse surprend souvent."),
    dict(k="point", i="01", t="La pluie n'est pas le pire ennemi",
@@ -358,7 +400,7 @@ POSTS = [
    dict(k="end", t="L'orage : on ne tire pas.",
         sub="Jamais. Un feu se reporte très bien. Ça ne s'improvise pas.", save=True)]),
 
- dict(n="17", date="30/09", fmt="Carrousel", titre="Ce qu'il reste après", slides=[
+ dict(n="17", date="30/09", fmt="Carrousel", titre="Ce qu'il reste après", md="2026-09-30-coulisses-ce-quil-reste-apres", slides=[
    dict(k="cover", eyebrow="Coulisses", t="Ce qu'il reste après", size="sm", shot="F1"),
    dict(k="photo", shot="F2", legende="Le ramassage, un reliquat après l'autre."),
    dict(k="quote", t="On repart quand le terrain est plus propre qu'à l'arrivée.", size="sm"),
@@ -368,9 +410,10 @@ POSTS = [
 
 
 def captions():
-    """Legende Instagram de chaque publication : les fichiers posts/ font foi."""
+    """Legende Instagram de chaque publication, dans l'ordre de POSTS."""
     out = []
-    for f in sorted((ROOT / "posts/2026/09").glob("*.md")):
+    for post in POSTS:
+        f = ROOT / f'posts/2026/09/{post["md"]}.md' 
         m = re.search(r"## Texte Instagram\n(.*?)\n## Texte Facebook",
                       f.read_text(encoding="utf-8"), re.S)
         out.append(m.group(1).strip() if m else "")
@@ -492,9 +535,17 @@ def render(post, sl, idx, total, note, seed):
 def main():
     """Un fichier HTML par publication : chaque carrousel devient un design Canva
     autonome, directement publiable, plutot qu'un bloc de 44 pages a decouper."""
-    posts_md = sorted((ROOT / "posts/2026/09").glob("*.md"))
+    # apparier par nom de fichier et non par position : deux publications peuvent
+    # partager une date, et l'ordre de POSTS avait fini par diverger de l'ordre
+    # alphabetique des fichiers — chaque publication recevait les slides d'une autre
+    dossier = ROOT / "posts/2026/09"
+    posts_md = [dossier / f'{p["md"]}.md' for p in POSTS]
+    manquants = [f.name for f in posts_md if not f.exists()]
+    assert not manquants, f"fichiers introuvables : {manquants}"
+    orphelins = sorted({f.name for f in dossier.glob("*.md")} - {f.name for f in posts_md})
+    assert not orphelins, f"publications sans slides : {orphelins}"
     caps = captions()
-    assert len(caps) == len(POSTS) == len(posts_md), "posts et slides desynchronises"
+    assert len(caps) == len(POSTS), "legendes et slides desynchronisees"
     dossier = ROOT / "visuels/2026/09"
     for vieux in dossier.glob("*.html"):
         vieux.unlink()

@@ -37,8 +37,11 @@ def main():
     for f in OUT.glob("*.jpg"):
         f.unlink()
 
-    fichiers = sorted(SRC.glob("*.html"))
-    assert len(fichiers) == len(bv.POSTS), "visuels et publications desynchronises"
+    # apparier par nom, pas par position : l'ordre alphabetique des fichiers ne
+    # suit pas forcement l'ordre de POSTS des que deux publications partagent une date
+    fichiers = [SRC / f'{p["md"]}.html' for p in bv.POSTS]
+    manquants = [f.name for f in fichiers if not f.exists()]
+    assert not manquants, f"visuels introuvables : {manquants}"
 
     exportes, bloques = 0, []
     with sync_playwright() as p:

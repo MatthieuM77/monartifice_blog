@@ -15,17 +15,14 @@ spec.loader.exec_module(bcc)
 bv = bcc.bv
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
-# Cinq publications pretes n'ont jamais ete publiees : leur date est passee sans
-# qu'elles soient programmees. Elles reprennent les creneaux restes vides de la
-# fin du mois plutot que d'ecrire du contenu neuf. Les publications qui
-# occupaient ces creneaux attendent une photo : elles basculent sur octobre.
-RATTRAPAGE = {
-    "01/09": ("18/09", "vendredi 18 h 30", "**Le post d'ouverture. À épingler** dès publication."),
-    "13/09": ("23/09", "mercredi 12 h 30", "Remplace « Le tableau de tir », en attente de la photo `D2`."),
-    "04/09": ("25/09", "vendredi 18 h 30", "Remplace « Les mariages de septembre », en attente de `H2`."),
-    "02/09": ("30/09", "mercredi 12 h 30", "Remplace « Ce qu'il reste après », en attente de `F1` et `F2`."),
-}
-A_FAIRE = ["20/09"] + list(RATTRAPAGE)      # 20/09 est le Reel
+# Tout ce qui etait ecrit est sorti. Les quatre creneaux vides de fin septembre
+# recoivent des publications neuves, ecrites dans le registre client vise pour
+# octobre : l'occasion et le conseil d'achat plutot que le metier.
+RATTRAPAGE = {}
+A_FAIRE = ["2026-09-18-emotion-le-lendemain",
+           "2026-09-23-choisir-combien-invites",
+           "2026-09-25-occasion-anniversaire",
+           "2026-09-30-communaute-octobre"]
 
 
 def bloc(md, post):
@@ -95,29 +92,28 @@ pas par import CSV.
 def main():
     out = ["""# À programmer — septembre 2026
 
-**La fin du mois a quatre créneaux vides**, et six jours de silence entre le 21 et le 27.
-Cinq publications prêtes ne sont jamais sorties : elles les remplissent, plutôt que d'écrire
-du contenu neuf.
+**Tout ce qui était écrit est sorti.** Restaient quatre créneaux vides — les 18, 23, 25 et 30 —
+et six jours de silence entre le 21 et le 27, le pire moment pour disparaître sur un compte
+qui démarre. Voici quatre publications neuves pour les combler.
+
+Elles sont écrites dans le **registre client** prévu pour octobre : l'occasion et le conseil
+d'achat plutôt que le métier. Elles préparent le basculement.
 
 | Date | Publication | Format | État |
 |---|---|---|---|
-| 16/09 · mer 12 h 30 | La mise d'inflammateur | Carrousel 4 images | ✅ programmée |
-| **18/09 · ven 18 h 30** | **Artificiers de métier** | Post simple | 🔁 **rattrapage — à épingler** |
-| **20/09 · dim 11 h** | **De la caisse au dispositif** | **Reel 22 s** | **à la main, avec la vidéo** |
-| 21/09 · lun 19 h | F2 ou F3 ? | Carrousel 4 images | ✅ programmée |
-| **23/09 · mer 12 h 30** | **Le méchage** | Carrousel 5 images | 🔁 rattrapage |
-| **25/09 · ven 18 h 30** | **Le silence juste avant** | Post simple | 🔁 rattrapage |
+| 16/09 · mer 12 h 30 | La mise d'inflammateur | Carrousel 4 | ✅ programmée |
+| **18/09 · ven 18 h 30** | **Le lendemain** | Post simple | 🆕 **à programmer** |
+| 20/09 · dim 11 h | De la caisse au dispositif | Reel 22 s | ✅ programmée |
+| 21/09 · lun 19 h | F2 ou F3 ? | Carrousel 4 | ✅ programmée |
+| **23/09 · mer 12 h 30** | **Combien d'invités ?** | Carrousel 5 | 🆕 **à programmer** |
+| **25/09 · ven 18 h 30** | **Pas que pour les mariages** | Carrousel 4 | 🆕 **à programmer** |
 | 27/09 · dim 11 h | Montrez-nous votre été | Post simple | ✅ programmée |
-| 28/09 · lun 19 h | Et s'il pleut ? | Carrousel 4 images | ✅ programmée |
-| **30/09 · mer 12 h 30** | **Compact ou éventail ?** | Carrousel 4 images | 🔁 rattrapage |
+| 28/09 · lun 19 h | Et s'il pleut ? | Carrousel 4 | ⚠️ programmée **à 9 h 00** |
+| **30/09 · mer 12 h 30** | **En octobre, on passe à la suite** | Carrousel 4 | 🆕 **à programmer** |
 
-La cinquième — le **sondage « Votre feu idéal dure combien de temps ? »** — n'a plus de
-créneau en septembre. Elle ouvrira octobre : un sondage marche mieux quand il y a du monde
-pour y répondre.
-
-> **Le post d'ouverture d'abord.** Il dit qui vous êtes et il s'épingle : un visiteur le voit
-> en haut du profil quelle que soit sa date de publication. C'est le seul dont l'ordre compte
-> plus que la date.
+> ⚠️ **Le 28 septembre est programmé à 9 h 00, pas 19 h 00.** Toutes les autres publications
+> du lundi sont à 19 h. C'est très probablement un 1 oublié à la saisie — à corriger, sinon
+> le carrousel sort un lundi matin, le pire moment de la semaine.
 
 > **Instagram et Facebook portent des textes différents.** Ne copiez pas l'un dans l'autre.
 > Le premier commentaire part automatiquement juste après la publication : sur Instagram ce
@@ -129,9 +125,11 @@ pour y répondre.
 """]
     # trier sur la date de diffusion, pas sur le nom du fichier : une publication
     # rattrapee sort a une autre date que celle qui la nomme
-    prevues = [(RATTRAPAGE.get(post["date"], (post["date"],))[0], md, post)
-               for md, post in zip(sorted((RAC / "social/posts/2026/09").glob("*.md")), bv.POSTS)
-               if post["date"] in A_FAIRE]
+    # apparier par nom de fichier, jamais par position : deux publications peuvent
+    # partager une date et l'ordre alphabetique ne suit pas celui de POSTS
+    prevues = [(RATTRAPAGE.get(post["date"], (post["date"],))[0],
+                RAC / f'social/posts/2026/09/{post["md"]}.md', post)
+               for post in bv.POSTS if post["md"] in A_FAIRE]
     for _, md, post in sorted(prevues, key=lambda x: int(x[0][:2])):
         out.append(bloc(md, post))
 
@@ -154,15 +152,18 @@ l'heure bleue et la caisse de reliquats éclairée à la frontale. Les fichiers 
 parvenus. Déposez-les sur le Drive nommés `D2.jpg` et `F2.jpg` : le générateur reconnaît le
 code et remplit la slide tout seul.
 
-## Ce qui a été perdu
+## ⚠️ Des astérisques sont visibles sur cinq publications en ligne
 
-Quatre publications prêtes sont passées sans être programmées : celles du 1er, 2, 4 et 6
-septembre. Trois sont rattrapées ci-dessus. La quatrième — le sondage sur la durée — ouvrira
-octobre.
+Les textes Facebook des **1er, 2, 4, 6 et 7 septembre** — et le texte Instagram du 2 —
+contiennent des `**` qui auraient dû disparaître. Ils encadrent les passages en gras dans mes
+fichiers de travail ; Facebook et Instagram ne les interprètent pas et les affichent tels quels.
 
-**Le point à ne pas rater : le post d'ouverture n'est jamais sorti.** Le compte a démarré le
-7 septembre avec un carrousel sur la réglementation, donc personne n'a jamais lu qui vous
-êtes. C'est ce que le 18 corrige, et c'est pour ça qu'il faut l'épingler.
+**C'est mon erreur.** La première version de la fiche de la semaine 1 livrait les textes sans
+retirer ce balisage. Elle a été corrigée le 31 août, ce qui explique que tout soit propre à
+partir du 9 septembre.
+
+Les légendes se modifient après publication, sur les deux réseaux. Il suffit de supprimer les
+`**` : aucune raison de republier, le contenu est bon.
 """)
     f = RAC / "social/calendrier/A-PROGRAMMER.md"
     f.write_text("\n".join(out), encoding="utf-8")
