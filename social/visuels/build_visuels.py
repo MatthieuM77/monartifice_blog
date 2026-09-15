@@ -146,6 +146,16 @@ h2.sm{{font-size:70px}}
 .tag.v{{border-color:{VERT};color:{VERT_CLAIR}}}
 .save{{display:flex;align-items:center;gap:16px;margin-top:40px;font-size:32px;color:{VERT_CLAIR};
   font-weight:700}}
+.etapes{{list-style:none;margin:44px 0 0;padding:0;counter-reset:e;
+  display:flex;flex-direction:column;gap:26px}}
+.etapes li{{counter-increment:e;display:flex;flex-direction:column;
+  padding-left:78px;position:relative}}
+.etapes li::before{{content:counter(e);position:absolute;left:0;top:-8px;
+  font-family:'Anton','Arial Narrow',Impact,sans-serif;font-size:62px;line-height:1;
+  color:{VERT}}}
+.etapes b{{font-family:'Anton','Arial Narrow',Impact,sans-serif;font-weight:400;
+  font-size:52px;text-transform:uppercase;letter-spacing:.012em;color:{BLANC};line-height:1}}
+.etapes span{{font-size:30px;color:{GRIS};margin-top:6px;line-height:1.3}}
 .grid6{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}}
 .grid6 div{{aspect-ratio:5/4;border:2px dashed rgba(141,187,32,.42);border-radius:4px;
   display:flex;align-items:center;justify-content:center;font-size:22px;
@@ -331,8 +341,12 @@ POSTS = [
         sub="ont quelque chose que les autres n'ont pas.", shot="H2", cta=CTA_DM)]),
 
  dict(n="15", date="27/09", fmt="Appel UGC", titre="Montrez-nous votre été", slides=[
-   dict(k="cover", eyebrow="Vos vidéos", t="Montrez-nous votre été", size="sm",
-        sub="On republie les plus belles.", grid=True)]),
+   dict(k="cover", eyebrow="Vos vidéos", t="Montrez-nous\nvotre été", size="sm",
+        sub="On republie les plus belles.",
+        etapes=[("Filmez", "Même au téléphone, même pas parfait"),
+                ("Envoyez", "En message privé, c'est tout"),
+                ("On republie", "Avec votre nom, si vous voulez")],
+        cta=CTA_DM)]),
 
  dict(n="16", date="28/09", fmt="Carrousel", titre="Et s'il pleut ?", slides=[
    dict(k="cover", badge="Météo", t="Et s'il pleut ?",
@@ -433,13 +447,24 @@ def corps(sl):
     if sl.get("opts"):
         out.append('<div class="opts">' + "".join(
             f'<span class="opt">{html.escape(x)}</span>' for x in sl["opts"]) + "</div>")
-    if sl.get("grid"):
-        out.append('<div class="grid6">' + '<div>VOTRE VIDÉO</div>' * 6 + "</div>")
+    if sl.get("etapes"):
+        out.append('<ol class="etapes">' + "".join(
+            f'<li><b>{html.escape(a)}</b><span>{html.escape(b)}</span></li>'
+            for a, b in sl["etapes"]) + "</ol>")
     if sl.get("save"):
         out.append(f'<div class="save">🔖 {SAVE}</div>')
-    if not any(sl.get(x) for x in ("sub", "pills", "opts", "grid", "save")) and k != "photo":
+    if not any(sl.get(x) for x in ("sub", "pills", "opts", "etapes", "save")) and k != "photo":
         out.append('<div class="rule"></div>')
     return "".join(out)
+
+
+def pied(post, pos):
+    """Pied de page public : le rang dans le carrousel, rien d'autre.
+
+    Le format interne ("Appel UGC", "Post epingle") est une etiquette de
+    production : il n'a rien a faire sous les yeux d'un abonne.
+    """
+    return pos if len(post["slides"]) > 1 else ""
 
 
 def render(post, sl, idx, total, note, seed):
@@ -461,7 +486,7 @@ def render(post, sl, idx, total, note, seed):
             f'data-label="{html.escape(label, quote=True)}" '
             f'data-speaker-notes="{html.escape(note, quote=True)}">'
             f'{bg}{schema}<div class="inner{mid}">{corps(sl)}{cta}</div>'
-            f'<div class="foot">{post["fmt"]} · {post["date"]} · {pos}</div></div>')
+            f'<div class="foot">{pied(post, pos)}</div></div>')
 
 
 def main():
