@@ -432,6 +432,22 @@ def fichier_du_plan(code):
     return None
 
 
+def photo_produit(ref):
+    """La photo d'un produit, si elle a ete livree.
+
+    Le fichier porte la reference du catalogue, insensible a la casse : le SQL
+    melange `sc22511` et `SC22328`. Une vue de face nue sert par defaut ;
+    les suffixes (`-troisquarts`, `-echelle`) restent disponibles a la demande.
+    """
+    dossier = ROOT / "photos/produits"
+    if not dossier.is_dir():
+        return None
+    for f in sorted(dossier.glob("*.jpg")) + sorted(dossier.glob("*.png")):
+        if f.stem.lower() == ref.lower():
+            return f
+    return None
+
+
 def fond(sl, seed):
     """Fond de slide : photo reelle, cadre reserve, ou gerbes."""
     nom = sl.get("img") or (fichier_du_plan(sl["shot"]) if sl.get("shot") else None)
